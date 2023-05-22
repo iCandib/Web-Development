@@ -15,13 +15,13 @@ const faqs = document.querySelectorAll(".faq");
 		}
 
 //Modalities (About Page)
-const focus = document.querySelectorAll(".about_me");
+const focus = document.querySelectorAll(".mod");
 		for (const item of focus) {
 			const curr_focus = item.childNodes;
 			console.log(curr_focus);
 			const question = curr_focus[1];
 			const answer = curr_focus[3];
-			const icon = question.querySelector(".icon-main");
+			const icon = question.querySelector(".mod-icon");
 			icon.addEventListener("click", function () {
 				answer.classList.toggle("non-active");
 				const i = icon.querySelector("i");

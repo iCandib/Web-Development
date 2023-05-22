@@ -1,56 +1,304 @@
 
-body {
-    text-align: center;
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.all_containers {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.dark_container {
+    background-color: #E9e3dc;
+}
+
+.light_container {
+    background-color: #f7f5ee;
 }
 
 h1 {
-/* font-family: "Poppins", sans-serif; */
-font-family: "Playfair Display", sans-serif;
-font-size: 3rem;
+ font-size: 1.96rem;
 }
 
 h2 {
-font-family: "Poppins", sans-serif;
-/* font-family: "Playfair Display", sans-serif; */
-/* font-size: 1rem; */
+ font-size: 28px;
 }
 
 h3 {
-font-family: "Poppins", sans-serif;
-/* font-family: "Playfair Display", sans-serif; */
-/* font-size: 1rem; */
+ font-size: 19px;
 }
 
 h4 {
-font-family: "Poppins", sans-serif;
-/* font-family: "Playfair Display", sans-serif; */
-/* font-size: 1rem; */
-}
-
-h5 {
-font-family: "Poppins", sans-serif;
-/* font-family: "Playfair Display", sans-serif; */
-/* font-size: 1rem; */
-}
-
-h6 {
-font-family: "Poppins", sans-serif;
-/* font-family: "Playfair Display", sans-serif; */
-/* font-size: 1rem; */
+ font-size: 17px;
 }
 
 p {
-font-family: "Poppins", sans-serif;
-/* font-family: "Playfair Display", sans-serif; */
-/* font-size: 1rem; */
+    font-size: 16px;
 }
 
-ul {
-    list-style-position: inside;
+/* Navigation Bar and Title */
+
+.navbar {
+    padding: 0;
 }
 
-li {
-font-family: "Poppins", sans-serif;
-/* font-family: "Playfair Display", sans-serif; */
-/* font-size: 1rem; */
+.nav-link:hover {
+    color:#1a2f4f;
 }
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 0.93vw;
+    font-weight: light;
+    color: #1a2f4f;
+    font-family: "Playfair Display", serif;
+
+}
+
+.large-logo {
+    /* width: 250px;
+    height: 75px; */
+    width: 50%;
+    height: 40%;
+}
+
+.group-name{
+    margin: 25px;
+}
+
+.header-container{
+    background-color: #e7e0da;
+}
+
+/* End Nav Bar and Title */
+
+/* About Me Page */
+
+.about_me {
+    margin: 0 237px 0px;
+    padding: 40px 0;
+}
+
+.headshot {
+    position: relative;
+    margin: 30px 0 0;
+    left: 20%;
+    top: 8%;
+    width: 60%;
+    height: 80%;
+    border-radius: 50px;
+}
+
+.about_me_writing {
+    padding: 80px 0;
+}
+
+.about_me_header {
+    text-align: left;
+}
+
+.about_me_p {
+    padding-top: 40px;
+}
+
+.approach {
+    margin: 50px 0;
+}
+
+.approach-header {
+    padding: 0 0 40px;
+}
+
+.approach-h1 {
+    text-align: left;
+}
+
+.areas-of-focus {
+    margin: 0;
+}
+
+.areas-of-focus-writing {
+    padding-top: 75px;
+}
+
+.areas-of-focus-h1 {
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.areas-of-focus-p {
+    line-height: 2;
+}
+
+.area_of_focus_photo {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    left: 20%;
+    top: 8%;
+    width: 60%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+.focus-list {
+    list-style: none;
+}
+
+.focus-bullets {
+    list-style: square;
+}
+
+.focus-quote {
+    text-align: center;
+}
+
+.approach-tag {
+    padding: 50px 0;
+    text-align: center;
+    line-height: 2;
+}
+
+.mods-bullets {
+    list-style: none;
+}
+
+.modalities {
+    margin: 20px 0;
+}
+
+.modalities_writing {
+    padding: 40px 12px 0;
+}
+
+.room_photo {
+    position: relative;
+    margin: 45px 0 0 65px;
+    left: 12%;
+    right: 12%;
+    width: 60%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+.trainings {
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+    background-color: #e7e0da;
+}
+
+.end {
+    margin: 0 166px 0px;
+    padding: 0 0 10px;
+}
+
+.footer {
+    margin: 0;
+    /* padding-top: 100px; */
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    padding: 0;
+}
+
+.mini-logo {
+    width: 30%;
+    margin: 90px 210px 0 140px;
+}
+
+.footer-list {
+    padding: 0;
+    margin: 60px 0 0 0;
+}
+
+.footer-bullet {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 2.5;
+    padding: 0 120px;
+    margin: 0;
+    text-align: center;
+    color: #1a2f4f;
+}
+
+.footer-divide {
+    padding: 50px 0;
+}
+
+.footer-clicks {
+    padding: 0;
+}
+
+.footer-links {
+    margin-top: 80px;
+}
+
+.book-a-consult {
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+.footer-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #e7e0da;
+    font-size: 14px;
+    background: #1a2f4f;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.footer-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+}
+
+.client-portal {
+    margin-left: 135px;
+    margin-bottom: 30px;
+}
+
+.footing {
+    text-align: center;
+    margin: 0;
+    margin: 0 0 20px;
+
+}
+
+.footing-p {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #1a2f4f;
+}
+
+.social-media {
+    padding-top: 15px;
+    margin-left: 125px;
+}
+
+.fa-instagram {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-icon {
+    color: #1a2f4f;
+}
+
+
+/* END MAIN PAGE */

@@ -1,78 +1,66 @@
-/* Across the whole site */
-h1 {
-    text-align: center;  
-}
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-body {
-    width: 100%;
-}
-
 a {
     color: inherit;
     text-decoration: inherit;
 }
 
 .all_containers {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
 }
 
+.dark_container {
+    background-color: #E9e3dc;
+}
 
-.main-font{
+.light_container {
+    background-color: #f7f5ee;
+}
+
+h1 {
+    font-size: 1.96rem;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
+}
+
+h3 {
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
+}
+
+h4 {
+    font-size: 17px;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
+}
+
+p {
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
-    font-size: 1.3rem;
     color: #1a2f4f;
 }
 
-.header-font{
-    font-family: "Playfair Display",sans-serif;
-    font-size: 3.3rem;
-    line-height: 1.5;
+li {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
     color: #1a2f4f;
 }
-
-.btn {
-    background: #1a2f4f;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0px;
-    font-family: 'Poppins', sans-serif;
-    color: #D6D6D6;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    margin: 0px 10px 30px;
-    text-decoration: none;
-}
-
-.btn:hover {
-    background: #0c1c36;
-    text-decoration: none;
-}
-
-
-
-/* End Across Whole Site */
 
 /* Navigation Bar and Title */
 
 .navbar {
-    padding: 0 0 20px;
+    padding: 0;
 }
 
 .nav-link:hover {
-    color:#1a2f4f;
-}
-
-.navbar-brand {
-    font-size: 2.5rem;
-    font-weight: bold;
+    color: #1a2f4f;
 }
 
 .nav-item {
@@ -80,369 +68,47 @@ a {
 }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 0.93vw;
     font-weight: light;
+    color: #1a2f4f;
+    font-family: "Playfair Display", serif;
 
 }
 
 .large-logo {
-    width: 80%;
-    height: 80%;
+    /* width: 250px;
+    height: 75px; */
+    width: 50%;
+    height: 40%;
 }
 
-.group-name{
+.group-name {
     margin: 25px;
-    padding: 25px;
 }
 
-/* .header-container{
+.header-container {
     background-color: #e7e0da;
-} */
+}
 
 /* End Nav Bar and Title */
 
-
-/*Finding Clarity READY FOR REVIEW*/
-.quote-container {
-    position: relative;
-    padding: 300px 160px;
-    margin: 0 237px;
-    
-}
-
-.quote{
-    width: 100%;
-    text-align: center;
-    color: #1a2f4f;
-    font-weight: 300;
-    font-size: 3rem;
-    position: relative;
-    bottom: 200px;
-}
-
-.quote-background {
-    background-size:cover;
-    background-position: center;
-    height: auto;
-}
-
-.central-park {
-    background-size: cover;
-    background-position: center;
-    height: auto;
-}
-
-
-/* End Finding Clarity Section */
-
-
-/*Therapy For Young Adults*/
-
-.does-this {
-    margin: 0 237px;
-    padding: 40px 0;
-}
-
-.does-this-photo{
-    padding: 0 0 0 100px;
-}
-
-.therapy-h2 {
-    font-size: 30px;
-}
-
-.therapy-h1 {
-    margin-bottom: 5px;
-}
-
-.stressed-photo {
-    position: relative;
-    margin-top: 65px;
-    left: 12%;
-    right: 12%;
-    width: 70%;
-    height: 85%;
-    border-radius: 50px;
-}
-
-.writing {
-    margin-top: 65px;
-}
-
-.top-writing {
-    margin-bottom: 40px;
-    text-align: left;
-}
-
-.bottom-writing {
-    margin: 25px 0 50px;
-    text-align: left;
-}
-
-.tagline {
-    padding: 30px 0 0 0;
-    text-align: left;
-    font-size: 1.8rem;
-    font-family: "Playfair Display", sans-serif;
-}
-
-.consultation-btn {
-    text-align: center;
-    padding-top: 40px;
-}
-
-/* End Does This Sound Like You section */
-
-/* Benefits of Therapy Section */
-.benefits {
-    margin: 0 237px 0px;
-    padding: 20px 0 100px;
-    text-align: left;
-}
-
-.benefits-header {
-    margin: 40px 0;
-}
-
-.benefits-list {
-    margin: 0;
-    justify-content: center;
-}
-
-.benefits-background {
-    background-color: #1a2f4f;
-    padding: 40px 60px 60px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-
-.benefits-text {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-top: 5px;
-    text-align: center;
-    vertical-align: middle;
-    align-self: center;
-    color: white;
-
-}
-
-.benefits-col-2 {
-    margin: 0 50px;
-}
-
-.benefits-row {
-    margin: 20px 0;
-}
-
-.fa-solid {
-    color: #1a2f4f;
-}
-
-.fa-solid:hover {
-    color: #1a2f4f;
-}
-
-#benefits-1{
-    padding-top: 50px;
-}
-
-#benefits-2 {
-    padding-top: 60px;
-}
-
-#benefits-3 {
-    padding-top: 35px;
-}
-
-#benefits-4 {
-    padding-top: 50px;
-}
-
-#benefits-5 {
-    padding-top: 60px;
-}
-
-#benefits-6 {
-    padding-top: 30px;
-}
-
-#benefits-7 {
-    padding-top: 45px;
-}
-
-#benefits-8 {
-    padding-top: 60px;
-}
-
-#benefits-9 {
-    padding-top: 60px;
-}
-
-
-
-/* End Benefits of Therapy Section */
-
-/* Quote about change Section */
-
-/* .quote_container {
-    background-color: #f7f4f2;
-} */
-
-.change {
-    margin: 0 237px 0px;
-    padding: 40px 0;
-}
-
-.change-header {
-    padding: 0 0 20px;
-}
-
-.change-quote {
-    font-weight: lighter;
-    font-size: 3rem;
-}
-
-.ready-btn {
-    text-align: center;
-    padding: 50px 0 40px;
-}
-
-.clear-btn {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0px;
-    font-family: "Poppins";
-    color: #1a2f4f;
-    font-size: 20px;
-    background: #f7f5ee;
-    padding: 10px 20px 10px 20px;
-    border: solid #1a2f4f 3px;
-    text-decoration: none;
-}
-
-.clear-btn:hover {
-    background: #1a2f4f;
-    text-decoration: none;
-    color: #f7f5ee;
-}
-
-.dark-btn {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0px;
-    font-family: "Poppins";
-    color: #1a2f4f;
-    font-size: 20px;
-    background: #E9e3dc;
-    padding: 10px 20px 10px 20px;
-    border: solid #1a2f4f 3px;
-    text-decoration: none;
-}
-
-.dark-btn:hover {
-    background: #1a2f4f;
-    text-decoration: none;
-    color: #E9e3dc;
-}
-
-/* End Quote about Change Section */
-
-/* How We Work Together Section */
-
-/* .learn_more_container{
-    background-color: #f7f4f2;
-} */
-
-.how-we {
-    margin: 0 237px 0px;
-    padding: 20px 0 60px;
-    text-align: left;
-    
-}
-
-.how-we-note {
-    margin: 80px 0;
-    padding: 130px 50px 0;
-    font-size: 1.3rem;
-    line-height: 2;
-
-}
-
-.how-we-note-p-2 {
-    padding: 20px 0;
-}
-
-.how-we-header {
-    margin: 20px 0 0 0;
-}
-
-.work-together-photo {
-    padding: 0;
-}
-
-.couch-photo {
-    width: 568px;
-    height: 663px;
-    margin: 80px 0 55px;
-    }
-
-.schedule-btn {
-    text-align: center;
-    padding:0 0 15px;
-}
-
-/* End How We Work Together Section */
-
-/* How it works Section */
-
-/* .how_it_works_container {
-    background-color: #e7e0da;
-} */
-
-.how-it-works {
-    margin: 0 237px 0px;
-    padding: 20px 0;
-    text-align: left;
-}
-
-.icon {
-    padding:0 0 20px;
-}
-
-
-
-#features {
-    position: relative;
-    margin: 0;
-}
-
-.feature-box {
-    padding: 5%;
-    text-align: center;
-}
-
-/* End How it works Section */
-
 /* Footer Section */
 
-/* .container-footer {
+.footer-container {
     width: 100%;
     height: 100%;
-    background-color: #bcb0a0;
-} */
+    background-color: #e7e0da;
+}
 
 .end {
-    margin: 0 237px 0px;
-    padding: 30px 0;
-    text-align: left;
+    margin: 0 166px 0px;
+    padding: 0 0 10px;
 }
 
 .footer {
     margin: 0;
     /* padding-top: 100px; */
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .footer-logo {
@@ -450,57 +116,81 @@ a {
 }
 
 .mini-logo {
-    height: 30%;
     width: 30%;
-    margin: 120px 210px 0;
+    margin: 90px 210px 0 140px;
 }
 
 .footer-list {
     padding: 0;
-    margin-top: 60px;
+    margin: 60px 0 0 0;
 }
 
 .footer-bullet {
     list-style-type: none;
-    font-size: 20px;
     line-height: 2.5;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0 120px;
     margin: 0;
     text-align: center;
     color: #1a2f4f;
+}
+
+.footer-bullets {
+    font-size: 14px;
 }
 
 .footer-divide {
     padding: 50px 0;
 }
 
-.footer-clicks{
+.footer-clicks {
     padding: 0;
 }
 
 .footer-links {
-    margin-top: 110px;
+    margin-top: 80px;
 }
 
 .book-a-consult {
-    margin-left: 30%;
+    margin-left: 110px;
+    margin-bottom: 30px;
 }
 
-.client-portal{
-    margin-left: 37%;
+.footer-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #e7e0da;
+    font-size: 14px;
+    background: #1a2f4f;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.footer-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+}
+
+.client-portal {
+    margin-left: 135px;
+    margin-bottom: 30px;
 }
 
 .footing {
     text-align: center;
     margin: 0;
-    font-size: 1rem;
     margin: 0 0 20px;
+
+}
+
+.footing-p {
+    font-size: 12px;
 }
 
 .social-media {
     padding-top: 15px;
-    margin-left: 34%;
+    margin-left: 125px;
 }
 
 .fa-instagram {
@@ -512,28 +202,387 @@ a {
     color: #1a2f4f;
 }
 
+/* End Footer Section */
+
+/*Finding Clarity*/
+.quote-container {
+    position: relative;
+    padding: 200px 0;
+    margin: 0 166px;
+
+}
+
+.quote {
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    position: relative;
+    bottom: 135px;
+}
+
+.quote-background {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+/* End Finding Clarity Section */
+
+/*Therapy For Young Adults*/
+
+.therapy-fya {
+    margin: 0 166px;
+    padding: 40px 0;
+}
+
+.therapy-writing {
+    padding: 0 12px;
+}
+
+.top-writing {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.therapy-h1 {
+    color: #1a2f4f;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+.therapy-h3 {
+    color: #1a2f4f;
+    text-align: center;
+    /* font-size: 20px; */
+}
+
+.bottom-writing {
+    margin: 25px 0 50px;
+    text-align: left;
+}
+
+
+.therapy-tagline {
+    text-align: left;
+    font-weight: 500;
+}
+
+.consultation-btn {
+    text-align: center;
+}
+
+.dark-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 14px;
+    background: #E9e3dc;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.dark-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #E9e3dc;
+}
+
+.therapy-photo {
+    padding: 0;
+}
+
+.stressed-photo {
+    position: relative;
+    left: 18%;
+    width: 60%;
+
+}
+
+/* End Therapy For Young Adults section */
+
+/* Areas of Focus Section */
+
+.area {
+    margin: 0 166px;
+    padding: 40px 0;
+}
+
+.areas-of-focus {
+    margin: 0;
+}
+
+.area-h2 {
+    text-align: center;
+}
+
+.areas-header {
+    background-color: #1a2f4f;
+    
+}
+
+.area-h3 {
+    padding: 10px 0 10px 10px;
+    color: #f7f5ee;
+}
+
+.areas-of-focus-writing {
+    padding: 50px 30px 0;
+}
+
+/* End Areas of Focus Section */
+
+/* Benefits of Therapy Section */
+.benefits {
+    margin: 0 166px 0px;
+    padding: 20px 0 100px;
+}
+
+.benefits-header {
+    margin: 40px 0;
+}
+
+.benefits-title {
+    text-align: center;
+}
+
+.benefits-list {
+    margin: 0;
+    justify-content: center;
+}
+
+.benefits-background {
+    background-color: #1a2f4f;
+    padding: 40px 50px 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.benefits-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+    color: #E9e3dc;
+
+}
+
+.benefits-col-2 {
+    margin: 0 50px;
+}
+
+#benefits-1 {
+    padding-top: 40px;
+}
+
+#benefits-2 {
+    padding-top: 55px;
+}
+
+#benefits-3 {
+    padding-top: 45px;
+}
+
+#benefits-4 {
+    padding-top: 50px;
+}
+
+#benefits-5 {
+    padding-top: 50px;
+}
+
+#benefits-6 {
+    padding-top: 40px;
+}
+
+#benefits-7 {
+    padding-top: 55px;
+}
+
+#benefits-8 {
+    padding-top: 60px;
+}
+
+#benefits-9 {
+    padding-top: 50px;
+}
+
+.fa-solid {
+    color: #1a2f4f;
+}
+
+.fa-solid:hover {
+    color: #1a2f4f;
+}
+
+/* End Benefits of Therapy Section */
+
+/* How We Work Together Section */
+
+.how-we {
+    margin: 0 166px 0px;
+    padding: 20px 0 60px;
+    text-align: left;
+
+}
+
+.how-we-header {
+    margin: 20px 0 0 0;
+}
+
+.how-we-h2 {
+    text-align: center;
+}
+
+.how-we-note {
+    margin: 20px 0;
+    padding: 50px 50px 0;
+    line-height: 2;
+}
+
+.how-we-note-p-2 {
+    padding: 20px 0;
+}
+
+.work-together-photo {
+    padding: 0;
+}
+
+.couch-photo {
+    width: 90%;
+    margin: 20px 0 55px 20px;
+    padding: 20px 0 0;
+}
+
+.schedule-btn {
+    text-align: center;
+    padding: 0 0 15px;
+}
+
+.how-we-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 14px;
+    background: #f7f5ee;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.how-we-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #f7f5ee;
+}
+
+/* End How We Work Together Section */
+
+/* How it works Section */
+
+.how-it-works {
+    margin: 0 166px 0px;
+    padding: 20px 0;
+}
+
+.how-it-works-h2 {
+    text-align: center;
+}
+
+.icon {
+    padding: 0 0 20px;
+}
+
+#features {
+    position: relative;
+    color: #1a2f4f;
+    margin: 0;
+    text-align: center;
+}
+
+.feature-box {
+    padding: 30px 5% 0;
+}
+
+/* End How it works Section */
+
+/* Quote about change Section */
+
+.change {
+    margin: 0 166px 0px;
+    padding: 40px 0;
+}
+
+.change-header {
+    padding: 0 0 20px;
+    font-size: medium;
+    text-align: center;
+}
+
+.change-quote {
+    font-weight: lighter;
+    font-family: "Poppins", sansserif;
+    text-align: center;
+}
+
+.ready-btn {
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+.clear-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 14px;
+    background: #f7f5ee;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.clear-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #f7f5ee;
+}
+
+/* End Quote about Change Section */
 
 /* END MAIN PAGE */
 
 /* About Me Page */
 
+/* About Mollie Section */
+
 .about_me{
-    margin: 0 237px 0px;
+    margin: 0 166px 0px;
     padding: 40px 0;
 }
 
 .headshot {
     position: relative;
-    margin: 30px 0 0;
-    left: 20%;
-    top: 8%;
-    width: 60%;
-    height: 80%;
+    margin: 0;
+    left: 15%;
+    top: 10%;
+    width: 70%;
     border-radius: 50px;
 }
 
 .about_me_writing {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .about_me_header {
@@ -544,89 +593,71 @@ a {
     padding-top: 40px;
 }
 
-.approach {
-    margin: 50px 0;
+.about_me_tagline {
+    font-weight: 500;
 }
 
-.approach-header {
-    padding: 0 0 40px;
-}
+/* End About Mollie Section */
 
-.approach-h1{
-    text-align: left;
-}
+/* Modalities Section */
 
-.areas-of-focus {
+.modalities {
     margin: 0;
 }
 
-.areas-of-focus-writing {
-    padding-top: 75px;
+.modalities_h2 {
+    text-align: center;
+    margin: 0 0 40px;
 }
 
-.areas-of-focus-h1 {
-    text-align: left;
-    margin-bottom: 80px;
-}
-
-.areas-of-focus-p {
+.modalities-p {
     line-height: 2;
 }
 
-.area_of_focus_photo {
-    position: relative;
-    margin-top: 20px;
-    padding-bottom: 25px;
-    left: 20%;
-    top: 8%;
-    width: 60%;
-    height: 90%;
-    border-radius: 50px;
-}
-
-.focus-list {
+.modalities-list {
     list-style: none;
 }
 
-.focus-bullets {
+.modalities_drop {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.mod-icon {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.mod-bullets {
     list-style: square;
 }
 
-.focus-quote {
-    text-align: center;
-}
-
-.approach-tag {
-    padding: 50px 0;
-    text-align: center;
-    line-height: 2;
-}
-
-.mods-bullets {
-    list-style: none;
-}
-
-.modalities {
-    margin: 20px 0;
-}
-
-.modalities_writing {
-    padding: 40px 12px 0;
-}
-
-.room_photo {
+.modalities_photo {
     position: relative;
-    margin: 45px 0 0 65px;
-    left: 12%;
-    right: 12%;
+    left: 20%;
+    top: 8%;
     width: 60%;
-    height: 90%;
     border-radius: 50px;
+}
+
+/* End Modalities Section */
+
+/* Education Section */
+
+.education_h2 {
+    text-align: center;
+    margin: 0 0 30px;
 }
 
 .trainings {
     list-style-type:none;
     text-align: center;
+    line-height: 2;
 }
 
 
@@ -747,42 +778,5 @@ a {
         padding-bottom: 30px;
     }
 
-    /* Container Test Section */
 
-    .header-container {
-        background-color: #E9e3dc;
-    }
-
-    .therapy_container {
-        background-color: #E9e3dc;
-    }
-    
-    .benefits-container {
-        background-color: #E9e3dc;
-    }
-
-    .learn_more_container{
-    background-color: #f7f5ee;
-    }
-
-    .how_it_works_container {
-        background-color: #E9e3dc;
-    }
-
-    .quote_container {
-        background-color: #f7f5ee;
-    }
-
-    .container-footer {
-        width: 100%;
-        height: 100%;
-        background-color: #E9e3dc;
-    }
-
-    .light-container {
-        background-color:#f7f5ee;
-    }
-
-    .dark-container {
-        background-color: #E9e3dc;
-    }
+    /* End Services Page */
