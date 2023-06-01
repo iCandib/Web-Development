@@ -1,11 +1,25 @@
+/* 
+TODO: Change the background color for each device
+Mobile Devices: 319px — 480px
+iPads and Tablets: 481px — 1200px
+Laptops: 1201px — 1600px
+Desktops: 1601px and more
+*/
+
+
+
 a {
     color: inherit;
     text-decoration: inherit;
 }
 
 .all_containers {
+    padding: 0;
     width: 100%;
     height: 100%;
+}
+
+.container-fluid {
     padding: 0;
 }
 
@@ -18,39 +32,43 @@ a {
 }
 
 h1 {
-    font-size: 1.96rem;
+    font-size: 1.951vw;
     font-family: "Playfair Display", serif;
     color: #1a2f4f;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 1.852vw;
     font-family: "Playfair Display", serif;
     color: #1a2f4f;
 }
 
 h3 {
-    font-size: 19px;
+    font-size: 1.257vw;
     font-family: "Playfair Display", serif;
     color: #1a2f4f;
 }
 
 h4 {
-    font-size: 17px;
+    font-size: 1.124vw;
     font-family: "Playfair Display", serif;
     color: #1a2f4f;
 }
 
 p {
-    font-size: 16px;
+    font-size: 0.992vw;
     font-family: "Poppins", sans-serif;
     color: #1a2f4f;
 }
 
 li {
-    font-size: 16px;
+    font-size: 1.058vw;
     font-family: "Poppins", sans-serif;
     color: #1a2f4f;
+}
+
+hr {
+    margin: 0;
 }
 
 /* Navigation Bar and Title */
@@ -59,12 +77,16 @@ li {
     padding: 0;
 }
 
+.navbar-nav {
+    margin: 0 0 0 42.963%;
+}
+
 .nav-link:hover {
     color: #1a2f4f;
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0 10px;
 }
 
 .nav-link {
@@ -76,18 +98,20 @@ li {
 }
 
 .large-logo {
-    /* width: 250px;
-    height: 75px; */
-    width: 50%;
-    height: 40%;
+    max-width: 100%;
+    height: auto;
 }
 
 .group-name {
-    margin: 25px;
+    width: 18%;
+    height: 55%;
+    margin: 1.667%;
 }
 
 .header-container {
     background-color: #e7e0da;
+    height: 3.353%;
+    width: 100%;
 }
 
 /* End Nav Bar and Title */
@@ -101,14 +125,12 @@ li {
 }
 
 .end {
-    margin: 0 166px 0px;
-    padding: 0 0 10px;
+    margin: 0 11% 0;
+    padding: 0 0 2px;
 }
 
 .footer {
-    margin: 0;
-    /* padding-top: 100px; */
-    margin-bottom: 30px;
+    margin: 0 0 20px;
 }
 
 .footer-logo {
@@ -117,12 +139,12 @@ li {
 
 .mini-logo {
     width: 30%;
-    margin: 90px 210px 0 140px;
+    margin: 50px 140px 0 140px;
 }
 
 .footer-list {
     padding: 0;
-    margin: 60px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .footer-bullet {
@@ -135,7 +157,7 @@ li {
 }
 
 .footer-bullets {
-    font-size: 14px;
+    font-size: 0.86vw;
 }
 
 .footer-divide {
@@ -147,7 +169,7 @@ li {
 }
 
 .footer-links {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .book-a-consult {
@@ -161,7 +183,7 @@ li {
     border-radius: 0px;
     font-family: Arial;
     color: #e7e0da;
-    font-size: 14px;
+    font-size: 0.926vw;
     background: #1a2f4f;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
@@ -179,13 +201,12 @@ li {
 
 .footing {
     text-align: center;
-    margin: 0;
-    margin: 0 0 20px;
+    margin: 0;;
 
 }
 
 .footing-p {
-    font-size: 12px;
+    font-size: 0.794vw;
 }
 
 .social-media {
@@ -208,7 +229,7 @@ li {
 .quote-container {
     position: relative;
     padding: 200px 0;
-    margin: 0 166px;
+    margin: 0 11%;
 
 }
 
@@ -224,6 +245,7 @@ li {
 
 .quote-background {
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: auto;
     width: 100%;
@@ -234,16 +256,17 @@ li {
 /*Therapy For Young Adults*/
 
 .therapy-fya {
-    margin: 0 166px;
+    margin: 0 11%;
     padding: 40px 0;
 }
 
 .therapy-writing {
     padding: 0 12px;
+    width: 50%;
 }
 
 .top-writing {
-    margin-bottom: 40px;
+    margin: 0 0 40px;
     text-align: left;
 }
 
@@ -256,7 +279,6 @@ li {
 .therapy-h3 {
     color: #1a2f4f;
     text-align: center;
-    /* font-size: 20px; */
 }
 
 .bottom-writing {
@@ -279,11 +301,11 @@ li {
     -moz-border-radius: 0;
     border-radius: 0px;
     font-family: "Poppins";
-    color: #1a2f4f;
-    font-size: 14px;
+    color: #1a2f4f; 
+    font-size: 0.926vw;
     background: #E9e3dc;
     padding: 10px 20px 10px 20px;
-    border: solid #1a2f4f 2px;
+    border: solid #1a2f4f 2px; 
     text-decoration: none;
 }
 
@@ -299,8 +321,8 @@ li {
 
 .stressed-photo {
     position: relative;
-    left: 18%;
     width: 60%;
+    left: 18%;
 
 }
 
@@ -309,7 +331,7 @@ li {
 /* Areas of Focus Section */
 
 .area {
-    margin: 0 166px;
+    margin: 0 11%;
     padding: 40px 0;
 }
 
@@ -322,13 +344,13 @@ li {
 }
 
 .areas-header {
-    background-color: #1a2f4f;
+    background-color: #E9e3dc;  background-image: linear-gradient(to right,#E9e3dc,#f7f7f7,#E9e3dc);
     
 }
 
 .area-h3 {
     padding: 10px 0 10px 10px;
-    color: #f7f5ee;
+    color: #1a2f4f;
 }
 
 .areas-of-focus-writing {
@@ -339,7 +361,7 @@ li {
 
 /* Benefits of Therapy Section */
 .benefits {
-    margin: 0 166px 0px;
+    margin: 0 11% 0px;
     padding: 20px 0 100px;
 }
 
@@ -357,7 +379,7 @@ li {
 }
 
 .benefits-background {
-    background-color: #1a2f4f;
+    background-color: #1a2f4f; 
     padding: 40px 50px 50px;
     width: 200px;
     height: 200px;
@@ -365,13 +387,13 @@ li {
 }
 
 .benefits-text {
-    font-size: 0.8rem;
+    font-size: 0.926vw;
     line-height: 1.5;
     margin-top: 5px;
     text-align: center;
     vertical-align: middle;
     align-self: center;
-    color: #E9e3dc;
+    color: #E9e3dc; 
 
 }
 
@@ -384,15 +406,15 @@ li {
 }
 
 #benefits-2 {
-    padding-top: 55px;
+    padding-top: 50px;
 }
 
 #benefits-3 {
-    padding-top: 45px;
+    padding-top: 40px;
 }
 
 #benefits-4 {
-    padding-top: 50px;
+    padding-top: 45px;
 }
 
 #benefits-5 {
@@ -400,15 +422,15 @@ li {
 }
 
 #benefits-6 {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 #benefits-7 {
-    padding-top: 55px;
+    padding-top: 45px;
 }
 
 #benefits-8 {
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 #benefits-9 {
@@ -428,7 +450,7 @@ li {
 /* How We Work Together Section */
 
 .how-we {
-    margin: 0 166px 0px;
+    margin: 0 11% 0px;
     padding: 20px 0 60px;
     text-align: left;
 
@@ -443,9 +465,8 @@ li {
 }
 
 .how-we-note {
-    margin: 20px 0;
+    margin: 85px 0;
     padding: 50px 50px 0;
-    line-height: 2;
 }
 
 .how-we-note-p-2 {
@@ -457,8 +478,8 @@ li {
 }
 
 .couch-photo {
-    width: 90%;
-    margin: 20px 0 55px 20px;
+    width: 80%;
+    margin: 20px 0 55px 40px;
     padding: 20px 0 0;
 }
 
@@ -473,7 +494,7 @@ li {
     border-radius: 0px;
     font-family: "Poppins";
     color: #1a2f4f;
-    font-size: 14px;
+    font-size: 0.926vw;
     background: #f7f5ee;
     padding: 10px 20px 10px 20px;
     border: solid #1a2f4f 2px;
@@ -491,7 +512,7 @@ li {
 /* How it works Section */
 
 .how-it-works {
-    margin: 0 166px 0px;
+    margin: 0 11% 0px;
     padding: 20px 0;
 }
 
@@ -499,19 +520,21 @@ li {
     text-align: center;
 }
 
+.how-it-works-h4 {
+    margin: 0 0 20px;
+}
+
 .icon {
     padding: 0 0 20px;
 }
 
-#features {
-    position: relative;
-    color: #1a2f4f;
+.features {
     margin: 0;
-    text-align: center;
 }
 
 .feature-box {
-    padding: 30px 5% 0;
+    padding: 20px 60px 0;
+    text-align: center;
 }
 
 /* End How it works Section */
@@ -519,13 +542,13 @@ li {
 /* Quote about change Section */
 
 .change {
-    margin: 0 166px 0px;
+    margin: 0 11% 0px;
     padding: 40px 0;
 }
 
 .change-header {
     padding: 0 0 20px;
-    font-size: medium;
+    font-size: 1.058vw;
     text-align: center;
 }
 
@@ -546,7 +569,7 @@ li {
     border-radius: 0px;
     font-family: "Poppins";
     color: #1a2f4f;
-    font-size: 14px;
+    font-size: 0.926vw;
     background: #f7f5ee;
     padding: 10px 20px 10px 20px;
     border: solid #1a2f4f 2px;
@@ -568,17 +591,18 @@ li {
 /* About Mollie Section */
 
 .about_me{
-    margin: 0 166px 0px;
+    margin: 0 11% 0px;
     padding: 40px 0;
 }
 
 .headshot {
     position: relative;
     margin: 0;
-    left: 15%;
+    left: 10%;
     top: 10%;
-    width: 70%;
+    width: 80%;
     border-radius: 50px;
+    border: solid #1a2f4f 2px;
 }
 
 .about_me_writing {
@@ -595,6 +619,11 @@ li {
 
 .about_me_tagline {
     font-weight: 500;
+}
+
+.about_me_btn {
+    text-align: center;
+    padding: 30px 0 0;
 }
 
 /* End About Mollie Section */
@@ -620,7 +649,7 @@ li {
 
 .modalities_drop {
     font-family: "Poppins", sans-serif;
-    font-size: 17px;
+    font-size: 1.124px;
     font-weight: 600;
     margin-bottom: 10px;
     padding-left: 30px;
@@ -634,7 +663,7 @@ li {
     text-align: center;
 }
 .mod-bullets {
-    list-style: square;
+    list-style: none;
 }
 
 .modalities_photo {
@@ -672,7 +701,7 @@ li {
 
     .question {
         font-family: "Poppins", sans-serif;
-        font-size: 20px;
+        font-size: 1.323vw;
         font-weight: 600;
         margin-bottom: 10px;
         padding-left: 30px;
@@ -692,7 +721,7 @@ li {
     }
 
     .answer {
-        font-size: 17px;
+        font-size: 1.124vw;
         font-family: "Poppins", sans-serif;
     }
 
@@ -735,48 +764,132 @@ li {
 
     /* End Billings + Insurance Page */
 
-    /* Services Page */
-    .services {
-        margin: 0 237px;
+    /* Services - Individual Therapy Page */
+
+    .services_btn {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0px;
+        font-family: "Poppins";
+        color: #1a2f4f;
+        font-size: 0.926vw;
+        background: #f7f5ee;
+        padding: 10px 20px 10px 20px;
+        border: solid #1a2f4f 2px;
+        text-decoration: none;
     }
 
-    .services-row {
+    .service_btn:hover {
+        background: #1a2f4f;
+        text-decoration: none;
+        color: #f7f5ee;
+    }
+
+    .individual {
+        margin: 0 11%;
+    }
+
+    .individual_h1 {
+        text-align: center;
+        padding: 30px 0 20px;
+    }
+
+    .individual_row {
         margin: 0;
-        padding-bottom: 30px;
+        padding: 0 0 30px;
     }
 
-    .services-p {
-        line-height: 2;
+    .individual_p {
+        padding: 20px 0 0;
     }
 
-    .services-btn {
+    .individual_btn {
     text-align: center;
     padding: 40px 0;
     }
 
-    .services-headshot {
+    .individual_headshot {
     position: relative;
     left: 20%;
-    top: 8%;
     width: 60%;
-    height: 85%;
     border-radius: 50px;
+    }
+
+    /* Services - Supervision */
+
+    .supervision {
+        margin: 0 11%;
+    }
+
+    .supervision_h1 {
+        text-align: center;
+        padding: 30px 0 20px;
+    }
+
+    .supervision_row {
+        margin: 0;
+        padding: 0 0 30px;
+    }
+
+    .supervision_p {
+        padding: 40px 0 0;
+    }
+
+    .supervision_btn {
+    text-align: center;
+    padding: 40px 0;
     }
 
     .book_photo {
     position: relative;
-    margin: 45px 0 0 65px;
-    left: 12%;
-    right: 12%;
+    left: 20%;
     width: 60%;
-    height: 90%;
     border-radius: 50px;
     }
 
-    .therapy-header {
-        font-size: 2.3rem;
-        padding-bottom: 30px;
-    }
 
+/* End Services Page */
 
-    /* End Services Page */
+/* Areas of Focus Page */
+
+.areas_of_focus_page {
+    margin: 0 11% 0px;
+    padding: 40px 0;
+}
+
+.areas_of_focus_header {
+    text-align: center;
+    padding: 0px
+}
+
+.focus-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 0.926vw;
+    background: #f7f5ee;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.focus-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #f7f5ee;
+}
+
+.areas_of_focus {
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+.areas_of_focus_h2_header {
+    padding: 0 0 20px 0;
+}
+
+.areas_of_focus_p {
+    padding: 0 0 20px 0
+}
