@@ -1,4 +1,3 @@
-
 a {
     color: inherit;
     text-decoration: inherit;
@@ -19,23 +18,43 @@ a {
 }
 
 h1 {
- font-size: 1.96rem;
+    font-size: 29.5px;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
 }
 
 h2 {
- font-size: 28px;
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
 }
 
 h3 {
- font-size: 19px;
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
 }
 
 h4 {
- font-size: 17px;
+    font-size: 17px;
+    font-family: "Playfair Display", serif;
+    color: #1a2f4f;
 }
 
 p {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #1a2f4f;
+}
+
+li {
     font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #1a2f4f;
+}
+
+hr {
+    margin: 0;
 }
 
 /* Navigation Bar and Title */
@@ -45,7 +64,7 @@ p {
 }
 
 .nav-link:hover {
-    color:#1a2f4f;
+    color: #1a2f4f;
 }
 
 .nav-item {
@@ -67,129 +86,15 @@ p {
     height: 40%;
 }
 
-.group-name{
+.group-name {
     margin: 25px;
 }
 
-.header-container{
+.header-container {
     background-color: #e7e0da;
 }
 
 /* End Nav Bar and Title */
-
-/* About Me Page */
-
-.about_me {
-    margin: 0 237px 0px;
-    padding: 40px 0;
-}
-
-.headshot {
-    position: relative;
-    margin: 30px 0 0;
-    left: 20%;
-    top: 8%;
-    width: 60%;
-    height: 80%;
-    border-radius: 50px;
-}
-
-.about_me_writing {
-    padding: 80px 0;
-}
-
-.about_me_header {
-    text-align: left;
-}
-
-.about_me_p {
-    padding-top: 40px;
-}
-
-.approach {
-    margin: 50px 0;
-}
-
-.approach-header {
-    padding: 0 0 40px;
-}
-
-.approach-h1 {
-    text-align: left;
-}
-
-.areas-of-focus {
-    margin: 0;
-}
-
-.areas-of-focus-writing {
-    padding-top: 75px;
-}
-
-.areas-of-focus-h1 {
-    text-align: left;
-    margin-bottom: 80px;
-}
-
-.areas-of-focus-p {
-    line-height: 2;
-}
-
-.area_of_focus_photo {
-    position: relative;
-    margin-top: 20px;
-    padding-bottom: 25px;
-    left: 20%;
-    top: 8%;
-    width: 60%;
-    height: 90%;
-    border-radius: 50px;
-}
-
-.focus-list {
-    list-style: none;
-}
-
-.focus-bullets {
-    list-style: square;
-}
-
-.focus-quote {
-    text-align: center;
-}
-
-.approach-tag {
-    padding: 50px 0;
-    text-align: center;
-    line-height: 2;
-}
-
-.mods-bullets {
-    list-style: none;
-}
-
-.modalities {
-    margin: 20px 0;
-}
-
-.modalities_writing {
-    padding: 40px 12px 0;
-}
-
-.room_photo {
-    position: relative;
-    margin: 45px 0 0 65px;
-    left: 12%;
-    right: 12%;
-    width: 60%;
-    height: 90%;
-    border-radius: 50px;
-}
-
-.trainings {
-    list-style-type: none;
-    text-align: center;
-}
 
 /* Footer Section */
 
@@ -206,7 +111,6 @@ p {
 
 .footer {
     margin: 0;
-    /* padding-top: 100px; */
     margin-bottom: 30px;
 }
 
@@ -226,12 +130,15 @@ p {
 
 .footer-bullet {
     list-style-type: none;
-    font-size: 14px;
     line-height: 2.5;
     padding: 0 120px;
     margin: 0;
     text-align: center;
     color: #1a2f4f;
+}
+
+.footer-bullets {
+    font-size: 14px;
 }
 
 .footer-divide {
@@ -282,8 +189,6 @@ p {
 
 .footing-p {
     font-size: 12px;
-    font-family: "Poppins", sans-serif;
-    color: #1a2f4f;
 }
 
 .social-media {
@@ -300,5 +205,631 @@ p {
     color: #1a2f4f;
 }
 
+/* End Footer Section */
+
+/*Finding Clarity*/
+.quote-container {
+    position: relative;
+    padding: 200px 0;
+    margin: 0 166px;
+
+}
+
+.quote {
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    position: relative;
+    bottom: 135px;
+}
+
+.quote-background {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+/* End Finding Clarity Section */
+
+/*Therapy For Young Adults*/
+
+.therapy-fya {
+    margin: 0 166px;
+    padding: 40px 0;
+}
+
+.therapy-writing {
+    padding: 0 12px;
+}
+
+.top-writing {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.therapy-h1 {
+    color: #1a2f4f;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+.therapy-h3 {
+    color: #1a2f4f;
+    text-align: center;
+    /* font-size: 20px; */
+}
+
+.bottom-writing {
+    margin: 25px 0 50px;
+    text-align: left;
+}
+
+
+.therapy-tagline {
+    text-align: left;
+    font-weight: 500;
+}
+
+.consultation-btn {
+    text-align: center;
+}
+
+.dark-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 14px;
+    background: #E9e3dc;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.dark-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #E9e3dc;
+}
+
+.therapy-photo {
+    padding: 0;
+}
+
+.stressed-photo {
+    position: relative;
+    left: 18%;
+    width: 60%;
+
+}
+
+/* End Therapy For Young Adults section */
+
+/* Areas of Focus Section */
+
+.area {
+    margin: 0 166px;
+    padding: 40px 0;
+}
+
+.areas-of-focus {
+    margin: 0;
+}
+
+.area-h2 {
+    text-align: center;
+}
+
+.areas-header {
+    background-color: #1a2f4f;
+    background-image: linear-gradient(#1a2f4f, #f7f5ee);
+
+}
+
+.area-h3 {
+    padding: 10px 0 10px 10px;
+    color: #f7f5ee;
+}
+
+.areas-of-focus-writing {
+    padding: 50px 30px 0;
+}
+
+/* End Areas of Focus Section */
+
+/* Benefits of Therapy Section */
+.benefits {
+    margin: 0 166px 0px;
+    padding: 20px 0 100px;
+}
+
+.benefits-header {
+    margin: 40px 0;
+}
+
+.benefits-title {
+    text-align: center;
+}
+
+.benefits-list {
+    margin: 0;
+    justify-content: center;
+}
+
+.benefits-background {
+    background-color: #1a2f4f;
+    padding: 40px 50px 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+    color: #E9e3dc;
+
+}
+
+.benefits-col-2 {
+    margin: 0 50px;
+}
+
+#benefits-1 {
+    padding-top: 40px;
+}
+
+#benefits-2 {
+    padding-top: 55px;
+}
+
+#benefits-3 {
+    padding-top: 45px;
+}
+
+#benefits-4 {
+    padding-top: 50px;
+}
+
+#benefits-5 {
+    padding-top: 50px;
+}
+
+#benefits-6 {
+    padding-top: 40px;
+}
+
+#benefits-7 {
+    padding-top: 55px;
+}
+
+#benefits-8 {
+    padding-top: 60px;
+}
+
+#benefits-9 {
+    padding-top: 50px;
+}
+
+.fa-solid {
+    color: #1a2f4f;
+}
+
+.fa-solid:hover {
+    color: #1a2f4f;
+}
+
+/* End Benefits of Therapy Section */
+
+/* How We Work Together Section */
+
+.how-we {
+    margin: 0 166px 0px;
+    padding: 20px 0 60px;
+    text-align: left;
+
+}
+
+.how-we-header {
+    margin: 20px 0 0 0;
+}
+
+.how-we-h2 {
+    text-align: center;
+}
+
+.how-we-note {
+    margin: 85px 0;
+    padding: 50px 50px 0;
+}
+
+.how-we-note-p-2 {
+    padding: 20px 0;
+}
+
+.work-together-photo {
+    padding: 0;
+}
+
+.couch-photo {
+    width: 80%;
+    margin: 20px 0 55px 40px;
+    padding: 20px 0 0;
+}
+
+.schedule-btn {
+    text-align: center;
+    padding: 0 0 15px;
+}
+
+.how-we-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 14px;
+    background: #f7f5ee;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.how-we-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #f7f5ee;
+}
+
+/* End How We Work Together Section */
+
+/* How it works Section */
+
+.how-it-works {
+    margin: 0 166px 0px;
+    padding: 20px 0;
+}
+
+.how-it-works-h2 {
+    text-align: center;
+}
+
+.icon {
+    padding: 0 0 20px;
+}
+
+#features {
+    position: relative;
+    color: #1a2f4f;
+    margin: 0;
+    text-align: center;
+}
+
+.feature-box {
+    padding: 30px 5% 0;
+}
+
+/* End How it works Section */
+
+/* Quote about change Section */
+
+.change {
+    margin: 0 166px 0px;
+    padding: 40px 0;
+}
+
+.change-header {
+    padding: 0 0 20px;
+    font-size: medium;
+    text-align: center;
+}
+
+.change-quote {
+    font-weight: lighter;
+    font-family: "Poppins", sansserif;
+    text-align: center;
+}
+
+.ready-btn {
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+.clear-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 14px;
+    background: #f7f5ee;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.clear-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #f7f5ee;
+}
+
+/* End Quote about Change Section */
 
 /* END MAIN PAGE */
+
+/* About Me Page */
+
+/* About Mollie Section */
+
+.about_me {
+    margin: 0 166px 0px;
+    padding: 40px 0;
+}
+
+.headshot {
+    position: relative;
+    margin: 0;
+    left: 15%;
+    top: 13%;
+    width: 70%;
+    border-radius: 50px;
+}
+
+.about_me_writing {
+    padding: 40px 0;
+}
+
+.about_me_header {
+    text-align: left;
+}
+
+.about_me_p {
+    padding-top: 40px;
+}
+
+.about_me_tagline {
+    font-weight: 500;
+}
+
+.about_me_btn {
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+/* End About Mollie Section */
+
+/* Modalities Section */
+
+.modalities {
+    margin: 0;
+}
+
+.modalities_h2 {
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.modalities-p {
+    line-height: 2;
+}
+
+.modalities-list {
+    list-style: none;
+}
+
+.modalities_drop {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.mod-icon {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mod-bullets {
+    list-style: none;
+}
+
+.modalities_photo {
+    position: relative;
+    left: 20%;
+    top: 8%;
+    width: 60%;
+    border-radius: 50px;
+}
+
+/* End Modalities Section */
+
+/* Education Section */
+
+.education_h2 {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.trainings {
+    list-style-type: none;
+    text-align: center;
+    line-height: 2;
+}
+
+
+/* FAQ Page*/
+.faq_container {
+    position: relative;
+    /* top: 30%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        width: 60%; */
+}
+
+.question {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+    color: #5c5a5a;
+}
+
+.icon-main {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.non-active {
+    display: none;
+}
+
+.answer {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* End FAQ Page */
+
+/* Billing + Insurance Page */
+.billing {
+    margin: 0 166px;
+}
+
+.billing-header {
+    padding: 30px 0;
+}
+
+.billing-questions {
+    padding: 0;
+}
+
+.billing-p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.billing-row {
+    margin: 0;
+}
+
+.comp_photo {
+    position: relative;
+    left: 20%;
+    top: 5%;
+    width: 60%;
+    height: 90%;
+}
+
+.billing-btn {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* End Billings + Insurance Page */
+
+/* Services Page */
+.services {
+    margin: 0 166px;
+}
+
+.services-row {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.services-p {
+    line-height: 2;
+}
+
+.services-btn {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.services-headshot {
+    position: relative;
+    left: 20%;
+    top: 8%;
+    width: 60%;
+    height: 85%;
+    border-radius: 50px;
+}
+
+.book_photo {
+    position: relative;
+    margin: 45px 0 0 65px;
+    left: 12%;
+    right: 12%;
+    width: 60%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+.therapy-header {
+    font-size: 2.3rem;
+    padding-bottom: 30px;
+}
+
+
+/* End Services Page */
+
+/* Areas of Focus Page */
+
+.areas_of_focus_page {
+    margin: 0 166px 0px;
+    padding: 40px 0;
+}
+
+.areas_of_focus_header {
+    text-align: center;
+    padding: 0px
+}
+
+.focus-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 14px;
+    background: #f7f5ee;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.focus-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #f7f5ee;
+}
+
+.areas_of_focus {
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.areas_of_focus_h2_header {
+    padding: 0 0 20px 0;
+}
+
+.areas_of_focus_p {
+    padding: 0 0 20px 0
+}
