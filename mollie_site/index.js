@@ -28,9 +28,5 @@ const focus = document.querySelectorAll(".mod");
 				i.classList.toggle("fa-xmark");
 				i.classList.toggle("fa-plus");
 			});
-		};
-
-
-
 
 
