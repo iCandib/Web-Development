@@ -649,8 +649,8 @@ hr {
 
 .modalities_drop {
     font-family: "Poppins", sans-serif;
-    font-size: 1.124px;
-    font-weight: 600;
+    font-size: 1.124vw;
+    font-weight: 400;
     margin-bottom: 10px;
     padding-left: 30px;
     position: relative;

@@ -12,7 +12,7 @@ const faqs = document.querySelectorAll(".faq");
 				i.classList.toggle("fa-xmark");
 				i.classList.toggle("fa-plus");
 			});
-		}
+		};
 
 //Modalities (About Page)
 const focus = document.querySelectorAll(".mod");
@@ -28,5 +28,5 @@ const focus = document.querySelectorAll(".mod");
 				i.classList.toggle("fa-xmark");
 				i.classList.toggle("fa-plus");
 			});
-		}
+
 
