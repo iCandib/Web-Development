@@ -13,12 +13,6 @@ a {
     text-decoration: inherit;
 }
 
-.all_containers {
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .container-fluid {
     padding: 0;
 }
@@ -88,7 +82,7 @@ hr {
 }
 
 .nav-item {
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .nav-link {
@@ -97,6 +91,20 @@ hr {
     color: #1a2f4f;
     font-family: "Playfair Display", serif;
 
+}
+
+.dropdown-menu {
+    background-color: #e7e0da;
+    padding: 0;
+    border: none;
+}
+
+.dropdown-item {
+    padding: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #e7e0da;
 }
 
 .large-logo {
@@ -114,6 +122,16 @@ hr {
     background-color: #e7e0da;
     height: 3.353%;
     width: 100%;
+}
+
+/* CSS for navbar dropdowns */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Remove triangle next to dropdown name */
+.navbar-nav .dropdown-toggle::after {
+    display: none;
 }
 
 /* End Nav Bar and Title */
@@ -203,12 +221,13 @@ hr {
 
 .footing {
     text-align: center;
-    margin: 0;;
+    margin: 10px 0 0;
 
 }
 
 .footing-p {
     font-size: 0.794vw;
+    cursor: pointer;
 }
 
 .social-media {
@@ -223,6 +242,52 @@ hr {
 
 .social-icon {
     color: #1a2f4f;
+}
+
+#popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#popup-content {
+    background-color: #f7f5ee;
+    margin: 0 11%;
+    padding: 20px;
+    max-height: 80%;
+    /* Maximum height of the content with scrolling */
+    overflow-y: auto;
+    /* Enable scrolling for overflow */
+}
+
+#popup-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f7f5ee;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#popup-close:hover {
+    color: #333;
+}
+
+#popup-heading {
+    text-align: center;
 }
 
 /* End Footer Section */
@@ -441,6 +506,10 @@ hr {
 
 .fa-solid {
     color: #1a2f4f;
+}
+
+.fa-plus, .fa-xmark {
+    font-weight: 600;
 }
 
 .fa-solid:hover {
@@ -693,59 +762,64 @@ hr {
 
 
 /* FAQ Page*/
-    .faq_container {
-        position: relative;
-        /* top: 30%;
-        left: 50%;
-        transform: translate(-50%, -20%);
-        width: 60%; */
-    }
 
-    .question {
-        font-family: "Poppins", sans-serif;
-        font-size: 1.323vw;
-        font-weight: 600;
-        margin-bottom: 10px;
-        padding-left: 30px;
-        position: relative;
-        color: #5c5a5a;
-    }
+.faq_section {
+    margin: 0 11% 0px;
+    padding: 40px 0;
+}
 
-    .icon-main {
-        position: absolute;
-        left: 0;
-        cursor:pointer;
-        text-align: center;
-    }
+.faq_h1 {
+    text-align: center;
+}
 
-    .non-active {
-        display: none;
-    }
+.faq_bullets {
+    list-style-type: none;
+}
 
-    .answer {
-        font-size: 1.124vw;
-        font-family: "Poppins", sans-serif;
-    }
+.question {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+    margin: 10px;
+}
 
-    /* End FAQ Page */
+.icon-main {
+    position: absolute;
+    left: 0;
+    cursor:pointer;
+    text-align: center;
+}
 
-    /* Billing + Insurance Page */
-    .billing {
-        margin: 0 11% 0;
-    }
+.non-active {
+    display: none;
+}
 
-    .billing_header {
-        padding: 30px 0;
-        text-align: center;
-    }
+.answer {
+    padding: 0 50px;
+}
 
-    .billing_list {
-        padding: 0;
-    }
 
-    .billing_p {
-        padding: 0 0 20px;
-    }
+/* End FAQ Page */
+
+/* Billing + Insurance Page */
+.billing {
+    margin: 0 11% 0;
+}
+
+.billing_header {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.billing_list {
+    padding: 0;
+}
+
+.billing_p {
+    padding: 0 0 20px;
+}
 
     .billing_row {
         margin: 0;
@@ -911,4 +985,57 @@ hr {
 
 .areas_of_focus_p {
     padding: 0 0 20px 0
+}
+
+/* End Areas of Focus page */
+
+/* Consultation page */
+
+.consultation_page {
+    margin: 0 11% 0px;
+    padding: 40px 0;
+}
+
+.consultation_header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.required:after {
+    color: #1a2f4f;
+}
+
+.required {
+    font-family: "Poppins", sans-serif;
+    color: #1a2f4f;
+}
+
+.consult {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.consult-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: "Poppins";
+    color: #1a2f4f;
+    font-size: 0.926vw;
+    background: #f7f5ee;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a2f4f 2px;
+    text-decoration: none;
+}
+
+.consult-btn:hover {
+    background: #1a2f4f;
+    text-decoration: none;
+    color: #f7f5ee;
+}
+
+.form-control {
+    background-color: #f7f5ee;
+    border-radius: 0;
+    border: solid #1a2f4f 2px;
 }
