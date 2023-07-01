@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Areas of Focus</title>
+    <title>MOLLIE SPIESMAN LCSW PLLC</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,25 +24,38 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
       integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
     ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <!-- CSS Style Sheets -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   </head>
 
   <body>
     <!-- Nav Bar and Title -->
-    <section class="header-container">
-      <div class="first-container container-fluid">
+    <section class="all_containers header-container">
+      <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand group-name" href=""
+          <a class="group-name" href="index.html"
             ><img
               class="large-logo"
               src="images/large_logo.png"
@@ -63,19 +76,94 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="about_me.html">About</a>
+                <div class="dropdown">
+                  <a
+                    class="btn dropdown-toggle nav-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About
+                  </a>
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="nav-link dropdown-item" href="about_me.html"
+                        >About Mollie</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link dropdown-item"
+                        href="areas_of_focus.html"
+                        >Areas of Focus</a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+                <div class="dropdown">
+                  <a
+                    class="btn dropdown-toggle nav-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="nav-link dropdown-item"
+                        href="services_individual.html"
+                        >Individual Psychotherapy</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="nav-link dropdown-item"
+                        href="services_supervision.html"
+                        >Clinical Supervision</a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="billing.html">Billing + Insurance</a>
+                <div class="dropdown">
+                  <a
+                    class="btn dropdown-toggle nav-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Resources
+                  </a>
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="nav-link dropdown-item" href="billing.html"
+                        >Billing + Insurance</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link dropdown-item" href="blogs.html"
+                        >Blogs</a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="faq.html">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="consultation.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -181,7 +269,7 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseAnxiety"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
@@ -236,7 +324,7 @@
               enhance your self-acceptance, and foster a greater sense of
               confidence and self-worth.
             </p>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseLowSelfEsteem">
               <div>
                 <h4>Questions to Consider:</h4>
                 <ol>
@@ -275,11 +363,11 @@
               <a
                 class="focus-btn"
                 data-toggle="collapse"
-                href="#collapseExample"
+                href="#collapseLowSelfEsteem"
                 role="button"
                 aria-expanded="false"
-                aria-controls="collapseExample"
-                >Expand</a
+                aria-controls="collapseLowSelfEsteem"
+                >Read More</a
               >
             </div>
           </div>
@@ -346,7 +434,7 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapsePerfectionism"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
@@ -437,7 +525,7 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseDisorderedEating"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
@@ -526,7 +614,7 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseLifeTransitions"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
@@ -614,7 +702,7 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseRelationshipIssues"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
@@ -703,7 +791,7 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseBodyImageConcerns"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
@@ -798,7 +886,7 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseOCD"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
@@ -880,85 +968,110 @@
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseSchool"
-                >Expand</a
+                >Read More</a
               >
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer class="footer-container">
-      <div class="end">
-        <div class="row footer">
-          <div class="col-4 footer-logo">
-            <div>
-              <img
-                class="mini-logo"
-                src="images/mini_logo.png"
-                alt="mini-logo"
-              />
-            </div>
-          </div>
-          <div class="col-4 footer-list">
-            <ul class="footer-bullet">
-              <li class="footer-bullets"><a href="index.html">Home</a></li>
-              <li class="footer-bullets"><a href="about_me.html">About</a></li>
-              <li class="footer-bullets">
-                <a href="services.html">Services</a>
-              </li>
-              <li class="footer-bullets">
-                <a href="billing.html">Billing + Insurance</a>
-              </li>
-              <li class="footer-bullets"><a href="faq.html">FAQ</a></li>
-              <li class="footer-bullets"><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-4 footer-clicks">
-            <div class="footer-links">
-              <div class="book-a-consult">
-                <a class="footer-btn" href="consultation.html" role="button"
-                  >Book a Consultation</a
-                >
-              </div>
-              <div class="client-portal">
-                <a class="footer-btn" href="about_me.html" role="button"
-                  >Client Portal</a
-                >
-                <!-- link to client portal needed -->
-              </div>
+    <footer class="all_containers footer-container">
+      <div class="container-fluid">
+        <div class="end">
+          <div class="row footer">
+            <div class="col-4 footer-logo">
               <div>
-                <div class="social-media">
-                  <a href="mailto:info@molliespiesmanlcsw.com"
-                    ><i class="social-icon fa-solid fa-envelope fa-2x"></i
-                  ></a>
-                  <a href="https://www.instagram.com"
-                    ><i class="social-icon fa-brands fa-instagram fa-2x"></i
-                  ></a>
-                  <a href="https://www.facebook.com"
-                    ><i class="social-icon fa-brands fa-facebook fa-2x"></i
-                  ></a>
+                <a href="index.html"
+                  ><img
+                    class="mini-logo"
+                    src="images/mini_logo.png"
+                    alt="mini-logo"
+                /></a>
+              </div>
+            </div>
+            <div class="col-4 footer-list">
+              <ul class="footer-bullet">
+                <li class="footer-bullets"><a href="index.html">Home</a></li>
+                <li class="footer-bullets">
+                  <a href="about_me.html">About</a>
+                </li>
+                <li class="footer-bullets">
+                  <a href="services.html">Services</a>
+                </li>
+                <li class="footer-bullets">
+                  <a href="billing.html">Billing + Insurance</a>
+                </li>
+                <li class="footer-bullets"><a href="faq.html">FAQ</a></li>
+                <li class="footer-bullets">
+                  <a href="consultation.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 footer-clicks">
+              <div class="footer-links">
+                <div class="book-a-consult">
+                  <a class="footer-btn" href="consultation.html" role="button"
+                    >Book a Consultation</a
+                  >
+                </div>
+                <div class="client-portal">
+                  <a class="footer-btn" href="about_me.html" role="button"
+                    >Client Portal</a
+                  >
+                  <!-- link to client portal needed -->
+                </div>
+                <div>
+                  <div class="social-media">
+                    <a href="mailto:info@molliespiesmanlcsw.com"
+                      ><i class="social-icon fa-solid fa-envelope fa-2x"></i
+                    ></a>
+                    <a href="https://www.instagram.com"
+                      ><i class="social-icon fa-brands fa-instagram fa-2x"></i
+                    ></a>
+                    <a href="https://www.facebook.com"
+                      ><i class="social-icon fa-brands fa-facebook fa-2x"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div>
-          <div class="row footing">
-            <p class="col-4 footing-p">Terms And Conditions</p>
-            <p class="col-4 footing-p">Privacy Policy</p>
-            <p class="col-4 footing-p">HIPAA</p>
+          <div>
+            <div class="row footing">
+              <p
+                class="col-4 footing-p"
+                onclick="showPopup(this, 'Terms and Conditions')"
+              >
+                Terms And Conditions
+              </p>
+              <p
+                class="col-4 footing-p"
+                onclick="showPopup(this, 'Privacy Policy')"
+              >
+                Privacy Policy
+              </p>
+              <p class="col-4 footing-p" onclick="showPopup(this, 'HIPAA')">
+                HIPAA
+              </p>
+            </div>
+
+            <div id="popup-container">
+              <div id="popup-content">
+                <button id="popup-close" onclick="hidePopup()">&times;</button>
+                <h1 id="popup-heading"></h1>
+                <div id="popup-text"></div>
+              </div>
+            </div>
+
+            <div class="footing">
+              <p class="footing-p">
+                © 2023 Mollie Spiesman LCSW PLLC, All Rights Reserved
+              </p>
+            </div>
           </div>
-          <div class="footing">
-            <p class="footing-p">© 2023 Mollie Spiesman LCSW PLLC</p>
-            <p class="footing-p">All Rights Reserved.</p>
-          </div>
         </div>
-        <!--Enter in links, social media logos, contact information-->
-        <!--links to Billing, Simple Practice?, other pages on site-->
       </div>
     </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="index.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
