@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Billing + Insurance</title>
+    <title>Test</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,129 +19,210 @@
 
     <!-- Bootstrap -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- CSS Style Sheets -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/test-styles.css" />
   </head>
   <body>
-    <section class="header-container">
-      <div class="first-container container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand group-name main-font" href=""
-            ><img
-              class="large-logo"
-              src="images/large_logo.png"
-              alt="large-logo"
-          /></a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <div class="dropdown">
-                  <button
-                    class="btn dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    About
-                  </button>
-                  <div
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton"
-                  >
-                    <a class="dropdown-item" href="about_me.html"
-                      >About Mollie</a
-                    >
-                    <a class="dropdown-item" href="areas_of_focus.html"
-                      >Areas of Focus</a
-                    >
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="dropdown">
-                  <button
-                    class="btn dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Services
-                  </button>
-                  <div
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton"
-                  >
-                    <a class="dropdown-item" href="services_individual.html"
-                      >Individual Psychotherapy</a
-                    >
-                    <a class="dropdown-item" href="services_supervision.html"
-                      >Clinical Supervision</a
-                    >
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <div class="dropdown">
-                  <button
-                    class="btn dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Resources
-                  </button>
-                  <div
-                    class="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton"
-                  >
-                    <a class="dropdown-item" href="billing.html"
-                      >Billing + Insurance</a
-                    >
-                    <a class="dropdown-item" href="blogs.html"
-                      >Blogs</a
-                    >
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+    <section class="all_containers dark_container">
+      <div class="container-fluid">
+        <div class="benefits">
+          <div class="row benefits-header">
+            <h2 class="benefits-title">Therapy Can Help</h2>
           </div>
-        </nav>
+          <div
+            id="testimonial-carousel"
+            class="row carousel slide"
+            data-ride="false"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row benefits-list">
+                  <div class="col-4 benefits-background" id="benefits-1">
+                    <p class="benefits-text">
+                      Acknowledge your feelings are valid and find self
+                      compassion.
+                    </p>
+                  </div>
+                  <div
+                    class="col-4 benefits-background benefits-col-2"
+                    id="benefits-2"
+                  >
+                    <p class="benefits-text">
+                      Discover your own voice over your inner critic.
+                    </p>
+                  </div>
+                  <div class="col-4 benefits-background" id="benefits-3">
+                    <p class="benefits-text">
+                      Express your authenticity and creativity with confidence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row benefits-list">
+                  <div class="col-4 benefits-background" id="benefits-4">
+                    <p class="benefits-text">
+                      Heal your relationship with yourself and your body.
+                    </p>
+                  </div>
+                  <div
+                    class="col-4 benefits-background benefits-col-2"
+                    id="benefits-5"
+                  >
+                    <p class="benefits-text">
+                      Strengthen your communication skills.
+                    </p>
+                  </div>
+                  <div class="col-4 benefits-background" id="benefits-6">
+                    <p class="benefits-text">
+                      Navigate difficult relationships and set healthy
+                      boundaries.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row benefits-list">
+                  <div class="col-4 benefits-background" id="benefits-7">
+                    <p class="benefits-text">
+                      Manage stress and reduce feelings of overwhelm.
+                    </p>
+                  </div>
+                  <div
+                    class="col-4 benefits-background benefits-col-2"
+                    id="benefits-8"
+                  >
+                    <p class="benefits-text">
+                      Increase self awareness and mindfulness.
+                    </p>
+                  </div>
+                  <div class="col-4 benefits-background" id="benefits-9">
+                    <p class="benefits-text">
+                      Gain tools for ongoing change and growth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-arrow-left fa-2x"></i>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-arrow-right fa-2x"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="all_containers light_container">
+      <div class="benefits">
+          <div class="row benefits-header">
+            <h2 class="benefits-title">Therapy Can Help</h2>
+          </div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="benefits-text">
+              Discover barriers and set attainable goals to gain tools for ongoing change and growth.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="benefits-text">
+              Find your own voice over your inner critic to find self awareness and compassion.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="benefits-text">
+              Navigate difficult relationships, strengthen your communication skills, and set healthy boundaries.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="benefits-text">
+              Manage stress and reduce feelings of overwhelm.
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <h2 class="benefits-text">
+              Heal your relationship with yourself and your body.
+            </h2>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active carousel-buttons"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="carousel-buttons"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            class="carousel-buttons"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            class="carousel-buttons"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            class="carousel-buttons"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <i class="fa-solid fa-arrow-left fa-2x"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <i class="fa-solid fa-arrow-right fa-2x"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
   </body>
