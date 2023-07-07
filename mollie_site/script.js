@@ -72,34 +72,24 @@ function showPopup(element, title) {
 
 
 
-// Consultation Page
-$(document).ready(function () {
-	$('#consultationForm').submit(function (e) {
-		e.preventDefault();
 
-		var firstName = $('#firstName').val();
-		var lastName = $('#lastName').val();
-		var email = $('#email').val();
-		var message = $('#message').val();
 
-		// Send the form data to the server
-		$.ajax({
-			url: '/send_email',
-			method: 'POST',
-			data: {
-				firstName: firstName,
-				lastName: lastName,
-				email: email,
-				message: message
-			},
-			success: function (response) {
-				// Handle successful response from the server
-				alert(response); // Display a success message or perform any other action
-			},
-			error: function (error) {
-				// Handle error response from the server
-				console.log(error); // Log the error or perform any other action
-			}
+// Wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function () {
+	// Areas of Focus button
+	// Get all the "Read More" buttons
+	const buttons = document.querySelectorAll('.focus-btn');
+
+	// Add a click event listener to each button
+	buttons.forEach(function (button) {
+		button.addEventListener('click', function () {
+			// Toggle the collapse class on the target content
+			const content = this.parentElement.nextElementSibling;
+			content.classList.toggle('show');
+
+			// Toggle the text between 'Read More' and 'Collapse'
+			const buttonText = this.innerText.trim();
+			this.innerText = buttonText === 'Read More' ? 'Collapse' : 'Read More';
 		});
 	});
 });
@@ -107,22 +97,3 @@ $(document).ready(function () {
 
 
 
-// Areas of Focus button
-// Get the button element
-// Get all the "Read More" buttons
-const buttons = document.querySelectorAll('.focus-btn');
-
-// Add a click event listener to each button
-buttons.forEach(function (button) {
-	button.addEventListener('click', function () {
-		// Check the current text of the button
-		const buttonText = this.innerText.trim();
-
-		// Toggle the text between 'Read More' and 'Collapse'
-		if (buttonText === 'Read More') {
-			this.innerText = 'Collapse';
-		} else {
-			this.innerText = 'Read More';
-		}
-	});
-});
