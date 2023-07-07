@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MOLLIE SPIESMAN LCSW PLLC</title>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MOLLIE SPIESMAN LCSW PLLC</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet"
-  />
-  <!-- Font Awesome -->
-  <script
-    src="https://kit.fontawesome.com/63cb346b70.js"
-    crossorigin="anonymous"
-  ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/63cb346b70.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Bootstrap -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <link
-    href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
-    rel="stylesheet"
-  />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- CSS Style Sheets -->
-  <link rel="stylesheet" href="css/styles.css" />
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- jQuery -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-
-</head>
-<body>
-      <section class="all_containers header-container">
+  </head>
+  <body>
+    <section class="all_containers header-container">
       <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -78,6 +77,7 @@
                         >About Mollie</a
                       >
                     </li>
+                    <hr id="about" />
                     <li>
                       <a
                         class="nav-link dropdown-item"
@@ -101,14 +101,15 @@
                   </a>
 
                   <ul class="dropdown-menu">
-                    <li>
+                    <li class="list_services">
                       <a
                         class="nav-link dropdown-item"
                         href="services_individual.html"
-                        >Individual Psychotherapy</a
+                        >Psychotherapy</a
                       >
                     </li>
-                    <li>
+                    <hr id="services" />
+                    <li class="list_services">
                       <a
                         class="nav-link dropdown-item"
                         href="services_supervision.html"
@@ -132,12 +133,19 @@
 
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="nav-link dropdown-item" href="billing.html"
+                      <a
+                        class="nav-link dropdown-item"
+                        id="resources"
+                        href="billing.html"
                         >Billing + Insurance</a
                       >
                     </li>
+                    <hr id="resources" />
                     <li>
-                      <a class="nav-link dropdown-item" href="blogs.html"
+                      <a
+                        class="nav-link dropdown-item"
+                        id="resources"
+                        href="blogs.html"
                         >Blogs</a
                       >
                     </li>
@@ -156,170 +164,241 @@
       </div>
     </section>
 
-
-  <section class="light_container">
-    <div class="about_me row">
+    <section class="light_container">
+      <div class="about_me row">
         <div class="col-sm-6">
-          <img class="headshot" src="images/headshot_w_comp.jpg" alt="mollie head shot">
+          <img
+            class="headshot"
+            src="images/headshot_w_comp.jpg"
+            alt="mollie head shot"
+          />
         </div>
         <div class="col-sm-6 about_me_writing">
           <div class="">
             <h1 class="about_me_header">About Mollie</h1>
           </div>
           <div class="about_me_p">
-            <p>I'm a Licensed Clinical Social Worker (LCSW) dedicated to supporting clients in navigating the challenges of young adulthood. With a focus on college and graduate students, as well as young adults, I specialize in addressing a wide range of concerns, including anxiety, self-esteem issues, disordered eating, and the overwhelming pressures of being a young adult.</p>
-            <p>I approach therapy from a strengths-based perspective, recognizing and building upon your unique strengths. By incorporating therapeutic modalities like psychodynamic and CBT, I provide personalized support that empowers you to make lasting, positive changes in your lifestyle.</p>
-            <p>I believe in the power of humor as a therapeutic tool, and I integrate it into my work to foster a genuine relationship and comfortable environment. Together, we'll explore your challenges, discover your inner strength, and strive for a renewed sense of balance and fulfillment in your life.</p>
-            <p>My favorite self-care practices/ how I maintain balance in my life: morning workouts, trying new restaurants, to-do lists, reading, spending time with friends, family, and my dog</p>
-            <p class="about_me_tagline">Whether you're struggling with a specific issue or looking for support in achieving your goals, I look forward to supporting you on your journey toward the life you want to live! </p>
+            <p>
+              I'm a Licensed Clinical Social Worker (LCSW) dedicated to
+              supporting clients in navigating the challenges of young
+              adulthood. With a focus on college and graduate students, as well
+              as young adults, I specialize in addressing a wide range of
+              concerns, including anxiety, self-esteem issues, disordered
+              eating, and the overwhelming pressures of being a young adult.
+            </p>
+            <p>
+              I approach therapy from a strengths-based perspective, recognizing
+              and building upon your unique strengths. By incorporating
+              therapeutic modalities like psychodynamic and CBT, I provide
+              personalized support that empowers you to make lasting, positive
+              changes in your lifestyle.
+            </p>
+            <p>
+              I believe in the power of humor as a therapeutic tool, and I
+              integrate it into my work to foster a genuine relationship and
+              comfortable environment. Together, we'll explore your challenges,
+              discover your inner strength, and strive for a renewed sense of
+              balance and fulfillment in your life.
+            </p>
+            <p>
+              My favorite self-care practices/ how I maintain balance in my
+              life: morning workouts, trying new restaurants, to-do lists,
+              reading, spending time with friends, family, and my dog
+            </p>
+            <p class="about_me_tagline">
+              Whether you're struggling with a specific issue or looking for
+              support in achieving your goals, I look forward to supporting you
+              on your journey toward the life you want to live!
+            </p>
           </div>
           <div class="about_me_btn">
-                <a class="clear-btn" href="consultation.html" role="button">Work with Mollie</a>
+            <a class="clear-btn" href="consultation.html" role="button"
+              >Work with Mollie</a
+            >
           </div>
         </div>
       </div>
-  </section>
+    </section>
 
-<section class="dark_container">
-    <div class="about_me">
-      <div class="row modalities">
-        <div class="col-sm-6">
-          <div>
-            <h2 class="modalities_h2">Modalities</h2>
-          </div>
-          <div class="modalities-p">
-            <ul class="modalities-list">
-	  		      <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Cognitive Behavioral Therapy (CBT)
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-	  		      		<ul class="mod-bullets">
-				      		  <li>Focuses on changing negative thought patterns and behaviors. based on the idea that thoughts, feelings, and behaviors are interconnected and that changing one can lead to positive changes in the others.</li>
-				      	  </ul>
-	  		      	</div>
-	  		      </li>
-	  		      <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Cognitive Behavioral Therapy for Insomnia (CBT-I)
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-                  <ul class="mod-bullets">
-				      		  <li>Focuses on treating sleep disorders by addressing underlying thought patterns and behaviors that contribute to insomnia.</li>
-				      	  </ul>
-	  		      </li>
-              <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Exposure and Response Prevention (EXRP)
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-                  <ul class="mod-bullets">
-				      		  <li>Involves gradual exposure to anxiety-provoking situations and without engaging in compulsive behaviors or rituals.</li>
-				      	  </ul>
-                </div>
-	  		      </li>
-	  		      <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Mindfulness
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-                  <ul class="mod-bullets">
-				      		  <li>Involves practice of non judgemental awareness through techniques such as meditation or breathing exercises.</li>
-				      	  </ul>
-                </div>
-	  		      </li>
-              <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Psychodynamic Therapy
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-                  <ul class="mod-bullets">
-				      		  <li>Focuses on exploring unconscious thoughts and feelings to gain insight into emotional conflicts and unresolved issues from the past.</li>
-				      	  </ul>
-                </div>
-	  		      </li>
-              <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Strengths-Based Therapy
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-                  <ul class="mod-bullets">
-				      		  <li>Focuses on identifying and building upon an individual's strengths and positive qualities.</li>
-				      	  </ul>
-                </div>
-	  		      </li>
-              <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Body Positivity
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-                  <ul class="mod-bullets">
-				      		  <li>Focuses on accepting and celebrating all bodies, regardless of size, shape, or appearance, and challenging societal norms and standards related to beauty and worth  to promote self-acceptance and self-love.</li>
-				      	  </ul>
-                </div>
-	  		      </li>
-              <li class="mod">
-	  		      	<div class="modalities_drop">
-	  		      		Relational Therapy
-	  		      		<span class="mod-icon">
-	  		      			<i class="fa-solid fa-plus"></i>
-	  		      		</span>
-	  		      	</div>
-	  		      	<div class="non-active">
-                  <ul class="mod-bullets">
-				      		  <li>Focuses on past and present relationships and attachment with the goal of understanding how these relationships impact overall well being and interpersonal functioning.</li>
-				        	</ul>
-                </div>
-	  	    </ul>
-          </div>
-        </div>
-        <div class="col-sm-6">
+    <section class="dark_container">
+      <div class="about_me">
+        <div class="row modalities">
+          <div class="col-sm-6">
             <div>
-              <img class="modalities_photo" src="images/anthony-tran-i-ePv9Dxg7U-unsplash.jpg" alt="focus_photo">
+              <h2 class="modalities_h2">Modalities</h2>
             </div>
+            <div class="modalities-p">
+              <ul class="modalities-list">
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Cognitive Behavioral Therapy (CBT)
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Focuses on changing negative thought patterns and
+                        behaviors. based on the idea that thoughts, feelings,
+                        and behaviors are interconnected and that changing one
+                        can lead to positive changes in the others.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Cognitive Behavioral Therapy for Insomnia (CBT-I)
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Focuses on treating sleep disorders by addressing
+                        underlying thought patterns and behaviors that
+                        contribute to insomnia.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Exposure and Response Prevention (EXRP)
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Involves gradual exposure to anxiety-provoking
+                        situations and without engaging in compulsive behaviors
+                        or rituals.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Mindfulness
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Involves practice of non judgemental awareness through
+                        techniques such as meditation or breathing exercises.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Psychodynamic Therapy
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Focuses on exploring unconscious thoughts and feelings
+                        to gain insight into emotional conflicts and unresolved
+                        issues from the past.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Strengths-Based Therapy
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Focuses on identifying and building upon an individual's
+                        strengths and positive qualities.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Body Positivity
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Focuses on accepting and celebrating all bodies,
+                        regardless of size, shape, or appearance, and
+                        challenging societal norms and standards related to
+                        beauty and worth to promote self-acceptance and
+                        self-love.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mod">
+                  <div class="modalities_drop">
+                    Relational Therapy
+                    <span class="mod-icon">
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </div>
+                  <div class="non-active">
+                    <ul class="mod-bullets">
+                      <li>
+                        Focuses on past and present relationships and attachment
+                        with the goal of understanding how these relationships
+                        impact overall well being and interpersonal functioning.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div>
+              <img
+                class="modalities_photo"
+                src="images/youssef-naddam-iJ2IG8ckCpA-unsplash.jpg"
+                alt="focus_photo"
+              />
+            </div>
+          </div>
         </div>
       </div>
-  </section>
+    </section>
 
-  <section class="light_container">
-    <div class="about_me">
-      <div>
-        <h2 class="education_h2">Education, Certifications, and Trainings</h2>
-        <ul class="trainings">
-          <!-- remove bullet points -->
-          <li>Licensed Clinical Social Worker #091130</li>
-          <li>Master of Social Work - New York University</li>
-          <li>Certification in Mind-Body Eating</li>
-          <li>Certification in Exposure and Response Prevention</li>
-          <li>Training in CBT for Insomnia</li>
-          <li>Training in the Be Body Positive Model</li>
-          <li>Certified Complex Trauma Professional Training</li>
-        </ul>
+    <section class="light_container">
+      <div class="about_me">
+        <div>
+          <h2 class="education_h2">Education, Certifications, and Trainings</h2>
+          <ul class="trainings">
+            <!-- remove bullet points -->
+            <li>Licensed Clinical Social Worker #091130</li>
+            <li>Master of Social Work - New York University</li>
+            <li>Certification in Mind-Body Eating</li>
+            <li>Certification in Exposure and Response Prevention</li>
+            <li>Training in CBT for Insomnia</li>
+            <li>Training in the Be Body Positive Model</li>
+            <li>Certified Complex Trauma Professional Training</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
-
+    </section>
 
     <footer class="all_containers footer-container">
       <div class="container-fluid">
@@ -342,15 +421,17 @@
                   <a href="about_me.html">About</a>
                 </li>
                 <li class="footer-bullets">
-                  <a href="services.html">Services</a>
+                  <a href="areas_of_focus.html">Areas of Focus</a>
+                </li>
+                <li class="footer-bullets">
+                  <a href="services_individual.html"
+                    >Pyschotherapy</a
+                  >
                 </li>
                 <li class="footer-bullets">
                   <a href="billing.html">Billing + Insurance</a>
                 </li>
                 <li class="footer-bullets"><a href="faq.html">FAQ</a></li>
-                <li class="footer-bullets">
-                  <a href="consultation.html">Contact</a>
-                </li>
               </ul>
             </div>
             <div class="col-4 footer-clicks">
@@ -419,8 +500,6 @@
       </div>
     </footer>
 
-
-
-  <script src="script.js" charset="utf-8"></script>
-</body>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
 </html>
