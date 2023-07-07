@@ -90,21 +90,49 @@ hr {
     font-weight: light;
     color: #1a2f4f;
     font-family: "Playfair Display", serif;
+    padding: 0;
 
 }
 
 .dropdown-menu {
     background-color: #e7e0da;
-    padding: 0;
+    padding:5px 0 0;
     border: none;
+}
+
+.dropdown-menu hr {
+    border-color: #1a2f4f;
+    position: relative;
 }
 
 .dropdown-item {
     padding: 0;
+    position: relative;
+    text-align: center;
+    right: 50px;
 }
 
 .dropdown-item:hover {
     background-color: #e7e0da;
+}
+
+#about {
+    width: 100px;
+    right: 20px;
+}
+
+.list_services {
+    padding: 0 0 0 18px;
+}
+
+#services {
+    width: 148px;
+    right: 40px;
+}
+
+#resources {
+    width: 144px;
+    right: 30px;
 }
 
 .large-logo {
@@ -170,7 +198,7 @@ hr {
 .footer-bullet {
     list-style-type: none;
     line-height: 2.5;
-    padding: 0 120px;
+    padding: 0 100px;
     margin: 0;
     text-align: center;
     color: #1a2f4f;
@@ -357,20 +385,21 @@ hr {
 .therapy-tagline {
     text-align: left;
     font-weight: 500;
+    padding: 10px 0 0;
 }
 
 .consultation-btn {
     text-align: center;
 }
 
-.dark-btn {
+.book-btn {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0px;
     font-family: "Poppins";
     color: #1a2f4f; 
     font-size: 0.926vw;
-    background: #E9e3dc;
+    background: #f7f5ee;
     padding: 10px 20px 10px 20px;
     border: solid #1a2f4f 2px; 
     text-decoration: none;
@@ -384,6 +413,10 @@ hr {
 
 .therapy-photo {
     padding: 0;
+}
+
+.therapy-p {
+    padding: 10px 0;
 }
 
 .stressed-photo {
@@ -669,7 +702,7 @@ hr {
 .headshot {
     position: relative;
     margin: 0;
-    left: 10%;
+    left: 8%;
     top: 10%;
     width: 80%;
     border-radius: 50px;
@@ -677,7 +710,7 @@ hr {
 }
 
 .about_me_writing {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .about_me_header {
@@ -685,7 +718,11 @@ hr {
 }
 
 .about_me_p {
-    padding-top: 40px;
+    padding: 40px 0 0;
+}
+
+.about_me_p p {
+    padding: 10px 0;
 }
 
 .about_me_tagline {
@@ -738,7 +775,7 @@ hr {
 }
 
 .modalities_photo {
-    position: relative;
+    position:inherit;
     left: 20%;
     top: 8%;
     width: 60%;
@@ -776,6 +813,10 @@ hr {
     list-style-type: none;
 }
 
+.faq_bullets p {
+    padding: 10px 0;
+}
+
 .question {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -800,6 +841,16 @@ hr {
     padding: 0 50px;
 }
 
+.faq_background {
+    background-image: url("/images/annie-spratt-hX_hf2lPpUU-unsplash.jpeg");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
+}
+
 
 /* End FAQ Page */
 
@@ -817,31 +868,39 @@ hr {
     padding: 0;
 }
 
+.billing_list p {
+    padding: 0 0 10px;
+}
+
 .billing_p {
     padding: 0 0 20px;
 }
 
-    .billing_row {
-        margin: 0;
-        padding: 0 0 36px;
-    }
+.billing_p p {
+    padding: 10px 0;
+}
 
-    .billing_question {
-        font-style: italic;
-        font-weight: 300;
-    }
+.billing_row {
+    margin: 0;
+    padding: 0 0 36px;
+}
 
-    .comp_photo {
-    position: relative;
-    left: 15%;
-    top: 10%;
-    width: 70%;
-    }
+.billing_question {
+    font-style: italic;
+    font-weight: 300;
+}
 
-    .billing-btn {
-    text-align: center;
-    padding: 40px 0;
-    }
+.comp_photo {
+position: relative;
+left: 15%;
+top: 10%;
+width: 70%;
+}
+
+.billing-btn {
+text-align: center;
+padding: 40px 0;
+}
 
     /* End Billings + Insurance Page */
 
@@ -882,19 +941,47 @@ hr {
 
     .individual_p {
         margin: 0;
-        padding: 20px 0 0;
+        padding: 10px 0 0;
+    }
+
+    .individual_p p {
+        margin: 0;
+        padding: 20px 0;
     }
 
     .individual_list {
         padding: 20px 0;
     }
 
+    .individual_list p {
+        padding: 10px 0;
+    }
+
+    .virtual_p {
+        padding: 0 0 20px;
+    }
+
+    .virtual_p p {
+        padding: 10px 0;
+    }
+
     .virtual_note {
-        padding: 40px 150px;
-        font-style: italic;
+        padding: 30px 150px;
+
         font-size: 200;
         text-align: center;
     }
+
+    .virtual_note_p1 {
+        padding: 20px 0 30px;
+    }
+
+    .virtual_note_p2 {
+        padding: 30px 0 20px;
+        font-style: italic;
+    }
+
+
 
     .individual_btn {
     text-align: center;
@@ -917,6 +1004,7 @@ hr {
     .supervision_h1 {
         text-align: center;
         padding: 30px 0 20px;
+        margin: 0;
     }
 
     .supervision_row {
@@ -925,7 +1013,11 @@ hr {
     }
 
     .supervision_p {
-        padding: 40px 0 0;
+        padding: 60px 0 0;
+    }
+
+    .supervision_p p {
+        padding: 10px 0;
     }
 
     .supervision_btn {
@@ -937,6 +1029,7 @@ hr {
     position: relative;
     left: 20%;
     width: 60%;
+    height: auto;
     border-radius: 50px;
     }
 
@@ -950,9 +1043,19 @@ hr {
     padding: 40px 0;
 }
 
+.areas_of_focus_page .row {
+    margin: 0;
+}
+
 .areas_of_focus_header {
     text-align: center;
     padding: 0px
+}
+
+.areas_of_focus_photo {
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 .focus-btn {
@@ -985,6 +1088,16 @@ hr {
 
 .areas_of_focus_p {
     padding: 0 0 20px 0
+}
+
+.collapse {
+    display: none;
+    /* Initially hide the content */
+}
+
+.collapse.show {
+    display: block;
+    /* Show the content when the 'show' class is applied */
 }
 
 /* End Areas of Focus page */
