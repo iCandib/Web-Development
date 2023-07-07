@@ -19,13 +19,6 @@
 
     <!-- Bootstrap -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-
-    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
@@ -34,19 +27,8 @@
       rel="stylesheet"
     />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
     <!-- CSS Style Sheets -->
     <link rel="stylesheet" href="css/styles.css" />
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   </head>
 
   <body>
@@ -93,6 +75,7 @@
                         >About Mollie</a
                       >
                     </li>
+                    <hr id="about" />
                     <li>
                       <a
                         class="nav-link dropdown-item"
@@ -116,14 +99,15 @@
                   </a>
 
                   <ul class="dropdown-menu">
-                    <li>
+                    <li class="list_services">
                       <a
                         class="nav-link dropdown-item"
                         href="services_individual.html"
-                        >Individual Psychotherapy</a
+                        >Psychotherapy</a
                       >
                     </li>
-                    <li>
+                    <hr id="services" />
+                    <li class="list_services">
                       <a
                         class="nav-link dropdown-item"
                         href="services_supervision.html"
@@ -147,12 +131,19 @@
 
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="nav-link dropdown-item" href="billing.html"
+                      <a
+                        class="nav-link dropdown-item"
+                        id="resources"
+                        href="billing.html"
                         >Billing + Insurance</a
                       >
                     </li>
+                    <hr id="resources" />
                     <li>
-                      <a class="nav-link dropdown-item" href="blogs.html"
+                      <a
+                        class="nav-link dropdown-item"
+                        id="resources"
+                        href="blogs.html"
                         >Blogs</a
                       >
                     </li>
@@ -186,7 +177,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">Anxiety</h2>
@@ -264,8 +259,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseAnxiety"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseAnxiety"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseAnxiety"
@@ -281,7 +276,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">Low Self-Esteem</h2>
@@ -362,8 +361,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseLowSelfEsteem"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseLowSelfEsteem"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseLowSelfEsteem"
@@ -379,7 +378,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">Perfectionism</h2>
@@ -429,8 +432,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapsePerfectionism"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsePerfectionism"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapsePerfectionism"
@@ -446,7 +449,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">Disordered Eating</h2>
@@ -520,8 +527,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseDisorderedEating"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseDisorderedEating"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseDisorderedEating"
@@ -537,7 +544,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">Life Transitions</h2>
@@ -609,8 +620,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseLifeTransitions"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseLifeTransitions"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseLifeTransitions"
@@ -626,7 +637,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">Relationship Issues</h2>
@@ -697,8 +712,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseRelationshipIssues"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseRelationshipIssues"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseRelationshipIssues"
@@ -714,7 +729,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">Body Image Concerns</h2>
@@ -786,8 +805,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseBodyImageConcerns"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseBodyImageConcerns"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseBodyImageConcerns"
@@ -803,7 +822,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">
@@ -881,8 +904,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseOCD"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOCD"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseOCD"
@@ -898,7 +921,11 @@
       <div class="areas_of_focus_page">
         <div class="row">
           <div class="col-3">
-            <img src="" alt="eventual image here" />
+            <img
+              class="areas_of_focus_photo"
+              src="images/areas_of_focus_test_photo.png"
+              alt="eventual image here"
+            />
           </div>
           <div class="col-9 areas_of_focus_p">
             <h2 class="areas_of_focus_h2_header">School or Work Stress</h2>
@@ -963,8 +990,8 @@
             <div class="areas_of_focus">
               <a
                 class="focus-btn"
-                data-toggle="collapse"
-                href="#collapseSchool"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSchool"
                 role="button"
                 aria-expanded="false"
                 aria-controls="collapseSchool"
@@ -996,15 +1023,17 @@
                   <a href="about_me.html">About</a>
                 </li>
                 <li class="footer-bullets">
-                  <a href="services.html">Services</a>
+                  <a href="areas_of_focus.html">Areas of Focus</a>
+                </li>
+                <li class="footer-bullets">
+                  <a href="services_individual.html"
+                    >Pyschotherapy</a
+                  >
                 </li>
                 <li class="footer-bullets">
                   <a href="billing.html">Billing + Insurance</a>
                 </li>
                 <li class="footer-bullets"><a href="faq.html">FAQ</a></li>
-                <li class="footer-bullets">
-                  <a href="consultation.html">Contact</a>
-                </li>
               </ul>
             </div>
             <div class="col-4 footer-clicks">
@@ -1072,6 +1101,8 @@
         </div>
       </div>
     </footer>
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
