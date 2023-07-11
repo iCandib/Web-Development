@@ -893,8 +893,22 @@ hr {
     padding: 0 0 20px;
 }
 
+.good_faith {
+    text-align: center;
+    font-size: 10px;
+}
+
+.good_faith_link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .billing_p p {
     padding: 10px 0;
+}
+
+.billing_p em {
+    text-align: center;
 }
 
 .billing_row {
