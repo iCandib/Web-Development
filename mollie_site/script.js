@@ -73,7 +73,7 @@ function showPopup(element, title) {
 
 
 
-
+// Areas of Focus Buttons
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function () {
 	// Areas of Focus button
@@ -83,16 +83,14 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Add a click event listener to each button
 	buttons.forEach(function (button) {
 		button.addEventListener('click', function () {
-			// Toggle the collapse class on the target content
-			const content = this.parentElement.nextElementSibling;
-			content.classList.toggle('show');
-
 			// Toggle the text between 'Read More' and 'Collapse'
 			const buttonText = this.innerText.trim();
 			this.innerText = buttonText === 'Read More' ? 'Collapse' : 'Read More';
 		});
 	});
 });
+
+
 
 
 
