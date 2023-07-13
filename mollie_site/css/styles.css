@@ -103,6 +103,7 @@ hr {
 .dropdown-menu hr {
     border-color: #1a2f4f;
     position: relative;
+    background-color: #f7f5ee;
 }
 
 .dropdown-item {
@@ -110,11 +111,12 @@ hr {
     position: relative;
     text-align: center;
     right: 50px;
+    background-color: #f7f5ee;
 }
 
-.dropdown-item:hover {
-    background-color: #e7e0da;
-}
+/* .dropdown-item:hover {
+    background-color: #f7f5ee;
+} */
 
 #about {
     width: 100px;
@@ -126,8 +128,8 @@ hr {
 }
 
 #services {
-    width: 148px;
-    right: 40px;
+    width: 145px;
+    right: 33.5px;
 }
 
 #resources {
