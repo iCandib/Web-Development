@@ -859,13 +859,12 @@ hr {
 }
 
 .faq_background {
-    background-image: url("/images/annie-spratt-hX_hf2lPpUU-unsplash.jpeg");
+    background-image: url("/images/plant_background.png");
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    opacity: 0.6;
 }
 
 
