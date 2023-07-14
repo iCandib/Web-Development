@@ -93,5 +93,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+// Blogs Alert
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+	// Get the "Blogs" link element
+	var blogsLink = document.querySelector("a[href='blogs.html']");
 
-
+	// Add an event listener to the link
+	blogsLink.addEventListener("click", function (event) {
+		event.preventDefault(); // Prevent the default link behavior
+		alert("Blogs coming soon. Please check back soon!");
+	});
+});
