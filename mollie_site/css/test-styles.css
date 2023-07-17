@@ -149,7 +149,7 @@ hr {
 }
 
 .large-logo {
-    width: 150%;
+    width: 200%;
     height: auto;
 }
 
@@ -199,14 +199,14 @@ hr {
 }
 
 .mini-logo {
-    width: 70%;
-    margin: 40px 0 0 15px;
+    width: 20%;
+    margin: 0 0 0 100px;
     text-align: center;
 }
 
 .footer-list {
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 0;
 }
 
 .footer-bullet {
@@ -219,7 +219,7 @@ hr {
 }
 
 .footer-bullets {
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .footer-divide {
@@ -231,11 +231,7 @@ hr {
 }
 
 .footer-links {
-    margin: 33px 0 0;
-}
-
-.book-a-consult {
-    padding: 0 0 5px 10px;
+    margin: 10px 0 0 0;
 }
 
 .footer-btn {
@@ -244,7 +240,7 @@ hr {
     border-radius: 0px;
     font-family: Arial;
     color: #e7e0da;
-    font-size: 5px;
+    font-size: 8px;
     background: #1a2f4f;
     padding: 7px 14px;
     text-decoration: none;
@@ -255,8 +251,12 @@ hr {
     text-decoration: none;
 }
 
+.book-a-consult {
+    padding: 0 0 10px 75px;
+}
+
 .client-portal {
-    padding: 0 0 0 18px;
+    padding: 0 0 0 88px;
 }
 
 .footing {
@@ -272,7 +272,7 @@ hr {
 }
 
 .social-media {
-    padding: 10px 0 0 15px;
+    padding: 10px 0 0 93px;
 }
 
 .fa-instagram {
