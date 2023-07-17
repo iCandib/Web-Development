@@ -1,0 +1,99 @@
+
+
+/* Navigation Bar and Title */
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav {
+  margin: 0 0 0 42.963%;
+}
+
+.nav-link:hover {
+  color: #1a2f4f;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 0.93vw;
+  font-weight: light;
+  color: #1a2f4f;
+  font-family: "Playfair Display", serif;
+  padding: 0;
+
+}
+
+.dropdown-menu {
+  background-color: #e7e0da;
+  padding: 5px 0 0;
+  border: none;
+}
+
+.dropdown-menu hr {
+  border-color: #1a2f4f;
+  position: relative;
+  /* background-color: #f7f5ee; */
+}
+
+.dropdown-item {
+  padding: 0;
+  position: relative;
+  text-align: center;
+  right: 50px;
+}
+
+.dropdown-item:hover {
+  background-color: #e7e0da;
+}
+
+#about {
+  width: 100px;
+  right: 20px;
+}
+
+.list_services {
+  padding: 0 0 0 18px;
+}
+
+#services {
+  width: 145px;
+  right: 33.5px;
+}
+
+#resources {
+  width: 144px;
+  right: 30px;
+}
+
+.large-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.group-name {
+  width: 18%;
+  height: 55%;
+  margin: 1.667%;
+}
+
+.header-container {
+  background-color: #e7e0da;
+  height: 3.353%;
+  width: 100%;
+}
+
+/* CSS for navbar dropdowns */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Remove triangle next to dropdown name */
+.navbar-nav .dropdown-toggle::after {
+  display: none;
+}
+
+/* End Nav Bar and Title */

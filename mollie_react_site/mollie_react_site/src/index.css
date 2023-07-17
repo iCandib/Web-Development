@@ -1,0 +1,58 @@
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.dark_container {
+  background-color: #E9e3dc;
+}
+
+.light_container {
+  background-color: #f7f5ee;
+}
+
+h1 {
+  font-size: 1.951vw;
+  font-family: "Playfair Display", serif;
+  color: #1a2f4f;
+}
+
+h2 {
+  font-size: 1.852vw;
+  font-family: "Playfair Display", serif;
+  color: #1a2f4f;
+}
+
+h3 {
+  font-size: 1.257vw;
+  font-family: "Playfair Display", serif;
+  color: #1a2f4f;
+}
+
+h4 {
+  font-size: 1.124vw;
+  font-family: "Playfair Display", serif;
+  color: #1a2f4f;
+}
+
+p {
+  font-size: 0.992vw;
+  font-family: "Poppins", sans-serif;
+  color: #1a2f4f;
+  margin: 0;
+}
+
+li {
+  font-size: 0.992vw;
+  font-family: "Poppins", sans-serif;
+  color: #1a2f4f;
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+}
