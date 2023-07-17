@@ -85,23 +85,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		button.addEventListener('click', function () {
 			// Toggle the text between 'Read More' and 'Collapse'
 			const buttonText = this.innerText.trim();
-			this.innerText = buttonText === 'Read More' ? 'Collapse' : 'Read More';
+			this.innerText = buttonText === 'READ MORE' ? 'COLLAPSE' : 'READ MORE';
 		});
 	});
 });
 
-
-
-
-// Blogs Alert
-// Wait for the DOM to be fully loaded
-document.addEventListener("DOMContentLoaded", function () {
-	// Get the "Blogs" link element
-	var blogsLink = document.querySelector("a[href='blogs.html']");
-
-	// Add an event listener to the link
-	blogsLink.addEventListener("click", function (event) {
-		event.preventDefault(); // Prevent the default link behavior
-		alert("Blogs coming soon. Please check back soon!");
-	});
-});
