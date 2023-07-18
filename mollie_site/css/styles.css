@@ -1267,18 +1267,8 @@ padding: 40px 0;
 }
 
 .consultation_header {
-    margin: 0;
-    padding: 0;
-}
-
-.consultation_header h1 {
     text-align: center;
     padding: 20px 0;
-    margin: 0;
-}
-
-.form-all .row {
-    padding: 20px 0 0;
 }
 
 .required:after {
