@@ -32,38 +32,6 @@
     <link rel="stylesheet" href="css/styles.css" />
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- JotForm -->
-    <script
-      src="https://cdn02.jotfor.ms/static/prototype.forms.js?3.3.43494"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://cdn03.jotfor.ms/static/jotform.forms.js?3.3.43494"
-      type="text/javascript"
-    ></script>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"
-    ></script>
-    <script
-      src="https://cdn01.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.43494"
-      type="text/javascript"
-    ></script>
-    <script
-      defer
-      src="https://cdn02.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.43494"
-      type="text/javascript"
-    ></script>
-    <script
-      defer
-      src="https://cdn03.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.43494"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://cdn01.jotfor.ms/js/payments/validategateways.js?v=3.3.43494"
-      type="text/javascript"
-    ></script>
   </head>
   <body>
     <section class="all_containers header-container">
@@ -196,255 +164,47 @@
     </section>
     <section class="light_container">
       <div class="consultation_page">
-        <div class="row consultation_header">
+        <div class="row">
           <div class="col-12">
             <div>
-              <h1>Contact</h1>
+              <h1 class="consultation_header">Contact</h1>
             </div>
           </div>
         </div>
         <div class="container">
-          <form
-            class="jotform-form"
-            action="https://submit.jotform.com/submit/231986182744062"
-            method="post"
-            name="form_231986182744062"
-            id="231986182744062"
-            accept-charset="utf-8"
-            autocomplete="on"
-          >
-            <input type="hidden" name="formID" value="231986182744062" /><input
-              type="hidden"
-              id="JWTContainer"
-              value=""
-            /><input type="hidden" id="cardinalOrderNumber" value="" />
-            <div role="main" class="form-all">
-              <div class="row">
-                <div
-                  class="form-line jf-required col-6 form-group"
-                  data-type="control_firstname"
-                  id="id_3"
-                  data-compound-hint="First Name"
-                >
-                  <label
-                    class="form-label form-label-top form-label-auto required"
-                    id="label_3"
-                    for="first_3"
-                  >
-                    First Name:<span class="form-required"></span>
-                  </label>
-                  <div
-                    id="cid_3"
-                    class="form-input-wide jf-required"
-                    data-layout="full"
-                  >
-                    <div data-wrapper-react="true">
-                      <span
-                        class="form-sub-label-container"
-                        style="vertical-align: top"
-                        data-input-type="first"
-                        ><input
-                          type="text"
-                          id="first_3"
-                          name="q3_name[first]"
-                          class="form-control validate[required]"
-                          data-defaultvalue=""
-                          autocomplete="section-input_3 given-name"
-                          value=""
-                          data-component="first"
-                          aria-labelledby="label_3"
-                          required=""
-                      /></span>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="form-line jf-required col-6 form-group"
-                  data-type="control_lastname"
-                  id="id_3"
-                  data-compound-hint="Last Name"
-                >
-                  <label
-                    class="form-label form-label-top form-label-auto required"
-                    id="label_3"
-                    for="first_3"
-                  >
-                    Last Name:<span class="form-required"></span>
-                  </label>
-                  <div
-                    id="cid_3"
-                    class="form-input-wide jf-required"
-                    data-layout="full"
-                  >
-                    <div data-wrapper-react="true">
-                      <span
-                        class="form-sub-label-container"
-                        style="vertical-align: top"
-                        data-input-type="last"
-                        ><input
-                          type="text"
-                          id="last_3"
-                          name="q3_name[last]"
-                          class="form-control validate[required]"
-                          data-defaultvalue=""
-                          autocomplete="section-input_3 family-name"
-                          value=""
-                          data-component="last"
-                          aria-labelledby="label_3"
-                          required=""
-                      /></span>
-                    </div>
-                  </div>
-                </div>
+          <form id="consultationForm" method="post" action="/send-email">
+            <div class="row">
+              <div class="col-6 form-group">
+                <label for="firstName" class="required">First Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  required
+                />
               </div>
-              <div class="row">
-                <div
-                  class="form-line jf-required col-6 form-group"
-                  data-type="control_email"
-                  id="id_4"
-                >
-                  <label
-                    class="form-label form-label-top form-label-auto required"
-                    id="label_4"
-                    for="input_4"
-                  >
-                    Email:<span class="form-required"></span>
-                  </label>
-                  <div
-                    id="cid_4"
-                    class="form-input-wide jf-required"
-                    data-layout="half"
-                  >
-                    <input
-                      type="email"
-                      id="input_4"
-                      name="q4_email"
-                      class="form-control validate[required, Email]"
-                      data-defaultvalue=""
-                      value=""
-                      data-component="email"
-                      aria-labelledby="label_4"
-                      required=""
-                    />
-                  </div>
-                </div>
-                <div
-                  class="form-line jf-required col-6 form-group"
-                  data-type="control_phone"
-                  id="id_5"
-                >
-                  <label
-                    class="form-label form-label-top form-label-auto required"
-                    id="label_5"
-                    for="input_5_full"
-                  >
-                    Phone Number:<span class="form-required"></span>
-                  </label>
-                  <div
-                    id="cid_5"
-                    class="form-input-wide jf-required"
-                    data-layout="half"
-                  >
-                    <span
-                      class="form-sub-label-container"
-                      style="vertical-align: top"
-                      ><input
-                        type="tel"
-                        id="input_5_full"
-                        name="q5_phoneNumber[full]"
-                        data-type="mask-number"
-                        class="mask-phone-number form-control validate[required, Fill Mask]"
-                        data-defaultvalue=""
-                        autocomplete="section-input_5 tel-national"
-                        data-masked="true"
-                        value=""
-                        data-component="phone"
-                        aria-labelledby="label_5 sublabel_5_masked"
-                        required=""
-                    /></span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div
-                  class="form-line col-12"
-                  data-type="control_textarea"
-                  id="id_6"
-                >
-                  <label
-                    class="form-label form-label-top form-label-auto required"
-                    id="label_6"
-                    for="input_6"
-                  >
-                    Message<span class="form-required"></span>
-                  </label>
-                  <div id="cid_6" class="form-input-wide" data-layout="full">
-                    <textarea
-                      id="input_6"
-                      class="form-control validate[required]"
-                      name="q6_reasonFor"
-                      data-component="textarea"
-                      aria-labelledby="label_6"
-                      required=""
-                    ></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div
-                  class="form-line col-12"
-                  data-type="control_button"
-                  id="id_2"
-                >
-                  <div id="cid_2" class="form-input-wide" data-layout="full">
-                    <div
-                      data-align="auto"
-                      class="form-buttons-wrapper form-buttons-auto jsTest-button-wrapperField consult"
-                    >
-                      <button
-                        id="input_2"
-                        type="submit"
-                        class="consult-btn form-submit-button submit-button jf-form-buttons jsTest-submitField"
-                        data-component="button"
-                        data-content=""
-                      >
-                        SUBMIT
-                      </button>
-                    </div>
-                  </div>
-                </div>
+              <div class="col-6 form-group">
+                <label for="lastName" class="required">Last Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  required
+                />
               </div>
             </div>
-            <script>
-              JotForm.showJotFormPowered = "new_footer";
-            </script>
-            <script>
-              JotForm.poweredByText = "Powered by Jotform";
-            </script>
-            <input
-              type="hidden"
-              class="simple_spc"
-              id="simple_spc"
-              name="simple_spc"
-              value="231986182744062"
-            />
-            <script type="text/javascript">
-              var all_spc = document.querySelectorAll(
-                "form[id='231986182744062'] .si" + "mple" + "_spc"
-              );
-              for (var i = 0; i < all_spc.length; i++) {
-                all_spc[i].value = "231986182744062-231986182744062";
-              }
-            </script>
+            <div class="form-group">
+              <label for="email" class="required">Email Address:</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">What has brought you to want therapy?</label>
+              <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+            <div class="consult">
+              <button type="submit" class="consult-btn">Submit</button>
+            </div>
           </form>
-          <script type="text/javascript">
-            JotForm.ownerView = true;
-          </script>
-          <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.43490"></script>
-          <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.43490"></script>
-          <script type="text/javascript">
-            JotForm.isNewSACL = true;
-          </script>
         </div>
       </div>
     </section>
