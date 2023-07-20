@@ -565,10 +565,6 @@ hr {
 
 .fa-solid {
     color: #1a2f4f;
-}
-
-.fa-plus,
-.fa-xmark {
     font-weight: 600;
 }
 
@@ -576,6 +572,10 @@ hr {
     color: #1a2f4f;
 }
 
+
+.fa_arrow_left {
+    color: #1a2f4f;
+}
 
 .carousel-indicators button.active {
     background-color: #1a2f4f;
@@ -859,6 +859,10 @@ hr {
 
 .faq_bullets p {
     padding: 10px 0;
+}
+
+.fa-plus {
+    font-weight: lighter;
 }
 
 .question {
