@@ -223,7 +223,7 @@ hr {
 }
 
 .book-a-consult {
-    margin-left: 110px;
+    margin-left: 90px;
     margin-bottom: 30px;
 }
 
@@ -245,7 +245,7 @@ hr {
 }
 
 .client-portal {
-    margin-left: 135px;
+    margin-left: 120px;
     margin-bottom: 30px;
 }
 
@@ -262,12 +262,12 @@ hr {
 
 .social-media {
     padding-top: 15px;
-    margin-left: 125px;
+    margin-left: 135px;
 }
 
 .fa-instagram {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .social-icon {
@@ -444,9 +444,10 @@ hr {
 
 .stressed-photo {
     position: relative;
-    width: 60%;
-    left: 18%;
+    width: 55%;
+    left: 23%;
     border-radius: 50px;
+    border: #E9e3dc solid 3px;
 
 }
 
@@ -479,7 +480,11 @@ hr {
 }
 
 .areas-of-focus-writing {
-    padding: 50px 30px 0;
+    padding: 30px 30px 0;
+}
+
+.areas-of-focus-writing p {
+    font-size: 14px;
 }
 
 
@@ -611,8 +616,8 @@ hr {
 }
 
 .how-we-note {
-    margin: 85px 0;
-    padding: 50px 50px 0;
+    margin: 75px 0;
+    padding: 35px 50px 0;
 }
 
 .how-we-note-p-2 {
@@ -628,6 +633,7 @@ hr {
     margin: 40px 0 55px 40px;
     padding: 0;
     border-radius: 50px;
+    border: #E9e3dc solid 3px;
 }
 
 .schedule-btn {
@@ -745,11 +751,11 @@ hr {
 .headshot {
     position: relative;
     margin: 0;
-    left: 8%;
-    top: 10%;
-    width: 80%;
+    left: 18%;
+    top: 22.5%;
+    width: 65%;
     border-radius: 50px;
-    border: solid #1a2f4f 2px;
+    border: solid #E9e3dc 3px;
 }
 
 .about_me_writing {
@@ -758,10 +764,11 @@ hr {
 
 .about_me_header {
     text-align: left;
+    margin: 0;
 }
 
 .about_me_p {
-    padding: 40px 0 0;
+    padding: 30px 0 0;
 }
 
 .about_me_p p {
@@ -824,6 +831,7 @@ hr {
     top: 8%;
     width: 60%;
     border-radius: 50px;
+    border:#f7f5ee solid 3px;
 }
 
 /* End Modalities Section */
@@ -851,6 +859,7 @@ hr {
 
 .faq_h1 {
     text-align: center;
+    margin: 0 0 40px 0;
 }
 
 .faq_bullets {
@@ -889,15 +898,6 @@ hr {
     padding: 0 50px;
 }
 
-.faq_background {
-    background-image: url("/images/plant_background.png");
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
 .additional_questions {
     text-align: center;
     padding: 40px 0 0;
@@ -907,6 +907,19 @@ hr {
     text-align: center;
     padding: 30px 0 20px;
 }
+
+.faq_photo_div {
+    margin: 7% 0 0;
+}
+
+.faq_photo {
+    position: relative;
+    width: 90%;
+    height: auto;
+    border-radius: 50px;
+    border: #E9e3dc solid 3px;
+}
+
 
 /* End FAQ Page */
 
@@ -921,11 +934,11 @@ hr {
 }
 
 .billing_list {
-    padding: 0;
+    padding: 10px 30px 0 20px;
 }
 
 .billing_list p {
-    padding: 0 0 10px;
+    padding: 10px 0 10px;
 }
 
 .billing_p {
@@ -960,12 +973,13 @@ hr {
     font-weight: 300;
 }
 
-.comp_photo {
+.billing_photo {
     position: relative;
-    left: 15%;
-    top: 10%;
-    width: 70%;
+    left: 10%;
+    top: 15%;
+    width: 80%;
     border-radius: 50px;
+    border: #E9e3dc solid 3px;
 }
 
 .billing-btn {
@@ -1064,6 +1078,10 @@ hr {
     text-align: center;
 }
 
+.individual_list ol {
+    padding: 0;
+}
+
 .individual_list li {
     list-style: none;
 }
@@ -1120,6 +1138,7 @@ hr {
     left: 20%;
     width: 60%;
     border-radius: 50px;
+    border: #E9e3dc solid 3px;
 }
 
 .virtual_backpack {
@@ -1127,6 +1146,7 @@ hr {
     left: 20%;
     width: 50%;
     border-radius: 50px;
+    border: #f7f5ee solid 3px;
 }
 
 .virtual_computer {
@@ -1134,6 +1154,7 @@ hr {
     left: 25%;
     width: 50%;
     border-radius: 50px;
+    border: #f7f5ee solid 3px;
 }
 
 .virtual_row_photo {
@@ -1146,18 +1167,19 @@ hr {
 
 .virtual_flex {
     text-align: justify;
-    padding: 0 40px 0 0;
+    padding: 0 20px 0 0;
 }
 
 .virtual_benefits {
     border-left: #1a2f4f solid 1px;
     border-right: #1a2f4f solid 1px;
     text-align: justify;
+    padding: 0 32px;
 }
 
 .virtual_enhanced {
     text-align: justify;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 20px;
 }
 
 /* Services - Supervision */
@@ -1196,6 +1218,7 @@ hr {
     width: 60%;
     height: auto;
     border-radius: 50px;
+    border:#E9e3dc solid 3px;
 }
 
 
@@ -1296,7 +1319,8 @@ hr {
 }
 
 .form-all .row {
-    padding: 20px 0 0;
+    padding: 20px 150px 0;
+    margin: 0;
 }
 
 .required:after {
@@ -1340,7 +1364,7 @@ hr {
 
 .contact_info {
     text-align: center;
-    padding: 30px 0 0;
+    padding: 40px 0 0;
     margin: 0;
 }
 
@@ -1384,5 +1408,29 @@ hr {
 
 .blogs_btn {
     text-align: center;
+    padding: 50px 0 40px;
+}
+
+/* End Blogs Page */
+
+/* Thank You Page */
+.thank_you_page {
+    margin: 0 11% 0px;
     padding: 40px 0;
 }
+
+.thank_you_header {
+    margin: 0;
+    padding: 0 0 40px;
+}
+
+.thank_you_header h1 {
+    text-align: center;
+    padding: 0 0 70px;
+}
+
+.thank_you_header h3 {
+    text-align: center;
+    padding: 0 0 50px;
+}
+
