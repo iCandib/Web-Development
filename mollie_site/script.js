@@ -145,7 +145,8 @@ setTimeout(function () {
 		{
 			"description": "",
 			"name": "Message",
-			"qid": "6", "subLabel": "",
+			"qid": "6",
+			"subLabel": "",
 			"text": "Message",
 			"type": "control_textarea"
 		}
