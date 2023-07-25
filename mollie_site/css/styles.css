@@ -344,8 +344,8 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: auto;
-    width: 100%;
+    /* height: auto;
+    width: 100%; */
 }
 
 /* End Finding Clarity Section */
