@@ -144,7 +144,7 @@ setTimeout(function () {
 		},
 		{
 			"description": "",
-			"name": "Message",
+			"name": "message",
 			"qid": "6",
 			"subLabel": "",
 			"text": "Message",
