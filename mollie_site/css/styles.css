@@ -11,6 +11,10 @@ a {
     text-decoration: inherit;
 }
 
+body {
+    background-color: #e7e0da;
+}
+
 .light_container {
     background-color: #f7f5ee;
 }
@@ -149,7 +153,6 @@ li {
     .dropdown-menu hr {
         border-color: #1a2f4f;
         position: relative;
-        /* background-color: #f7f5ee; */
     }
 
     .dropdown-item {
@@ -2714,6 +2717,7 @@ li {
 .email {
     font-size: 11px;
     padding: 5px 0;
+    color: #1a2f4f;
     }
 
 .phone {
@@ -2791,6 +2795,7 @@ li {
 
     .email {
         border-right: #1a2f4f solid 1px;
+        color: #1a2f4f;
     }
 
     .phone {
