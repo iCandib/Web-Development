@@ -350,7 +350,7 @@ li {
 
     .mini-logo {
         width: 30%;
-        margin: 50px 0 0;
+        margin: 50px 0 5px;
         text-align: center;
     }
 
@@ -509,7 +509,7 @@ li {
     .mini-logo {
         width: 20%;
         margin: 0;
-        padding: 20px 0 0;
+        padding: 20px 0 2px;
         text-align: center;
     }
 
