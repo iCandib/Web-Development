@@ -170,6 +170,11 @@ JotForm.init(function () {
 		"\u0028\u0023\u0023\u0023\u0029 \u0023\u0023\u0023\u002d\u0023\u0023\u0023\u0023"
 	);
 	if (window.JotForm && JotForm.accessible)
+		$("input_20").setAttribute("tabindex", 0);
+	setTimeout(function () {
+		$("input_20").hint("MM/DD/YYYY");
+	}, 20);
+	if (window.JotForm && JotForm.accessible)
 		$("input_12").setAttribute("tabindex", 0);
 	if (window.JotForm && JotForm.accessible)
 		$("input_6").setAttribute("tabindex", 0);
@@ -246,7 +251,15 @@ setTimeout(function () {
 			qid: "12",
 			subLabel: "",
 			text: "In what state do you currently live?",
-			type: "control_textbox",
+			type: "control_firstname",
+		},
+		{
+			description: "",
+			name: "dateOf",
+			qid: "20",
+			subLabel: "",
+			text: "Date of Birth",
+			type: "control_firstname",
 		},
 	]);
 }, 20);
