@@ -1099,10 +1099,10 @@ li {
     border-radius: 0px;
     font-family: "Poppins";
     color: #1a2f4f;
-    font-size: 0.926vw;
+    font-size: 13.89px;
     background: #f7f5ee;
     padding: 10px 20px 10px 20px;
-    border: solid #1a2f4f 2px;
+    border: solid #1a2f4f 1.5px;
     text-decoration: none;
 }
 
@@ -1365,10 +1365,10 @@ li {
     border-radius: 0px;
     font-family: "Poppins";
     color: #1a2f4f;
-    font-size: 0.926vw;
+    font-size: 13.89px;
     background: #E9e3dc;
     padding: 10px 20px 10px 20px;
-    border: solid #1a2f4f 2px;
+    border: solid #1a2f4f 1.5px;
     text-decoration: none;
 }
 
@@ -1598,7 +1598,7 @@ li {
     font-size: 13.89px;
     background: #f7f5ee;
     padding: 10px 20px 10px 20px;
-    border: solid #1a2f4f 2px;
+    border: solid #1a2f4f 1.5px;
     text-decoration: none;
 }
 
@@ -1838,7 +1838,7 @@ li {
     font-size: 13.89px;
     background: #f7f5ee;
     padding: 10px 20px 10px 20px;
-    border: solid #1a2f4f 2px;
+    border: solid #1a2f4f 1.5px;
     text-decoration: none;
 }
 
@@ -1937,6 +1937,88 @@ li {
 }
 
 /* End Quote about Change Section */
+
+/* As seen in Section */
+@media screen and (min-width: 1024px) {
+    .featured {
+        padding: 0 0 40px;
+    }
+
+    .as_seen_in {
+        margin: 0;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .as_seen_in h3 {
+        font-size: 15.87px;
+    }
+
+    .logos {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logos img {
+        width: 9%;
+        text-align: center;
+        margin: 25px 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .featured {
+        padding: 0 0 40px;
+    }
+
+    .as_seen_in {
+        margin: 0;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .as_seen_in h3 {
+        font-size: 13px;
+    }
+
+    .logos {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logos img {
+        width: 15%;
+        text-align: center;
+        margin: 25px 15px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+    .featured {
+        padding: 0 0 40px;
+    }
+
+    .as_seen_in {
+        margin: 0;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .as_seen_in h3 {
+        font-size: 15px;
+    }
+
+    .logos {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logos img {
+        width: 13%;
+        text-align: center;
+        margin: 25px 15px;
+    }
+}
 
 /* END MAIN PAGE */
 
@@ -2317,7 +2399,7 @@ li {
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
-        border: solid #1a2f4f 1px;
+        border: solid #1a2f4f 1.5px;
         text-decoration: none;
     }
 
@@ -2527,7 +2609,7 @@ li {
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
-        border: solid #1a2f4f 1px;
+        border: solid #1a2f4f 1.5px;
         text-decoration: none;
     }
 
@@ -2546,7 +2628,7 @@ li {
         font-size: 13.89px;
         background: #E9e3dc;
         padding: 10px 20px 10px 20px;
-        border: solid #1a2f4f 1px;
+        border: solid #1a2f4f 1.5px;
         text-decoration: none;
     }
 
@@ -4075,7 +4157,7 @@ li {
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
-        border: solid #1a2f4f 1px;
+        border: solid #1a2f4f 1.5px;
         text-decoration: none;
     }
 
