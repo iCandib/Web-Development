@@ -1,163 +1,179 @@
+/* 
+TODO: Change the background color for each device
+Mobile Devices: 319px — 480px
+iPads and Tablets: 481px — 1200px
+Laptops: 1201px — 1600px
+Desktops: 1601px and more
+*/
+
 a {
     color: inherit;
-    text-decoration: inherit
+    text-decoration: inherit;
 }
 
 body {
-    background-color: #e7e0da
+    background-color: #e7e0da;
 }
 
 .light_container {
-    background-color: #f7f5ee
+    background-color: #f7f5ee;
 }
 
 .dark_container {
-    background-color: #E9e3dc
+    background-color: #E9e3dc;
 }
 
 .container-fluid {
-    padding: 0
+    padding: 0;
 }
 
 hr {
-    margin: 0
+    margin: 0;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+
     h1 {
         font-size: 16px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h2 {
         font-size: 14px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h3 {
         font-size: 12px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h4 {
         font-size: 11px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     p {
         font-size: 10px;
         font-family: "Poppins", sans-serif;
         color: #1a2f4f;
-        margin: 0
+        margin: 0;
     }
 
     li {
         font-size: 10px;
         font-family: "Poppins", sans-serif;
         color: #1a2f4f;
-        margin: 0
+        margin: 0;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+
     h1 {
         font-size: 22px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h2 {
         font-size: 20.89px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h3 {
         font-size: 15.42px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h4 {
         font-size: 13.93px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     p {
         font-size: 12.44px;
         font-family: "Poppins", sans-serif;
         color: #1a2f4f;
-        margin: 0
+        margin: 0;
     }
 
     li {
         font-size: 12.44px;
         font-family: "Poppins", sans-serif;
         color: #1a2f4f;
-        margin: 0
+        margin: 0;
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
+
     h1 {
         font-size: 29.265px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h2 {
         font-size: 27.78px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h3 {
         font-size: 18.855px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     h4 {
         font-size: 16.86px;
         font-family: "Playfair Display", serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     p {
         font-size: 14.88px;
         font-family: "Poppins", sans-serif;
         color: #1a2f4f;
-        margin: 0
+        margin: 0;
     }
 
     li {
         font-size: 14.88px;
         font-family: "Poppins", sans-serif;
         color: #1a2f4f;
-        margin: 0
+        margin: 0;
     }
+
 }
 
-@media screen and (min-width:1024px) {
+
+
+/* Navigation Bar and Title */
+
+@media screen and (min-width: 1024px) {
     .navbar {
-        padding: 0
+        padding: 0;
     }
 
     .navbar-nav {
-        margin: 0 0 0 42.963%
+        margin: 0 0 0 42.963%;
     }
 
     .nav-link:hover {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .nav-item {
-        padding: 0 20px
+        padding: 0 20px;
     }
 
     .nav-link {
@@ -165,103 +181,106 @@ hr {
         font-weight: light;
         color: #1a2f4f;
         font-family: "Playfair Display", serif;
-        padding: 0
+        padding: 0;
+
     }
 
     .dropdown-menu {
         background-color: #e7e0da;
         padding: 5px 0 0;
-        border: none
+        border: none;
     }
 
     .dropdown-menu hr {
         border-color: #1a2f4f;
-        position: relative
+        position: relative;
     }
 
     .dropdown-item {
         padding: 0;
         position: relative;
         text-align: center;
-        right: 50px
+        right: 50px;
     }
 
     .dropdown-item:hover {
-        background-color: #e7e0da
+        background-color: #e7e0da;
     }
 
     #about {
         width: 100px;
-        right: 20px
+        right: 20px;
     }
 
     .list_services {
-        padding: 0 0 0 18px
+        padding: 0 0 0 18px;
     }
 
     #services {
         width: 145px;
-        right: 33.5px
+        right: 33.5px;
     }
 
     #resources {
         width: 144px;
-        right: 30px
+        right: 30px;
     }
 
     .large-logo {
         max-width: 100%;
-        height: auto
+        height: auto;
     }
 
     .group-name {
         width: 18%;
         height: 55%;
-        margin: 1.667%
+        margin: 1.667%;
     }
 
     .header-container {
         background-color: #e7e0da;
         height: 3.353%;
-        width: 100%
+        width: 100%;
     }
 
+    /* CSS for navbar dropdowns */
     .navbar-nav .dropdown:hover .dropdown-menu {
-        display: block
+        display: block;
     }
 
+    /* Remove triangle next to dropdown name */
     .navbar-nav .dropdown-toggle::after {
-        display: none
+        display: none;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .navbar {
-        padding: 0
+        padding: 0;
     }
 
     .navbar-nav {
-        margin: 0 0 0 42.963%
+        margin: 0 0 0 42.963%;
     }
 
     .nav-link:hover {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .nav-item {
-        padding: 0 20px
+        padding: 0 20px;
     }
 
     .navbar-toggler {
         width: 32px;
         height: 27px;
         margin: 0 10px 0 0;
-        padding: 0 5px 5px
+        padding: 0 5px 5px;
     }
 
     .navbar-toggler-icon {
         width: 15px;
-        height: 15px
+        height: 15px;
     }
 
     .nav-link {
@@ -270,102 +289,106 @@ hr {
         color: #1a2f4f;
         font-family: "Playfair Display", serif;
         padding: 5px 0 0;
-        text-align: left
+        text-align: left;
+
     }
 
     .dropdown-menu {
         background-color: #e7e0da;
         padding: 5px 0 5px 5px;
         margin: 0;
-        border: none
+        border: none;
     }
 
     #contact {
         margin: 0;
-        padding: 0 0 10px 0
+        padding: 0 0 10px 0;
     }
 
     .dropdown-menu hr {
         border-color: #1a2f4f;
         position: relative;
-        border: 0
+        border: 0px;
     }
 
     .dropdown-item {
         padding: 5px 0 0;
         position: relative;
-        text-align: left
+        text-align: left;
+
     }
 
     .dropdown-item:hover {
-        background-color: #e7e0da
+        background-color: #e7e0da;
     }
 
     .list_about {
-        padding: 0 0 0 4px
+        padding: 0 0 0 4px;
     }
 
     .list_services {
-        padding: 0 0 0 4px
+        padding: 0 0 0 4px;
     }
 
     .list_resources {
-        padding: 0 0 0 4px
+        padding: 0 0 0 4px;
     }
 
     .large-logo {
         width: 180%;
-        height: auto
+        height: auto;
     }
 
     .group-name {
         width: 18%;
         height: 55%;
-        margin: 1.667%
+        margin: 1.667%;
     }
 
     .header-container {
         background-color: #e7e0da;
         height: 3.353%;
-        width: 100%
+        width: 100%;
     }
 
+    /* CSS for navbar dropdowns */
     .navbar-nav .dropdown:hover .dropdown-menu {
-        display: block
+        display: block;
     }
 
+    /* Remove triangle next to dropdown name */
     .navbar-nav .dropdown-toggle::after {
-        display: none
+        display: none;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .navbar {
-        padding: 0
+        padding: 0;
     }
 
     .navbar-nav {
-        margin: 0 0 0 42.963%
+        margin: 0 0 0 42.963%;
     }
 
     .nav-link:hover {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .nav-item {
-        padding: 0 20px
+        padding: 0 20px;
     }
 
     .navbar-toggler {
         width: 32px;
         height: 27px;
         margin: 0 10px 0 0;
-        padding: 0 5px 5px
+        padding: 0 5px 5px;
     }
 
     .navbar-toggler-icon {
         width: 15px;
-        height: 15px
+        height: 15px;
     }
 
     .nav-link {
@@ -374,105 +397,115 @@ hr {
         color: #1a2f4f;
         font-family: "Playfair Display", serif;
         padding: 5px 0 0;
-        text-align: left
+        text-align: left;
+
     }
 
     .dropdown-menu {
         background-color: #e7e0da;
         padding: 5px 0 5px 5px;
         margin: 0;
-        border: none
+        border: none;
     }
 
     #contact {
         margin: 0;
-        padding: 0 0 10px 0
+        padding: 0 0 10px 0;
     }
 
     .dropdown-menu hr {
         border-color: #1a2f4f;
         position: relative;
-        border: 0
+        border: 0px;
     }
 
     .dropdown-item {
         padding: 5px 0 0;
         position: relative;
-        text-align: left
+        text-align: left;
+
     }
 
     .dropdown-item:hover {
-        background-color: #e7e0da
+        background-color: #e7e0da;
     }
 
     .list_about {
-        padding: 0 0 0 4px
+        padding: 0 0 0 4px;
     }
 
     .list_services {
-        padding: 0 0 0 4px
+        padding: 0 0 0 4px;
     }
 
     .list_resources {
-        padding: 0 0 0 4px
+        padding: 0 0 0 4px;
     }
 
     .large-logo {
         width: 150%;
-        height: auto
+        height: auto;
     }
 
     .group-name {
         width: 18%;
         height: 55%;
-        margin: 1.667%
+        margin: 1.667%;
     }
 
     .header-container {
         background-color: #e7e0da;
         height: 3.353%;
-        width: 100%
+        width: 100%;
     }
 
+    /* CSS for navbar dropdowns */
     .navbar-nav .dropdown:hover .dropdown-menu {
-        display: block
+        display: block;
     }
 
+    /* Remove triangle next to dropdown name */
     .navbar-nav .dropdown-toggle::after {
-        display: none
+        display: none;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* End Nav Bar and Title */
+
+/* Footer Section */
+
+@media screen and (min-width: 1024px) {
+
     .footer-container {
         width: 100%;
         height: 100%;
-        background-color: #e7e0da
+        background-color: #e7e0da;
     }
 
     .end {
         margin: 0 11% 0;
-        padding: 0 0 2px
+        padding: 0 0 2px;
     }
 
     .footer {
-        margin: 0 0 20px
+        margin: 0 0 20px;
     }
 
     .footer-logo {
         padding: 0;
-        text-align: center
+        text-align: center;
     }
 
     .mini-logo {
         width: 30%;
         margin: 50px 0 5px;
-        text-align: center
+        text-align: center;
     }
+
 
     .footer-list {
         padding: 0;
-        margin: 20px 0 0 0
+        margin: 20px 0 0 0;
     }
 
     .footer-bullet {
@@ -481,74 +514,75 @@ hr {
         padding: 0 100px;
         margin: 0;
         text-align: center;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .footer-bullets {
-        font-size: 12.9px
+        font-size: 12.9px;
     }
 
     .footer-divide {
-        padding: 50px 0
+        padding: 50px 0;
     }
 
     .footer-clicks {
-        padding: 0
+        padding: 0;
     }
 
     .footer-links {
-        margin-top: 40px
+        margin-top: 40px;
     }
 
     .footer-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: Arial;
         color: #e7e0da;
         font-size: 13.89px;
         background: #1a2f4f;
         padding: 10px 20px 10px 20px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .footer-btn:hover {
         background: #1a2f4f;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .book-a-consult {
         text-align: center;
-        padding: 0 0 30px
+        padding: 0 0 30px;
     }
 
     .client-portal {
         padding: 0 0 30px;
-        text-align: center
+        text-align: center;
     }
 
     .footing {
         text-align: center;
-        margin: 10px 0 0
+        margin: 10px 0 0;
+
     }
 
     .footing-p {
         font-size: 11.91px;
-        cursor: pointer
+        cursor: pointer;
     }
 
     .social-media {
         padding: 10px 0 0;
-        text-align: center
+        text-align: center;
     }
 
     .fa-instagram {
         padding-left: 10px;
-        padding-right: 10px
+        padding-right: 10px;
     }
 
     .social-icon {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     #popup-container {
@@ -557,10 +591,11 @@ hr {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent background */
         display: none;
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
 
     #popup-content {
@@ -568,7 +603,9 @@ hr {
         margin: 0 11%;
         padding: 20px;
         max-height: 80%;
-        overflow-y: auto
+        /* Maximum height of the content with scrolling */
+        overflow-y: auto;
+        /* Enable scrolling for overflow */
     }
 
     #popup-close {
@@ -578,54 +615,55 @@ hr {
         width: 20px;
         height: 20px;
         font-size: 25px;
-        font-weight: 700;
+        font-weight: bold;
         color: #f7f5ee;
         background-color: transparent;
         border: none;
         cursor: pointer;
-        z-index: 1
+        z-index: 1;
     }
 
     #popup-close:hover {
-        color: #333
+        color: #333;
     }
 
     #popup-heading {
-        text-align: center
+        text-align: center;
     }
+
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .footer-container {
         width: 100%;
         height: 100%;
-        background-color: #e7e0da
+        background-color: #e7e0da;
     }
 
     .end {
         margin: 0 11% 0;
-        padding: 0 0 2px
+        padding: 0 0 2px;
     }
 
     .footer {
-        margin: 0 0 10px
+        margin: 0 0 10px;
     }
 
     .footer-logo {
         padding: 0;
-        text-align: center
+        text-align: center;
     }
 
     .mini-logo {
         width: 15%;
         margin: 0;
         padding: 20px 0 2px;
-        text-align: center
+        text-align: center;
     }
 
     .footer-list {
         padding: 0;
-        margin: 10px 0 0
+        margin: 10px 0 0;
     }
 
     .footer-bullet {
@@ -634,76 +672,78 @@ hr {
         padding: 0;
         margin: 0;
         text-align: center;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .footer-bullets {
-        font-size: 12.44px
+        font-size: 12.44px;
     }
 
     .footer-divide {
-        padding: 50px 0
+        padding: 50px 0;
     }
 
     .footer-clicks {
-        padding: 0
+        padding: 0;
     }
 
     .footer-links {
-        margin: 10px 0 0 0
+        margin: 10px 0 0 0;
     }
 
     .footer-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: Arial;
         color: #e7e0da;
         font-size: 12px;
         background: #1a2f4f;
         padding: 8px 16px;
-        text-decoration: none
+        text-decoration: none;
+
     }
 
     .footer-btn:hover {
         background: #1a2f4f;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .book-a-consult {
         padding: 0 0 10px 0;
-        text-align: center
+        text-align: center;
     }
 
     .client-portal {
         padding: 0;
-        text-align: center
+        text-align: center;
     }
 
     .footing {
         text-align: center;
-        margin: 10px 0 0
+        margin: 10px 0 0;
+
     }
 
     .footing-p {
         font-size: 10px;
         cursor: pointer;
-        padding: 0
+        padding: 0;
     }
 
     .social-media {
         padding: 10px 0 0;
-        text-align: center
+        text-align: center;
     }
 
     .fa-instagram {
         padding-left: 5px;
-        padding-right: 5px
+        padding-right: 5px;
     }
 
     .social-icon {
         color: #1a2f4f;
-        font-size: 18px
+        font-size: 18px;
     }
 
     #popup-container {
@@ -712,10 +752,11 @@ hr {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent background */
         display: none;
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
 
     #popup-content {
@@ -723,7 +764,9 @@ hr {
         margin: 0 11%;
         padding: 20px;
         max-height: 80%;
-        overflow-y: auto
+        /* Maximum height of the content with scrolling */
+        overflow-y: auto;
+        /* Enable scrolling for overflow */
     }
 
     #popup-close {
@@ -733,54 +776,54 @@ hr {
         width: 20px;
         height: 20px;
         font-size: 25px;
-        font-weight: 700;
+        font-weight: bold;
         color: #f7f5ee;
         background-color: transparent;
         border: none;
         cursor: pointer;
-        z-index: 1
+        z-index: 1;
     }
 
     #popup-close:hover {
-        color: #333
+        color: #333;
     }
 
     #popup-heading {
-        text-align: center
+        text-align: center;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .footer-container {
         width: 100%;
         height: 100%;
-        background-color: #e7e0da
+        background-color: #e7e0da;
     }
 
     .end {
         margin: 0 11% 0;
-        padding: 0 0 2px
+        padding: 0 0 2px;
     }
 
     .footer {
-        margin: 0 0 10px
+        margin: 0 0 10px;
     }
 
     .footer-logo {
         padding: 0;
-        text-align: center
+        text-align: center;
     }
 
     .mini-logo {
         width: 20%;
         margin: 0;
         padding: 20px 0 2px;
-        text-align: center
+        text-align: center;
     }
 
     .footer-list {
         padding: 0;
-        margin: 10px 0 0
+        margin: 10px 0 0;
     }
 
     .footer-bullet {
@@ -789,76 +832,78 @@ hr {
         padding: 0;
         margin: 0;
         text-align: center;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .footer-bullets {
-        font-size: 10px
+        font-size: 10px;
     }
 
     .footer-divide {
-        padding: 50px 0
+        padding: 50px 0;
     }
 
     .footer-clicks {
-        padding: 0
+        padding: 0;
     }
 
     .footer-links {
-        margin: 10px 0 0 0
+        margin: 10px 0 0 0;
     }
 
     .footer-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: Arial;
         color: #e7e0da;
         font-size: 8px;
         background: #1a2f4f;
         padding: 7px 14px;
-        text-decoration: none
+        text-decoration: none;
+
     }
 
     .footer-btn:hover {
         background: #1a2f4f;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .book-a-consult {
         padding: 0 0 10px 0;
-        text-align: center
+        text-align: center;
     }
 
     .client-portal {
         padding: 0;
-        text-align: center
+        text-align: center;
     }
 
     .footing {
         text-align: center;
-        margin: 10px 0 0
+        margin: 10px 0 0;
+
     }
 
     .footing-p {
         font-size: 7px;
         cursor: pointer;
-        padding: 0
+        padding: 0;
     }
 
     .social-media {
         padding: 10px 0 0;
-        text-align: center
+        text-align: center;
     }
 
     .fa-instagram {
         padding-left: 5px;
-        padding-right: 5px
+        padding-right: 5px;
     }
 
     .social-icon {
         color: #1a2f4f;
-        font-size: 15px
+        font-size: 15px;
     }
 
     #popup-container {
@@ -867,10 +912,11 @@ hr {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent background */
         display: none;
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
 
     #popup-content {
@@ -878,7 +924,9 @@ hr {
         margin: 0 11%;
         padding: 20px;
         max-height: 80%;
-        overflow-y: auto
+        /* Maximum height of the content with scrolling */
+        overflow-y: auto;
+        /* Enable scrolling for overflow */
     }
 
     #popup-close {
@@ -888,28 +936,33 @@ hr {
         width: 20px;
         height: 20px;
         font-size: 25px;
-        font-weight: 700;
+        font-weight: bold;
         color: #f7f5ee;
         background-color: transparent;
         border: none;
         cursor: pointer;
-        z-index: 1
+        z-index: 1;
     }
 
     #popup-close:hover {
-        color: #333
+        color: #333;
     }
 
     #popup-heading {
-        text-align: center
+        text-align: center;
     }
 }
 
-@media screen and (min-width:1146px) {
+/* End Footer Section */
+
+/*Finding Clarity*/
+
+@media screen and (min-width: 1146px) {
     .quote-container {
         position: relative;
         padding: 150px 0;
-        margin: 0 11%
+        margin: 0 11%;
+
     }
 
     .quote {
@@ -919,7 +972,7 @@ hr {
         font-weight: 300;
         font-size: 30px;
         position: relative;
-        bottom: 110px
+        bottom: 110px;
     }
 
     .quote-background {
@@ -927,15 +980,16 @@ hr {
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
-        width: 100%
+        width: 100%;
     }
 }
 
-@media screen and (min-width:500px) and (max-width:1145px) {
+@media screen and (min-width: 500px) and (max-width: 1145px) {
     .quote-container {
         position: relative;
         padding: 120px 0;
-        margin: 0 11%
+        margin: 0 11%;
+
     }
 
     .quote {
@@ -945,7 +999,7 @@ hr {
         font-weight: 300;
         font-size: 25px;
         position: relative;
-        bottom: 60px
+        bottom: 60px;
     }
 
     .quote-background {
@@ -953,15 +1007,16 @@ hr {
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
-        width: 100%
+        width: 100%;
     }
 }
 
-@media screen and (max-width:499px) {
+@media screen and (max-width: 499px) {
     .quote-container {
         position: relative;
         padding: 30px 0 30px 10px;
-        margin: 0 11%
+        margin: 0 11%;
+
     }
 
     .quote {
@@ -973,7 +1028,7 @@ hr {
         position: relative;
         margin: 0;
         padding: 0 0 10px 0;
-        bottom: 15px
+        bottom: 15px;
     }
 
     .quote-background {
@@ -981,260 +1036,285 @@ hr {
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
-        width: 100%
+        width: 100%;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* End Finding Clarity Section */
+
+/*Therapy For Young Adults*/
+
+
+
+/*Therapy For Young Adults*/
+
+@media screen and (min-width: 1024px) {
+
+
+
     .therapy-fya {
         margin: 0 11%;
-        padding: 40px 0 32px
+        padding: 40px 0 32px;
     }
 
     .therapy-writing {
         padding: 0 12px;
-        width: 50%
+        width: 50%;
     }
 
     .top-writing {
         margin: 0 0 20px;
-        text-align: left
+        text-align: left;
     }
 
     .therapy-h1 {
         color: #1a2f4f;
         margin: 0 0 5px;
-        text-align: center
+        text-align: center;
     }
 
     .therapy-h3 {
         color: #1a2f4f;
-        text-align: center
+        text-align: center;
     }
 
     .bottom-writing {
         margin: 25px 0 40px;
-        text-align: left
+        text-align: left;
     }
+
 
     .therapy-tagline {
         text-align: left;
         font-weight: 500;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .consultation-btn {
-        text-align: center
+        text-align: center;
     }
 
     .book-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .book-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
+
     .therapy-p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .therapy-photo {
-        text-align: center
+        text-align: center;
     }
 
     .therapy-photo img {
         position: relative;
         width: 55%;
         border-radius: 50px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
+
     }
+
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .therapy-fya {
         margin: 0 11%;
-        padding: 40px 0 32px
+        padding: 40px 0 32px;
     }
 
     .therapy-writing {
         padding: 0 12px;
-        text-align: center
+        text-align: center;
     }
+
 
     .top-writing {
         margin: 0 0 20px;
-        text-align: left
+        text-align: left;
     }
 
     .therapy-h1 {
         color: #1a2f4f;
         margin: 0 0 5px;
-        text-align: center
+        text-align: center;
     }
 
     .therapy-h3 {
         color: #1a2f4f;
-        text-align: center
+        text-align: center;
     }
 
     .bottom-writing {
         margin: 25px 0 40px;
-        text-align: left
+        text-align: left;
     }
+
 
     .therapy-tagline {
         text-align: left;
         font-weight: 500;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .consultation-btn {
-        text-align: center
+        text-align: center;
     }
 
     .book-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .book-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .therapy-p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .therapy-photo {
         padding: 30px 0 0;
-        text-align: center
+        text-align: center;
     }
 
     .therapy-photo img {
         position: relative;
         width: 45%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+
     .therapy-fya {
         margin: 0 11%;
-        padding: 40px 0 32px
+        padding: 40px 0 32px;
     }
 
     .therapy-writing {
         padding: 0 12px;
-        text-align: center
+        text-align: center;
     }
+
 
     .top-writing {
         margin: 0 0 20px;
-        text-align: left
+        text-align: left;
     }
 
     .therapy-h1 {
         color: #1a2f4f;
         margin: 0 0 5px;
-        text-align: center
+        text-align: center;
     }
 
     .therapy-h3 {
         color: #1a2f4f;
-        text-align: center
+        text-align: center;
     }
 
     .bottom-writing {
         margin: 25px 0 40px;
-        text-align: left
+        text-align: left;
     }
+
 
     .therapy-tagline {
         text-align: left;
         font-weight: 500;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .consultation-btn {
-        text-align: center
+        text-align: center;
     }
 
     .book-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #f7f5ee;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .book-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .therapy-p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .therapy-photo {
         padding: 30px 0 0;
-        text-align: center
+        text-align: center;
     }
 
     .therapy-photo img {
         position: relative;
         width: 65%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
+
 }
 
-@media screen and (min-width:1024px) {
+/* End Therapy For Young Adults section */
+
+/* Benefits of Therapy Section */
+
+@media screen and (min-width: 1024px) {
     .benefits {
-        margin: 0 11% 0;
-        padding: 40px 0 0
+        margin: 0 11% 0px;
+        padding: 40px 0 0;
     }
 
     .benefits-header {
-        margin: 0 0 40px
+        margin: 0 0 40px;
     }
 
     .benefits-title {
-        text-align: center
+        text-align: center;
     }
 
     .benefits-list {
         margin: 0;
-        justify-content: center
+        justify-content: center;
     }
 
     .benefits-text {
@@ -1243,76 +1323,80 @@ hr {
         color: #1a2f4f;
         font-weight: 300;
         margin: 0;
-        font-size: 26.25px
+        font-size: 26.25px;
+
     }
 
     .fa-solid {
         color: #1a2f4f;
-        font-weight: 600
+        font-weight: 600;
     }
 
     .fa-solid:hover {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
+
     .fa_arrow_left {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .carousel-indicators button.active {
-        background-color: #1a2f4f
+        background-color: #1a2f4f;
     }
 
     .carousel-indicators {
-        position: relative
+        position: relative;
+        /* margin: 0px 176px 0; */
     }
 
     .carousel-buttons {
-        margin: 50px 0 0
+        margin: 50px 0 0;
     }
 
     .help_btn {
         text-align: center;
-        padding: 52px 0 40px
+        padding: 52px 0 40px;
+
     }
 
     .help-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #E9e3dc;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .help-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .benefits {
-        margin: 0 11% 0;
-        padding: 40px 0 0
+        margin: 0 11% 0px;
+        padding: 40px 0 0;
     }
 
     .benefits-header {
-        margin: 0 0 40px
+        margin: 0 0 40px;
     }
 
     .benefits-title {
-        text-align: center
+        text-align: center;
     }
 
     .benefits-list {
         margin: 0;
-        justify-content: center
+        justify-content: center;
     }
 
     .benefits-text {
@@ -1321,77 +1405,81 @@ hr {
         color: #1a2f4f;
         font-weight: 300;
         margin: 0;
-        padding: 0 30px
+        padding: 0 30px;
+
     }
 
     .fa-solid {
         color: #1a2f4f;
-        font-weight: 600
+        font-weight: 600;
     }
 
     .fa-solid:hover {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
+
 
     .fa-arrow-left,
     .fa-arrow-right {
-        font-size: 1.3em
+        font-size: 1.3em;
     }
 
     .carousel-indicators button.active {
-        background-color: #1a2f4f
+        background-color: #1a2f4f;
     }
 
     .carousel-indicators {
-        position: relative
+        position: relative;
+        /* margin: 0px 176px 0; */
     }
 
     .carousel-buttons {
-        margin: 50px 0 0
+        margin: 50px 0 0;
     }
 
     .help_btn {
         text-align: center;
-        padding: 52px 0 40px
+        padding: 52px 0 40px;
+
     }
 
     .help-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #E9e3dc;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .help-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .benefits {
-        margin: 0 11% 0;
-        padding: 40px 0 0
+        margin: 0 11% 0px;
+        padding: 40px 0 0;
     }
 
     .benefits-header {
-        margin: 0 0 40px
+        margin: 0 0 40px;
     }
 
     .benefits-title {
-        text-align: center
+        text-align: center;
     }
 
     .benefits-list {
         margin: 0;
-        justify-content: center
+        justify-content: center;
     }
 
     .benefits-text {
@@ -1400,87 +1488,97 @@ hr {
         color: #1a2f4f;
         font-weight: 300;
         margin: 0;
-        padding: 0 30px
+        padding: 0 30px;
+
     }
 
     .fa-solid {
         color: #1a2f4f;
-        font-weight: 600
+        font-weight: 600;
     }
 
     .fa-solid:hover {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
+
 
     .fa-arrow-left,
     .fa-arrow-right {
-        font-size: 1.3em
+        font-size: 1.3em;
     }
 
     .carousel-indicators button.active {
-        background-color: #1a2f4f
+        background-color: #1a2f4f;
     }
 
     .carousel-indicators {
-        position: relative
+        position: relative;
+        /* margin: 0px 176px 0; */
     }
 
     .carousel-buttons {
-        margin: 50px 0 0
+        margin: 50px 0 0;
     }
 
     .help_btn {
         text-align: center;
-        padding: 52px 0 40px
+        padding: 52px 0 40px;
+
     }
 
     .help-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #E9e3dc;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .help-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* End Benefits of Therapy Section */
+
+/* How We Work Together Section */
+
+
+@media screen and (min-width: 1024px) {
     .how-we {
-        margin: 0 11% 0;
+        margin: 0 11% 0px;
         padding: 40px 0 32px;
-        text-align: left
+        text-align: left;
+
     }
 
     .how-we-header {
-        margin: 0
+        margin: 0;
     }
 
     .how-we-h2 {
-        text-align: center
+        text-align: center;
     }
 
     .how-we-note {
         margin: 75px 0;
-        padding: 35px 50px 0
+        padding: 35px 50px 0;
     }
 
     .how-we-note-p-2 {
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .work-together-photo {
         padding: 0;
-        text-align: center
+        text-align: center;
     }
 
     .work-together-photo img {
@@ -1488,432 +1586,460 @@ hr {
         margin: 40px 0 55px;
         padding: 0;
         border-radius: 50px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .schedule-btn {
         text-align: center;
-        padding: 0 0 15px
+        padding: 0 0 15px;
     }
 
     .how-we-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .how-we-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .how-we {
-        margin: 0 11% 0;
+        margin: 0 11% 0px;
         padding: 40px 0 32px;
-        text-align: left
+        text-align: left;
+
     }
 
     .how-we-header {
-        margin: 0
+        margin: 0;
     }
 
     .how-we-h2 {
-        text-align: center
+        text-align: center;
     }
 
     .how-we-note {
         margin: 10px 0 0;
-        padding: 10px 30px 0
+        padding: 10px 30px 0;
     }
 
     .how-we-note-p-2 {
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .work-together-photo {
         padding: 30px 0;
-        text-align: center
+        text-align: center;
     }
 
     .work-together-photo img {
         width: 51%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
+
     }
 
     .schedule-btn {
         text-align: center;
-        padding: 0 0 15px
+        padding: 0 0 15px;
     }
 
     .how-we-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .how-we-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .how-we {
-        margin: 0 11% 0;
+        margin: 0 11% 0px;
         padding: 40px 0 32px;
-        text-align: left
+        text-align: left;
+
     }
 
     .how-we-header {
-        margin: 0
+        margin: 0;
     }
 
     .how-we-h2 {
-        text-align: center
+        text-align: center;
     }
 
     .how-we-note {
         margin: 10px 0 0;
-        padding: 10px 30px 0
+        padding: 10px 30px 0;
     }
 
     .how-we-note-p-2 {
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .work-together-photo {
         padding: 30px 0;
-        text-align: center
+        text-align: center;
     }
 
     .work-together-photo img {
         width: 77.5%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
+
     }
 
     .schedule-btn {
         text-align: center;
-        padding: 0 0 15px
+        padding: 0 0 15px;
     }
 
     .how-we-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #f7f5ee;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .how-we-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* End How We Work Together Section */
+
+/* Areas of Focus Section */
+@media screen and (min-width: 1024px) {
     .area {
         margin: 0 11%;
-        padding: 40px 0 32px
+        padding: 40px 0 32px;
     }
 
     .areas-of-focus {
-        margin: 0
+        margin: 0;
     }
 
     .area-h2 {
-        text-align: center
+        text-align: center;
     }
 
     .areas-header {
         background-color: #E9e3dc;
-        background-image: linear-gradient(to right, #E9e3dc, #f7f7f7, #E9e3dc)
+        background-image: linear-gradient(to right, #E9e3dc, #f7f7f7, #E9e3dc);
+
     }
 
     .area-h3 {
         padding: 10px 0 10px 10px;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .areas-of-focus-writing {
-        padding: 30px 30px 0
+        padding: 30px 30px 0;
     }
 
     .areas-of-focus-writing p {
-        font-size: 14px
+        font-size: 14px;
     }
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width: 1023px) {
     .area {
         margin: 0 11%;
-        padding: 40px 0 32px
+        padding: 40px 0 32px;
     }
 
     .areas-of-focus {
-        margin: 0
+        margin: 0;
     }
 
     .area-h2 {
-        text-align: center
+        text-align: center;
     }
 
     .areas-header {
         background-color: #E9e3dc;
-        background-image: linear-gradient(to right, #E9e3dc, #f7f7f7, #E9e3dc)
+        background-image: linear-gradient(to right, #E9e3dc, #f7f7f7, #E9e3dc);
+
     }
 
     .area-h3 {
         padding: 10px 0 10px 10px;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .areas-of-focus-writing {
-        padding: 30px 30px 0
+        padding: 30px 30px 0;
     }
+
 }
 
-@media screen and (min-width:1024px) {
+/* End Areas of Focus Section */
+
+/* Quote about change Section */
+
+@media screen and (min-width: 1024px) {
+
     .change {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .change-header {
         padding: 0 0 20px;
         font-size: 15.87px;
-        text-align: center
+        text-align: center;
     }
 
     .change-quote {
         font-weight: 200;
         font-family: "Poppins", sansserif;
-        text-align: center
+        text-align: center;
     }
 
     .ready-btn {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 
     .clear-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .clear-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
+
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .change {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .change-header {
         padding: 0 0 20px;
-        text-align: center
+        text-align: center;
     }
 
     .change-quote {
         font-weight: 200;
         font-family: "Poppins", sansserif;
-        text-align: center
+        text-align: center;
     }
 
     .ready-btn {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 
     .clear-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .clear-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+
     .change {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .change-header {
         padding: 0 0 20px;
-        text-align: center
+        text-align: center;
     }
 
     .change-quote {
         font-weight: 200;
         font-family: "Poppins", sansserif;
-        text-align: center
+        text-align: center;
     }
 
     .ready-btn {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 
     .clear-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #f7f5ee;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .clear-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
+
 }
 
-@media screen and (min-width:1024px) {
+/* End Quote about Change Section */
+
+/* As seen in Section */
+@media screen and (min-width: 1024px) {
     .featured {
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .as_seen_in {
         margin: 0;
         padding: 40px 0;
-        text-align: center
+        text-align: center;
     }
 
     .as_seen_in h3 {
-        font-size: 15.87px
+        font-size: 15.87px;
     }
 
     .logos {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .logos img {
         width: 9%;
         text-align: center;
-        margin: 25px 15px
+        margin: 25px 15px;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .featured {
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .as_seen_in {
         margin: 0;
         padding: 40px 0;
-        text-align: center
+        text-align: center;
     }
 
     .as_seen_in h3 {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .logos {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .logos img {
         width: 15%;
         text-align: center;
-        margin: 25px 15px
+        margin: 25px 15px;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .featured {
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .as_seen_in {
         margin: 0;
         padding: 40px 0;
-        text-align: center
+        text-align: center;
     }
 
     .as_seen_in h3 {
-        font-size: 15px
+        font-size: 15px;
     }
 
     .logos {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .logos img {
         width: 13%;
         text-align: center;
-        margin: 25px 15px
+        margin: 25px 15px;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* END MAIN PAGE */
+
+/* About Me Page */
+
+/* About Mollie Section */
+
+@media screen and (min-width: 1024px) {
+
     .about_me {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .headshot_div {
-        text-align: center
+        text-align: center;
     }
 
     .headshot {
@@ -1922,142 +2048,148 @@ hr {
         top: 22.5%;
         width: 65%;
         border-radius: 50px;
-        border: solid #E9e3dc 3px
+        border: solid #E9e3dc 3px;
     }
 
     .about_me_writing {
-        padding: 30px 0
+        padding: 30px 0;
     }
 
     .about_me_header {
         text-align: left;
-        margin: 0
+        margin: 0;
     }
 
     .about_me_p {
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 
     .about_me_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .about_me_tagline {
-        font-weight: 500
+        font-weight: 500;
     }
 
     .about_me_btn {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .about_me {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .headshot_div {
-        text-align: center
+        text-align: center;
     }
+
 
     .headshot {
         position: relative;
         margin: 0;
         width: 55.5%;
         border-radius: 25px;
-        border: solid #E9e3dc 3px
+        border: solid #E9e3dc 3px;
     }
 
     .about_me_writing {
-        padding: 15px 0
+        padding: 15px 0;
     }
 
     .about_me_header {
         text-align: left;
-        margin: 0
+        margin: 0;
     }
 
     .about_me_p {
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .about_me_p p {
-        padding: 5px 0
+        padding: 5px 0;
     }
 
     .about_me_tagline {
-        font-weight: 500
+        font-weight: 500;
     }
 
     .about_me_btn {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+
     .about_me {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .headshot_div {
-        text-align: center
+        text-align: center;
     }
+
 
     .headshot {
         position: relative;
         margin: 0;
         width: 84%;
         border-radius: 25px;
-        border: solid #E9e3dc 3px
+        border: solid #E9e3dc 3px;
     }
 
     .about_me_writing {
-        padding: 15px 0
+        padding: 15px 0;
     }
 
     .about_me_header {
         text-align: left;
-        margin: 0
+        margin: 0;
     }
 
     .about_me_p {
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .about_me_p p {
-        padding: 5px 0
+        padding: 5px 0;
     }
 
     .about_me_tagline {
-        font-weight: 500
+        font-weight: 500;
     }
 
     .about_me_btn {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* End About Mollie Section */
+
+/* Modalities Section */
+@media screen and (min-width: 1024px) {
     .modalities {
-        margin: 0
+        margin: 0;
     }
 
     .modalities_h2 {
         text-align: center;
-        margin: 0 0 40px
+        margin: 0 0 40px;
     }
 
     .modalities-p {
-        line-height: 2
+        line-height: 2;
     }
 
     .modalities-list {
-        list-style: none
+        list-style: none;
     }
 
     .modalities_drop {
@@ -2066,22 +2198,22 @@ hr {
         font-weight: 400;
         margin-bottom: 10px;
         padding-left: 30px;
-        position: relative
+        position: relative;
     }
 
     .mod-icon {
         position: absolute;
         left: 0;
         cursor: pointer;
-        text-align: center
+        text-align: center;
     }
 
     .mod-bullets {
-        list-style: none
+        list-style: none;
     }
 
     .modalities_photo {
-        text-align: center
+        text-align: center;
     }
 
     .modalities_photo img {
@@ -2089,27 +2221,27 @@ hr {
         top: 8%;
         width: 60%;
         border-radius: 50px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .modalities {
-        margin: 0
+        margin: 0;
     }
 
     .modalities_h2 {
         text-align: center;
-        margin: 0 0 20px
+        margin: 0 0 20px;
     }
 
     .modalities-p {
-        line-height: 1.8
+        line-height: 1.8;
     }
 
     .modalities-list {
         list-style: none;
-        padding: 0
+        padding: 0;
     }
 
     .modalities_drop {
@@ -2118,7 +2250,7 @@ hr {
         font-weight: 400;
         margin: 10px 0;
         padding-left: 20px;
-        position: relative
+        position: relative;
     }
 
     .mod-icon {
@@ -2126,16 +2258,16 @@ hr {
         left: 0;
         top: 0;
         cursor: pointer;
-        text-align: center
+        text-align: center;
     }
 
     .mod-bullets {
         list-style: none;
-        padding: 0 0 0 20px
+        padding: 0 0 0 20px;
     }
 
     .modalities_photo {
-        text-align: center
+        text-align: center;
     }
 
     .modalities_photo img {
@@ -2143,27 +2275,27 @@ hr {
         top: 8%;
         width: 49.5%;
         border-radius: 25px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .modalities {
-        margin: 0
+        margin: 0;
     }
 
     .modalities_h2 {
         text-align: center;
-        margin: 0 0 20px
+        margin: 0 0 20px;
     }
 
     .modalities-p {
-        line-height: 1.8
+        line-height: 1.8;
     }
 
     .modalities-list {
         list-style: none;
-        padding: 0
+        padding: 0;
     }
 
     .modalities_drop {
@@ -2172,7 +2304,7 @@ hr {
         font-weight: 400;
         margin: 10px 0;
         padding-left: 20px;
-        position: relative
+        position: relative;
     }
 
     .mod-icon {
@@ -2180,16 +2312,16 @@ hr {
         left: 0;
         top: 0;
         cursor: pointer;
-        text-align: center
+        text-align: center;
     }
 
     .mod-bullets {
         list-style: none;
-        padding: 0 0 0 20px
+        padding: 0 0 0 20px;
     }
 
     .modalities_photo {
-        text-align: center
+        text-align: center;
     }
 
     .modalities_photo img {
@@ -2197,414 +2329,446 @@ hr {
         top: 8%;
         width: 75%;
         border-radius: 25px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* End Modalities Section */
+
+/* Education Section */
+
+@media screen and (min-width: 1024px) {
+
     .education_h2 {
         text-align: center;
-        margin: 0 0 30px
-    }
-
-    .trainings {
-        list-style-type: none;
-        text-align: center;
-        line-height: 2
-    }
-}
-
-@media screen and (max-width:1023px) {
-    .education_h2 {
-        text-align: center;
-        margin: 0 0 30px
+        margin: 0 0 30px;
     }
 
     .trainings {
         list-style-type: none;
         text-align: center;
         line-height: 2;
-        padding: 0
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (max-width: 1023px) {
+
+    .education_h2 {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+
+    .trainings {
+        list-style-type: none;
+        text-align: center;
+        line-height: 2;
+        padding: 0;
+    }
+}
+
+/* End Education Section */
+/* End About Mollie Page */
+
+
+/* Areas of Focus Page */
+
+@media screen and (min-width: 1024px) {
+
     .areas_of_focus_page {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .areas_of_focus_page .row {
-        margin: 0
+        margin: 0;
     }
 
     .areas_of_focus_header {
         text-align: center;
-        padding: 0
+        padding: 0px
     }
+
 
     .areas_of_focus_photo {
         width: 100%;
         height: auto;
         position: relative;
-        margin: 80px 0 0
+        margin: 80px 0 0;
     }
+
 
     .focus-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .focus-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .areas_of_focus {
         text-align: center;
-        padding: 30px 0 10px
+        padding: 30px 0 10px;
     }
 
     .areas_of_focus_h2_header {
         padding: 0 0 20px 0;
-        text-align: center
+        text-align: center;
     }
 
     .areas_of_focus_p {
-        padding: 20px 20px 20px 30px
+        padding: 20px 20px 20px 30px;
     }
 
     .areas_of_focus_p h4 {
-        margin: 15px 0 10px
+        margin: 15px 0 10px;
     }
 
     .collapse {
-        display: none
+        display: none;
+        /* Initially hide the content */
     }
 
     .collapse.show {
-        display: block
+        display: block;
+        /* Show the content when the 'show' class is applied */
     }
+
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .areas_of_focus_page {
-        margin: 0 11% 0;
-        padding: 20px 0 0
+        margin: 0 11% 0px;
+        padding: 20px 0 0;
     }
 
     .areas_of_focus_page .row {
-        margin: 0
+        margin: 0;
     }
 
     .areas_of_focus_header {
         text-align: center;
-        padding: 0
+        padding: 0px;
     }
 
     .focus_photos {
         padding: 0 0 5px;
-        text-align: center
+        text-align: center;
     }
 
     .areas_of_focus_photo {
         width: 53.5%;
         height: auto;
         position: relative;
-        margin: 0
+        margin: 0;
     }
+
 
     .focus-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .focus-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .areas_of_focus {
         text-align: center;
-        padding: 30px 0 10px
+        padding: 30px 0 10px;
     }
 
     .areas_of_focus_h2_header {
         padding: 0 0 10px 0;
-        text-align: center
+        text-align: center;
     }
 
     .areas_of_focus_p {
         padding: 0 0 20px 10px;
-        margin: 0
+        margin: 0;
     }
 
     .areas_of_focus_p h4 {
-        margin: 15px 0 10px
+        margin: 15px 0 10px;
     }
 
     .collapse {
-        display: none
+        display: none;
+        /* Initially hide the content */
     }
 
     .collapse.show {
-        display: block
+        display: block;
+        /* Show the content when the 'show' class is applied */
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+
     .areas_of_focus_page {
-        margin: 0 11% 0;
-        padding: 20px 0 0
+        margin: 0 11% 0px;
+        padding: 20px 0 0;
     }
 
     .areas_of_focus_page .row {
-        margin: 0
+        margin: 0;
     }
 
     .areas_of_focus_header {
         text-align: center;
-        padding: 0
+        padding: 0px;
     }
 
     .focus_photos {
         padding: 0 0 5px;
-        text-align: center
+        text-align: center;
     }
 
     .areas_of_focus_photo {
         width: 77%;
         height: auto;
         position: relative;
-        margin: 0
+        margin: 0;
     }
+
 
     .focus-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #f7f5ee;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .focus-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .areas_of_focus {
         text-align: center;
-        padding: 30px 0 10px
+        padding: 30px 0 10px;
     }
 
     .areas_of_focus_h2_header {
         padding: 0 0 10px 0;
-        text-align: center
+        text-align: center;
     }
 
     .areas_of_focus_p {
         padding: 0 0 20px 10px;
-        margin: 0
+        margin: 0;
     }
 
     .areas_of_focus_p h4 {
-        margin: 15px 0 10px
+        margin: 15px 0 10px;
     }
 
     .collapse {
-        display: none
+        display: none;
+        /* Initially hide the content */
     }
 
     .collapse.show {
-        display: block
+        display: block;
+        /* Show the content when the 'show' class is applied */
     }
+
 }
 
-@media screen and (min-width:1024px) {
+/* End Areas of Focus page */
+
+/* Services - Individual Therapy Page */
+
+@media screen and (min-width: 1024px) {
     .services_btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .services_btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .virtual_btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #E9e3dc;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .virtual_btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .individual {
-        margin: 0 11%
+        margin: 0 11%;
     }
 
     .individual_header {
         text-align: center;
         padding: 40px 0 20px;
-        margin: 0
+        margin: 0;
     }
 
     .individual_row {
         margin: 0;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .individual_row img {
-        margin: 30px 0 0
+        margin: 30px 0 0;
     }
 
     .individual_p {
         margin: 0;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .individual_writing {
         margin: 0;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
+
 
     .individual_writing h3 {
         margin: 0;
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .individual_list {
-        padding: 40px 0
+        padding: 40px 0;
     }
 
     .individual_list h3 {
         text-align: center;
         margin: 0;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .individual_list h4 {
-        text-align: center
+        text-align: center;
     }
 
     .individual_list ol {
-        padding: 0
+        padding: 0;
     }
 
     .individual_list li {
-        list-style: none
+        list-style: none;
     }
 
     .individual_list p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .virtual_p {
-        padding: 0 0 20px
+        padding: 0 0 20px;
     }
 
     .virtual_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .virtual_note {
         padding: 30px 150px;
+
         font-size: 200;
-        text-align: center
+        text-align: center;
     }
 
     .virtual_note_p1 {
-        padding: 20px 0 20px
+        padding: 20px 0 20px;
     }
 
     .virtual_note_p2 {
         padding: 20px 0 20px;
-        font-style: italic
+        font-style: italic;
     }
 
     .virtual_row {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .virtual_row p {
         margin: 0;
-        padding: 15px 0
+        padding: 15px 0;
     }
 
     .virtual_row h3 {
-        padding: 60px 0 0
+        padding: 60px 0 0;
     }
 
     .individual_btn {
         text-align: center;
-        padding: 40px 0
+        padding: 40px 0;
     }
 
     .individual_headshot {
-        text-align: center
+        text-align: center;
     }
 
     .individual_headshot img {
         position: relative;
         width: 60%;
         border-radius: 50px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .virtual_backpack {
-        text-align: center
+        text-align: center;
     }
 
     .virtual_backpack img {
         position: relative;
         width: 50%;
         border-radius: 50px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 
     .virtual_computer {
@@ -2612,219 +2776,220 @@ hr {
         left: 25%;
         width: 50%;
         border-radius: 50px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 
     .virtual_row_photo {
-        padding: 40px 0 20px
+        padding: 40px 0 20px;
     }
 
     .virtual_row_text {
-        padding: 40px 0 20px
+        padding: 40px 0 20px;
     }
 
     .virtual_flex {
         text-align: justify;
-        padding: 0 20px 0 0
+        padding: 0 20px 0 0;
     }
 
     .virtual_benefits {
         border-left: #1a2f4f solid 1px;
         border-right: #1a2f4f solid 1px;
         text-align: justify;
-        padding: 0 20px
+        padding: 0 20px;
     }
 
     .virtual_enhanced {
         text-align: justify;
-        padding: 0 0 0 20px
+        padding: 0 0 0 20px;
     }
 
     .onlinetherapy {
-        text-align: center
+        text-align: center;
     }
 
     .onlinetherapy img {
-        width: 30%
+        width: 30%;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .services_btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .services_btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .virtual_btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #E9e3dc;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .virtual_btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .individual {
-        margin: 0 11%
+        margin: 0 11%;
     }
 
     .individual_header {
         text-align: center;
         padding: 20px 0;
-        margin: 0
+        margin: 0;
     }
 
     .individual_row {
         margin: 0;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .individual_row img {
-        margin: 30px 0 0
+        margin: 30px 0 0;
     }
 
     .individual_p {
         margin: 0;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .individual_writing {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
+
 
     .individual_writing h3 {
         margin: 0;
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .individual_list {
-        padding: 30px 0 30px
+        padding: 30px 0 30px;
     }
 
     .individual_list h3 {
         text-align: center;
         margin: 0;
-        padding: 0 0 20px
+        padding: 0 0 20px;
     }
 
     .individual_list h4 {
-        text-align: center
+        text-align: center;
     }
 
     .virtual_p {
-        padding: 0
+        padding: 0;
     }
 
     .virtual_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .virtual_note {
         padding: 30px 0;
-        text-align: center
+        text-align: center;
     }
 
     .virtual_note_p1 {
         padding: 0 0 20px;
-        font-size: 9px
+        font-size: 9px;
     }
 
     .virtual_note_p2 {
         padding: 20px 0 20px;
         font-size: 9px;
-        font-style: italic
+        font-style: italic;
     }
 
     .virtual_row {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .virtual_row p {
         margin: 0;
-        padding: 5px 0 10px
+        padding: 5px 0 10px;
     }
 
     .virtual_row h3 {
-        padding: 0
+        padding: 0;
     }
 
     .individual_btn {
         text-align: center;
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .individual_headshot {
-        text-align: center
+        text-align: center;
     }
 
     .individual_headshot img {
         position: relative;
         width: 49.5%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .virtual_backpack {
         text-align: center;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .virtual_backpack img {
         position: relative;
         width: 45%;
         border-radius: 25px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 
     .virtual_computer {
         position: relative;
         width: 45.5%;
         border-radius: 25px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 
     .virtual_row_photo {
         padding: 20px 0 20px;
-        text-align: center
+        text-align: center;
     }
 
     .virtual_row_text {
-        padding: 20px 0 20px
+        padding: 20px 0 20px;
     }
 
     .virtual_flex {
         text-align: justify;
-        padding: 0
+        padding: 0;
     }
 
     .virtual_flex p {
-        padding: 5px 0
+        padding: 5px 0;
     }
 
     .virtual_benefits {
@@ -2832,199 +2997,200 @@ hr {
         border-bottom: #1a2f4f solid 1px;
         text-align: justify;
         padding: 10px 0 0;
-        margin: 5px 0 10px
+        margin: 5px 0 10px;
     }
 
     .virtual_enhanced {
         text-align: justify;
-        padding: 0
+        padding: 0;
     }
 
     .onlinetherapy {
-        text-align: center
+        text-align: center;
     }
 
     .onlinetherapy img {
-        width: 30%
+        width: 30%;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .services_btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #f7f5ee;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .services_btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .virtual_btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #E9e3dc;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .virtual_btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .individual {
-        margin: 0 11%
+        margin: 0 11%;
     }
 
     .individual_header {
         text-align: center;
         padding: 20px 0;
-        margin: 0
+        margin: 0;
     }
 
     .individual_row {
         margin: 0;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .individual_row img {
-        margin: 30px 0 0
+        margin: 30px 0 0;
     }
 
     .individual_p {
         margin: 0;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .individual_writing {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
+
 
     .individual_writing h3 {
         margin: 0;
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .individual_list {
-        padding: 30px 0 30px
+        padding: 30px 0 30px;
     }
 
     .individual_list h3 {
         text-align: center;
         margin: 0;
-        padding: 0 0 20px
+        padding: 0 0 20px;
     }
 
     .individual_list h4 {
-        text-align: center
+        text-align: center;
     }
 
     .virtual_p {
-        padding: 0
+        padding: 0;
     }
 
     .virtual_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .virtual_note {
         padding: 30px 0;
-        text-align: center
+        text-align: center;
     }
 
     .virtual_note_p1 {
         padding: 0 0 20px;
-        font-size: 8px
+        font-size: 8px;
     }
 
     .virtual_note_p2 {
         padding: 20px 0 20px;
         font-size: 8px;
-        font-style: italic
+        font-style: italic;
     }
 
     .virtual_row {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .virtual_row p {
         margin: 0;
-        padding: 5px 0 10px
+        padding: 5px 0 10px;
     }
 
     .virtual_row h3 {
-        padding: 0
+        padding: 0;
     }
 
     .individual_btn {
         text-align: center;
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .individual_headshot {
-        text-align: center
+        text-align: center;
     }
 
     .individual_headshot img {
         position: relative;
         width: 89%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .virtual_backpack {
         text-align: center;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .virtual_backpack img {
         position: relative;
         width: 76%;
         border-radius: 25px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 
     .virtual_computer {
         position: relative;
         width: 78%;
         border-radius: 25px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
     }
 
     .virtual_row_photo {
         padding: 20px 0 20px;
-        text-align: center
+        text-align: center;
     }
 
     .virtual_row_text {
-        padding: 20px 0 20px
+        padding: 20px 0 20px;
     }
 
     .virtual_flex {
         text-align: justify;
-        padding: 0
+        padding: 0;
     }
 
     .virtual_flex p {
-        padding: 5px 0
+        padding: 5px 0;
     }
 
     .virtual_benefits {
@@ -3032,66 +3198,72 @@ hr {
         border-bottom: #1a2f4f solid 1px;
         text-align: justify;
         padding: 10px 0 0;
-        margin: 5px 0 10px
+        margin: 5px 0 10px;
     }
 
     .virtual_enhanced {
         text-align: justify;
-        padding: 0
+        padding: 0;
     }
 
     .onlinetherapy {
-        text-align: center
+        text-align: center;
     }
 
     .onlinetherapy img {
-        width: 30%
+        width: 30%;
     }
+
 }
 
-@media screen and (max-width:500px) {
+/* End Individual Therapy Page */
+
+/* Supervision Page */
+
+
+@media screen and (max-width: 500px) {
     .supervision {
-        margin: 0 11%
+        margin: 0 11%;
     }
 
     .supervision_h1 {
         text-align: center;
         padding: 30px 0 20px;
-        margin: 0
+        margin: 0;
     }
 
     .supervision_row {
         margin: 0;
-        padding: 0 0 30px
+        padding: 0 0 30px;
     }
 
     .supervision_p {
-        padding: 10px
+        padding: 10px;
     }
 
     .supervision_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .supervision_btn {
         text-align: center;
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .experience {
-        padding: 20px 10px 0
+        padding: 20px 10px 0;
     }
 
     .experience p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .supervision_row .row {
-        margin: 0
+        margin: 0;
     }
 
     .book_photo {
-        text-align: center
+        text-align: center;
     }
 
     .book_photo img {
@@ -3099,53 +3271,53 @@ hr {
         width: 84%;
         height: auto;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .supervision {
-        margin: 0 11%
+        margin: 0 11%;
     }
 
     .supervision_h1 {
         text-align: center;
         padding: 30px 0 20px;
-        margin: 0
+        margin: 0;
     }
 
     .supervision_row {
         margin: 0;
-        padding: 0 0 30px
+        padding: 0 0 30px;
     }
 
     .supervision_p {
-        padding: 10px
+        padding: 10px;
     }
 
     .supervision_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .supervision_btn {
         text-align: center;
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .experience {
-        padding: 20px 10px 0
+        padding: 20px 10px 0;
     }
 
     .experience p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .supervision_row .row {
-        margin: 0
+        margin: 0;
     }
 
     .book_photo {
-        text-align: center
+        text-align: center;
     }
 
     .book_photo img {
@@ -3153,54 +3325,55 @@ hr {
         width: 46.5%;
         height: auto;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .supervision {
-        margin: 0 11%
+        margin: 0 11%;
     }
 
     .supervision_h1 {
         text-align: center;
         padding: 30px 0 20px;
-        margin: 0
+        margin: 0;
     }
 
     .supervision_row {
         margin: 0;
-        padding: 30px 0
+        padding: 30px 0;
     }
 
     .supervision_row .row {
-        margin: 0
+        margin: 0;
     }
 
     .supervision_p {
         padding: 10px 20px;
-        margin: 40px 0 0
+        margin: 40px 0 0;
     }
 
     .supervision_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .supervision_btn {
         text-align: center;
-        padding: 40px 0
+        padding: 40px 0;
     }
 
     .experience {
-        padding: 40px 0 0
+        padding: 40px 0 0;
     }
 
+
     .experience p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .book_photo {
-        text-align: center
+        text-align: center;
     }
 
     .book_photo img {
@@ -3208,62 +3381,65 @@ hr {
         width: 55%;
         height: auto;
         border-radius: 50px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 }
 
-@media screen and (min-width:1024px) {
+/* End Supervision Page */
+
+/* Billing + Insurance Page */
+@media screen and (min-width: 1024px) {
     .billing {
-        margin: 0 11% 0
+        margin: 0 11% 0;
     }
 
     .billing_header {
         padding: 30px 0;
-        text-align: center
+        text-align: center;
     }
 
     .billing_list {
-        padding: 10px 30px 0 20px
+        padding: 10px 30px 0 20px;
     }
 
     .billing_list p {
-        padding: 10px 0 10px
+        padding: 10px 0 10px;
     }
 
     .billing_p {
-        padding: 0 0 20px
+        padding: 0 0 20px;
     }
 
     .good_faith {
         text-align: center;
-        font-size: 10px
+        font-size: 10px;
     }
 
     .good_faith_link {
         cursor: pointer;
-        text-decoration: underline
+        text-decoration: underline;
     }
 
     .billing_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .billing_p em {
-        text-align: center
+        text-align: center;
     }
 
     .billing_row {
         margin: 0;
-        padding: 0 0 36px
+        padding: 0 0 36px;
     }
 
     .billing_question {
         font-style: italic;
-        font-weight: 300
+        font-weight: 300;
     }
 
     .billing_photo {
-        text-align: center
+        text-align: center;
     }
 
     .billing_photo img {
@@ -3271,75 +3447,76 @@ hr {
         top: 15%;
         width: 80%;
         border-radius: 50px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .billing-btn {
         text-align: center;
-        padding: 40px 0
+        padding: 40px 0;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .billing {
-        margin: 0 11% 0
+        margin: 0 11% 0;
     }
 
     .billing_header {
         padding: 20px 0;
-        text-align: center
+        text-align: center;
     }
 
     .billing_list {
-        padding: 10px 30px 0 20px
+        padding: 10px 30px 0 20px;
     }
 
+
     .billing_list p {
-        padding: 10px 0 10px
+        padding: 10px 0 10px;
     }
 
     .billing_list ul {
-        padding: 0 0 0 20px
+        padding: 0 0 0 20px;
     }
 
     .billing_p {
-        padding: 0 0 10px
+        padding: 0 0 10px;
     }
 
     .billing_p h3 {
-        margin: 0
+        margin: 0;
     }
 
     .good_faith {
         text-align: center;
-        font-size: 10px
+        font-size: 10px;
     }
 
     .good_faith_link {
         cursor: pointer;
-        text-decoration: underline
+        text-decoration: underline;
     }
 
     .billing_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .billing_p em {
-        text-align: center
+        text-align: center;
     }
 
     .billing_row {
         margin: 0;
-        padding: 0 0 36px
+        padding: 0 0 36px;
     }
 
     .billing_question {
         font-style: italic;
-        font-weight: 300
+        font-weight: 300;
     }
 
     .billing_photo {
-        text-align: center
+        text-align: center;
     }
 
     .billing_photo img {
@@ -3347,75 +3524,76 @@ hr {
         top: 8%;
         width: 69.5%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .billing-btn {
         text-align: center;
-        padding: 20px 0 30px
+        padding: 20px 0 30px;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .billing {
-        margin: 0 11% 0
+        margin: 0 11% 0;
     }
 
     .billing_header {
         padding: 20px 0;
-        text-align: center
+        text-align: center;
     }
 
     .billing_list {
-        padding: 10px 30px 0 20px
+        padding: 10px 30px 0 20px;
     }
 
+
     .billing_list p {
-        padding: 10px 0 10px
+        padding: 10px 0 10px;
     }
 
     .billing_list ul {
-        padding: 0 0 0 20px
+        padding: 0 0 0 20px;
     }
 
     .billing_p {
-        padding: 0 0 10px
+        padding: 0 0 10px;
     }
 
     .billing_p h3 {
-        margin: 0
+        margin: 0;
     }
 
     .good_faith {
         text-align: center;
-        font-size: 8px
+        font-size: 8px;
     }
 
     .good_faith_link {
         cursor: pointer;
-        text-decoration: underline
+        text-decoration: underline;
     }
 
     .billing_p p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .billing_p em {
-        text-align: center
+        text-align: center;
     }
 
     .billing_row {
         margin: 0;
-        padding: 0 0 36px
+        padding: 0 0 36px;
     }
 
     .billing_question {
         font-style: italic;
-        font-weight: 300
+        font-weight: 300;
     }
 
     .billing_photo {
-        text-align: center
+        text-align: center;
     }
 
     .billing_photo img {
@@ -3423,427 +3601,444 @@ hr {
         top: 15%;
         width: 100%;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .billing-btn {
         text-align: center;
-        padding: 20px 0 30px
+        padding: 20px 0 30px;
     }
 }
 
-@media screen and (max-width:500px) {
+/* End Billings + Insurance Page */
+
+/* Blogs Page */
+
+@media screen and (max-width: 500px) {
+
     .blogs {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .blogs_header {
         margin: 40px 20px;
-        padding: 20px
+        padding: 20px;
     }
 
     .blog_photos {
         width: 75%;
         align-self: center;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .horizontal_blog_photo {
         width: 70%;
         border: #f7f5ee solid 3px;
-        margin: 0 0 0 35px
+        margin: 0 0 0 35px;
     }
 
     .therapy_blog_photo {
         width: 70%;
         border: #f7f5ee solid 3px;
-        margin: 0 0 0 35px
+        margin: 0 0 0 35px;
     }
 
     .emo_blog_photo {
         width: 50%;
         border: #f7f5ee solid 3px;
-        margin: 0 0 10px 45px
+        margin: 0 0 10px 45px;
     }
 
     .blog_square {
-        margin: 24px 12px 12px
+        margin: 24px 12px 12px;
     }
 
     .blog_blurb {
-        padding: 20px 10px
+        padding: 20px 10px;
     }
 
     .blog_date {
         font-size: 9px;
-        text-align: right
+        text-align: right;
     }
 
     .blogs h1 {
-        text-align: center
+        text-align: center;
     }
 
     .blogs h3 {
         text-align: center;
         padding: 10px 0 0;
-        margin: 0
+        margin: 0;
     }
 
     .blogs p {
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .blogs_note {
         font-style: italic;
         text-align: center;
-        font-size: 8px
+        font-size: 8px;
     }
 
     .blogs_btn {
         text-align: center;
-        padding: 20px 0 20px
+        padding: 20px 0 20px;
     }
 
     .dark-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #E9e3dc;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .dark-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .blog_header {
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .blog_post {
         padding: 0 20px;
-        align-items: center
+        align-items: center;
     }
 
     .blog_post p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .blog_post ol {
         padding: 0 0 0 20px;
-        margin: 0 0 10px 0
+        margin: 0 0 10px 0;
     }
 
     .blog_post ol li {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .blog_post ul {
-        padding: 0 25px
+        padding: 0 25px;
     }
 
     .blog_post ul li {
-        padding: 0 0 5px
+        padding: 0 0 5px;
     }
 
     .blog_post hr {
-        margin: 10px 0
+        margin: 10px 0;
     }
 
     .blog_btn {
         text-align: center;
-        padding: 20px 0
+        padding: 20px 0;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+
     .blogs {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .blogs_header {
         margin: 40px;
-        padding: 20px
+        padding: 20px;
     }
 
     .blog_photos {
         width: 75%;
         align-self: center;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .horizontal_blog_photo {
         width: 50%;
         border: #f7f5ee solid 3px;
         float: right;
-        margin: 0 0 0 20px
+        margin: 0 0 0 20px;
     }
 
     .therapy_blog_photo {
         width: 60%;
         border: #f7f5ee solid 3px;
-        margin: 0 0 10px 100px
+        margin: 0 0 10px 100px;
     }
 
     .emo_blog_photo {
         width: 40%;
         border: #f7f5ee solid 3px;
-        margin: 0 0 10px 150px
+        margin: 0 0 10px 150px;
     }
 
+
     .blog_square {
-        margin: 24px
+        margin: 24px;
     }
 
     .blog_blurb {
-        padding: 20px 10px
+        padding: 20px 10px;
     }
 
     .blog_date {
         font-size: 10.5px;
-        text-align: right
+        text-align: right;
     }
 
     .blogs h1 {
-        text-align: center
+        text-align: center;
     }
 
     .blogs h3 {
         text-align: center;
         padding: 10px 0 0;
-        margin: 0
+        margin: 0;
     }
 
     .blogs p {
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .blogs_note {
         font-style: italic;
         text-align: center;
-        font-size: 10px
+        font-size: 10px;
     }
 
     .blogs_btn {
         text-align: center;
-        padding: 20px 0 20px
+        padding: 20px 0 20px;
     }
 
     .dark-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #E9e3dc;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .dark-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .blog_header {
-        padding: 20px 0
+        padding: 20px 0;
     }
 
     .blog_post {
-        padding: 0 40px
+        padding: 0 40px;
     }
 
     .blog_post p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .blog_post ol {
-        margin: 0 0 10px 0
+        margin: 0 0 10px 0;
     }
 
     .blog_post ol li {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .blog_post ul {
-        padding: 0 50px
+        padding: 0 50px;
     }
 
     .blog_post ul li {
-        padding: 0 0 5px
+        padding: 0 0 5px;
     }
 
     .blog_post hr {
-        margin: 15px 0
+        margin: 15px 0;
     }
 
     .blog_btn {
         text-align: center;
-        padding: 40px 0
+        padding: 40px 0;
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
+
     .blogs {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .blogs_header {
-        margin: 40px
+        margin: 40px;
     }
 
     .blog_photos {
         width: 75%;
         align-self: center;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 
     .horizontal_blog_photo {
         width: 40%;
         border: #f7f5ee solid 3px;
         float: right;
-        margin: 15px 0 0 30px
+        margin: 15px 0 0 30px;
     }
 
     .emo_blog_photo {
         width: 25%;
         border: #f7f5ee solid 3px;
         float: left;
-        margin: 0 30px 0 20px
+        margin: 0 30px 0 20px;
     }
 
     .therapy_blog_photo {
         width: 40%;
         border: #f7f5ee solid 3px;
         float: right;
-        margin: 15px 0 0 30px
+        margin: 15px 0 0 30px;
     }
 
     .blog_square {
-        margin: 24px
+        margin: 24px;
     }
 
     .blog_blurb {
-        padding: 20px 10px
+        padding: 20px 10px;
     }
 
     .blog_date {
         font-size: 11.88px;
-        text-align: right
+        text-align: right;
     }
 
     .blogs h1 {
         text-align: center;
-        padding: 40px 0 0
+        padding: 40px 0 0;
     }
 
     .blogs h3 {
         text-align: center;
         padding: 20px 0 0;
-        margin: 0
+        margin: 0;
     }
 
     .blogs_p {
-        padding: 40px 100px
+        padding: 40px 100px;
     }
 
     .blogs_note {
         font-style: italic;
-        padding: 40px 100px
+        padding: 40px 100px;
     }
 
     .blogs_btn {
         text-align: center;
-        padding: 0 0 40px
+        padding: 0 0 40px;
     }
 
     .dark-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #E9e3dc;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .dark-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #E9e3dc
+        color: #E9e3dc;
     }
 
     .blog_header {
-        padding: 0 0 20px
+        padding: 0 0 20px;
     }
 
     .blog_post {
-        padding: 0 40px
+        padding: 0 40px;
     }
 
     .blog_post p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .blog_post ol li {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .blog_post ul {
-        padding: 0 50px
+        padding: 0 50px;
     }
 
     .blog_post ul li {
-        padding: 0 0 5px
+        padding: 0 0 5px;
     }
 
     .blog_post hr {
-        margin: 20px 0
+        margin: 20px 0;
     }
 
     .blog_btn {
         text-align: center;
-        padding: 40px 0
+        padding: 40px 0;
     }
+
+
+
+
 }
 
-@media screen and (min-width:1024px) {
+/* End Blogs Page */
+
+/* FAQ Page*/
+
+@media screen and (min-width: 1024px) {
+
     .faq_section {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .faq_h1 {
         text-align: center;
-        margin: 0 0 40px 0
+        margin: 0 0 40px 0;
     }
 
     .faq_bullets {
-        list-style-type: none
+        list-style-type: none;
     }
 
     .faq_bullets p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .fa-plus {
-        font-weight: lighter
+        font-weight: lighter;
     }
 
     .question {
@@ -3852,36 +4047,36 @@ hr {
         margin-bottom: 10px;
         padding-left: 30px;
         position: relative;
-        margin: 10px
+        margin: 10px;
     }
 
     .icon-main {
         position: absolute;
         left: 0;
         cursor: pointer;
-        text-align: center
+        text-align: center;
     }
 
     .non-active {
-        display: none
+        display: none;
     }
 
     .answer {
-        padding: 0 50px
+        padding: 0 50px;
     }
 
     .additional_questions {
         text-align: center;
-        padding: 40px 0 0
+        padding: 40px 0 0;
     }
 
     .faq_btn {
         text-align: center;
-        padding: 30px 0 20px
+        padding: 30px 0 20px;
     }
 
     .faq_photo {
-        text-align: center
+        text-align: center;
     }
 
     .faq_photo img {
@@ -3889,32 +4084,32 @@ hr {
         width: 90%;
         height: auto;
         border-radius: 50px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .faq_section {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .faq_h1 {
         text-align: center;
-        padding: 0 0 10px
+        padding: 0 0 10px;
     }
 
     .faq_bullets {
         list-style-type: none;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .faq_bullets p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .fa-plus {
-        font-weight: lighter
+        font-weight: lighter;
     }
 
     .question {
@@ -3922,7 +4117,7 @@ hr {
         font-weight: 500;
         padding: 0 0 0 20px;
         position: relative;
-        margin: 20px 10px 10px
+        margin: 20px 10px 10px;
     }
 
     .icon-main {
@@ -3930,33 +4125,33 @@ hr {
         left: 0;
         top: 0;
         cursor: pointer;
-        text-align: center
+        text-align: center;
     }
 
     .non-active {
-        display: none
+        display: none;
     }
 
     .answer {
-        padding: 0 0 0 20px
+        padding: 0 0 0 20px;
     }
 
     .answer p {
-        padding: 0 0 10px 10px
+        padding: 0 0 10px 10px;
     }
 
     .additional_questions {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 
     .faq_btn {
         text-align: center;
-        padding: 20px 0 20px
+        padding: 20px 0 20px;
     }
 
     .faq_photo {
-        text-align: center
+        text-align: center;
     }
 
     .faq_photo img {
@@ -3964,32 +4159,33 @@ hr {
         width: 46.5%;
         height: auto;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+
     .faq_section {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .faq_h1 {
         text-align: center;
-        padding: 0 0 10px
+        padding: 0 0 10px;
     }
 
     .faq_bullets {
         list-style-type: none;
-        padding: 10px 0 0
+        padding: 10px 0 0;
     }
 
     .faq_bullets p {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     .fa-plus {
-        font-weight: lighter
+        font-weight: lighter;
     }
 
     .question {
@@ -3997,7 +4193,7 @@ hr {
         font-weight: 500;
         padding: 0 0 0 20px;
         position: relative;
-        margin: 20px 10px 10px
+        margin: 20px 10px 10px;
     }
 
     .icon-main {
@@ -4005,33 +4201,33 @@ hr {
         left: 0;
         top: 0;
         cursor: pointer;
-        text-align: center
+        text-align: center;
     }
 
     .non-active {
-        display: none
+        display: none;
     }
 
     .answer {
-        padding: 0 0 0 20px
+        padding: 0 0 0 20px;
     }
 
     .answer p {
-        padding: 0 0 10px 10px
+        padding: 0 0 10px 10px;
     }
 
     .additional_questions {
         text-align: center;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
 
     .faq_btn {
         text-align: center;
-        padding: 20px 0 20px
+        padding: 20px 0 20px;
     }
 
     .faq_photo {
-        text-align: center
+        text-align: center;
     }
 
     .faq_photo img {
@@ -4039,279 +4235,288 @@ hr {
         width: 84%;
         height: auto;
         border-radius: 25px;
-        border: #E9e3dc solid 3px
+        border: #E9e3dc solid 3px;
     }
 }
 
-@media screen and (max-width:500px) {
+/* End FAQ Page */
+
+
+/* Consultation page */
+
+@media screen and (max-width: 500px) {
     .consultation_page {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .consultation_header {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .consultation_header h1 {
         text-align: center;
         padding: 20px 0;
-        margin: 0
+        margin: 0;
     }
 
     .form-all .row {
         padding: 0;
-        margin: 0
+        margin: 0;
     }
 
     .form-all h3 {
-        font-weight: 400;
-        margin: 20px 0 0
+        font-weight: normal;
+        margin: 20px 0 0;
     }
 
     .required:after {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .required {
         font-family: "Poppins", sans-serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .consult {
         text-align: center;
-        padding: 30px 0
+        padding: 30px 0;
     }
 
     .consult-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
         background: #f7f5ee;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .consult-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .form-control {
         background-color: #f7f5ee;
         border-radius: 0;
         border: solid #1a2f4f 1px;
-        font-size: 12px
+        font-size: 12px;
     }
 
     .contact_info {
         text-align: center;
         padding: 20px 0 0;
-        margin: 0
+        margin: 0;
     }
 
     .practice_name h4 {
-        margin: 0
+        margin: 0;
     }
 
     .email {
         font-size: 11px;
         padding: 5px 0;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .phone {
-        font-size: 11px
+        font-size: 11px;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:1023px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .consultation_page {
-        margin: 0 11% 0;
-        padding: 20px 0
+        margin: 0 11% 0px;
+        padding: 20px 0;
     }
 
     .consultation_header {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .consultation_header h1 {
         text-align: center;
         padding: 20px 0;
-        margin: 0
+        margin: 0;
     }
 
     .form-all .row {
         padding: 0;
-        margin: 0
+        margin: 0;
     }
 
     .form-all h3 {
-        font-weight: 400;
-        margin: 20px 0 0
+        font-weight: normal;
+        margin: 20px 0 0;
     }
 
     .required:after {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .required {
         font-family: "Poppins", sans-serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .consult {
         text-align: center;
-        padding: 30px 0
+        padding: 30px 0;
     }
 
     .consult-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
         background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .consult-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .form-control {
         background-color: #f7f5ee;
         border-radius: 0;
         border: solid #1a2f4f 1px;
-        font-size: 12px
+        font-size: 12px;
     }
 
     .contact_info {
         text-align: center;
         padding: 20px 0 0;
-        margin: 0
+        margin: 0;
     }
 
     .practice_name h4 {
-        margin: 0
+        margin: 0;
     }
 
     .email {
         font-size: 11px;
         padding: 5px 0;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .phone {
-        font-size: 11px
+        font-size: 11px;
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .consultation_page {
-        margin: 0 11% 0;
-        padding: 40px 0
+        margin: 0 11% 0px;
+        padding: 40px 0;
     }
 
     .consultation_header {
         margin: 0;
-        padding: 0 0 20px
+        padding: 0 0 20px;
     }
 
     .consultation_header h1 {
         text-align: center;
         padding: 20px 0;
-        margin: 0
+        margin: 0;
     }
 
     .form-all .row {
         padding: 20px 150px 0;
-        margin: 0
+        margin: 0;
     }
 
     .required:after {
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .required {
         font-family: "Poppins", sans-serif;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .consult {
         text-align: center;
-        padding: 30px 0
+        padding: 30px 0;
     }
 
     .consult-btn {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
-        border-radius: 0;
+        border-radius: 0px;
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
         background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .consult-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #f7f5ee;
     }
 
     .form-control {
         background-color: #f7f5ee;
         border-radius: 0;
-        border: solid #1a2f4f 1px
+        border: solid #1a2f4f 1px;
     }
 
     .contact_info {
         text-align: center;
         padding: 40px 0 0;
-        margin: 0
+        margin: 0;
     }
+
 
     .email {
         border-right: #1a2f4f solid 1px;
-        color: #1a2f4f
+        color: #1a2f4f;
     }
 
     .phone {
-        border-left: #1a2f4f solid 1px
+        border-left: #1a2f4f solid 1px;
     }
 }
 
+/* End Consultation Page */
+
+/* Thank You Page */
 .thank_you_page {
-    margin: 0 11% 0;
-    padding: 40px 0
+    margin: 0 11% 0px;
+    padding: 40px 0;
 }
 
 .thank_you_header {
     margin: 0;
-    padding: 0 0 40px
+    padding: 0 0 40px;
 }
 
 .thank_you_header h1 {
     text-align: center;
-    padding: 0 0 70px
+    padding: 0 0 70px;
 }
 
 .thank_you_header h3 {
     text-align: center;
-    padding: 0 0 50px
+    padding: 0 0 50px;
 }
