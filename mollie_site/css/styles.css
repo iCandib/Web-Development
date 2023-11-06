@@ -25,13 +25,13 @@ hr {
 
 @media screen and (max-width:500px) {
     h1 {
-        font-size: 16px;
+        font-size: 14px;
         font-family: "Playfair Display", serif;
         color: #1a2f4f
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 13px;
         font-family: "Playfair Display", serif;
         color: #1a2f4f
     }
@@ -65,13 +65,13 @@ hr {
 
 @media screen and (min-width:501px) and (max-width:1023px) {
     h1 {
-        font-size: 22px;
+        font-size: 20px;
         font-family: "Playfair Display", serif;
         color: #1a2f4f
     }
 
     h2 {
-        font-size: 20.89px;
+        font-size: 18px;
         font-family: "Playfair Display", serif;
         color: #1a2f4f
     }
@@ -105,13 +105,13 @@ hr {
 
 @media screen and (min-width:1024px) {
     h1 {
-        font-size: 29.265px;
+        font-size: 26.5px;
         font-family: "Playfair Display", serif;
         color: #1a2f4f
     }
 
     h2 {
-        font-size: 27.78px;
+        font-size: 24px;
         font-family: "Playfair Display", serif;
         color: #1a2f4f
     }
@@ -171,7 +171,8 @@ hr {
     .dropdown-menu {
         background-color: #e7e0da;
         padding: 5px 0 0;
-        border: none
+        border: none;
+
     }
 
     .dropdown-menu hr {
@@ -180,14 +181,15 @@ hr {
     }
 
     .dropdown-item {
-        padding: 0;
+        padding: 0 0 2px;
+        font-size: 13.50px;
         position: relative;
-        text-align: center;
-        right: 50px
+        text-align: left;
     }
 
     .dropdown-item:hover {
-        background-color: #e7e0da
+        background-color: #e7e0da;
+        font-weight: bold;
     }
 
     #about {
@@ -196,12 +198,11 @@ hr {
     }
 
     .list_services {
-        padding: 0 0 0 18px
+        padding: 0 0 0 5px;
     }
 
     #services {
         width: 145px;
-        right: 33.5px
     }
 
     #resources {
@@ -1243,7 +1244,7 @@ hr {
         color: #1a2f4f;
         font-weight: 300;
         margin: 0;
-        font-size: 26.25px
+        font-size: 23px;
     }
 
     .fa-solid {
@@ -4314,4 +4315,639 @@ hr {
 .thank_you_header h3 {
     text-align: center;
     padding: 0 0 50px
+}
+
+/* Therapy for Anxiety Page */
+
+@media screen and (min-width:1024px) {
+    .therapy_for_anxiety {
+        margin: 0 11% 0;
+    }
+
+    .anxiety_row {
+        margin: 0;
+    }
+
+    .anxiety_header {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .anxiety_row .anxiety_p {
+        padding: 0 10px 20px;
+    }
+
+    .anxiety_p {
+        padding: 0 0 20px
+    }
+
+    .anxiety_p p {
+        padding: 10px 0 0;
+    }
+
+    .anxiety_p h3 {
+        padding: 20px 0 0;
+    }
+
+    .anxiety_photo {
+        text-align: center;
+        padding: 30px 0 0;
+    }
+
+    .anxiety_photo img {
+        position: relative;
+        width: 80%;
+        top: 18%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .anxiety_ready {
+        padding: 20px 60px 0;
+    }
+
+    .anxiety-btn {
+        text-align: center;
+        padding: 40px 0
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:1023px) {
+    .therapy_for_anxiety {
+        margin: 0 11% 0
+    }
+
+    .anxiety_row {
+        margin: 0;
+    }
+
+    .anxiety_header {
+        padding: 20px 0;
+        text-align: center
+    }
+
+    .anxiety_p {
+        padding: 10px;
+    }
+
+    .anxiety_p h3 {
+        margin: 0
+    }
+
+    .anxiety_p p {
+        padding: 10px 0
+    }
+
+
+    .anxiety_photo {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .anxiety_photo img {
+        position: relative;
+        top: 8%;
+        width: 69.5%;
+        border-radius: 25px;
+        border: #E9e3dc solid 3px
+    }
+
+    .anxiety-btn {
+        text-align: center;
+        padding: 20px 0 30px
+    }
+}
+
+@media screen and (max-width:500px) {
+    .therapy_for_anxiety {
+        margin: 0 11% 0
+    }
+
+    .anxiety_row {
+        margin: 0;
+    }
+
+    .anxiety_header {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .anxiety_p {
+        padding: 10px;
+    }
+
+
+    .anxiety_p h3 {
+        margin: 0;
+    }
+
+    .anxiety_p p {
+        padding: 10px 0
+    }
+
+    .anxiety_photo {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .anxiety_photo img {
+        position: relative;
+        top: 15%;
+        width: 100%;
+        border-radius: 25px;
+        border: #E9e3dc solid 3px
+    }
+
+    .anxiety-btn {
+        text-align: center;
+        padding: 20px 0 30px
+    }
+}
+
+/* Therapy for Women Page */
+
+@media screen and (min-width:1024px) {
+    .therapy_for_women {
+        margin: 0 11% 0;
+    }
+
+    .women_row {
+        margin: 0;
+    }
+
+    .women_row .women_p {
+        margin: 30px 0 0;
+    }
+
+    .women_header {
+        padding: 30px 0 0;
+        text-align: center;
+    }
+    .women_p {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .women_p p {
+        padding: 10px 0 0;
+    }
+
+    .women_p h3 {
+        padding: 10px 0 0;
+    }
+
+    .women_photo {
+        text-align: center;
+        margin: 0 0 20px;
+        padding: 20px 0 0;
+    }
+
+    .women_photo img {
+        position: relative;
+        width: 80%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .women_ready {
+        padding: 0 40px 20px 60px;
+    }
+
+    .women-btn {
+        text-align: center;
+        padding: 40px 0
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:1023px) {
+    .therapy_for_women {
+        margin: 0 11% 0
+    }
+
+    .women_row {
+        margin: 0;
+    }
+
+    .women_row .women_p {
+        padding: 10px;
+        margin: 0 0 20px;
+    }
+
+    .women_header {
+        padding: 20px 0;
+        text-align: center
+    }
+
+    .women_p {
+        padding: 0 0 10px;
+    }
+
+    .women_p h3 {
+        margin: 0;
+    }
+
+    .women_p p {
+        padding: 10px 0;
+    }
+
+
+    .women_photo {
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .women_photo img {
+        position: relative;
+        top: 8%;
+        width: 69.5%;
+        border-radius: 25px;
+        border: #E9e3dc solid 3px
+    }
+
+    .women_ready {
+        padding: 0 0 20px;
+    }
+
+    .women-btn {
+        text-align: center;
+        padding: 20px 0 30px
+    }
+}
+
+@media screen and (max-width:500px) {
+    .therapy_for_women {
+        margin: 0 11% 0
+    }
+
+    .women_row {
+        margin: 0;
+    }
+
+    .women_row .women_p {
+        padding: 10px;
+        margin: 0 0 20px;
+    }
+
+    .women_header {
+        padding: 20px 0;
+        text-align: center
+    }
+
+    .women_p {
+        padding: 0 0 10px;
+    }
+
+    .women_p h3 {
+        margin: 0;
+    }
+
+    .women_p p {
+        padding: 10px 0;
+    }
+
+
+    .women_photo {
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .women_photo img {
+        position: relative;
+        top: 8%;
+        width: 90%;
+        border-radius: 25px;
+        border: #E9e3dc solid 3px
+    }
+
+    .women_ready {
+        padding: 0 0 20px;
+    }
+
+    .women-btn {
+        text-align: center;
+        padding: 20px 0 30px
+    }
+}
+
+/* Therapy for Young Professionals Page */
+
+@media screen and (min-width:1024px) {
+    .therapy_for_young_professionals {
+        margin: 0 11% 0;
+    }
+
+    .young_professionals_row {
+        margin: 0;
+    }
+
+    .young_professionals_row .young_professionals_p {
+        margin: 0 0 10px;
+        padding: 0 15px 15px;
+    }
+
+    .young_professionals_header {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .young_professionals_p {
+        padding: 0 0 20px
+    }
+
+    .young_professionals_p p {
+        padding: 10px 0 0;
+    }
+
+    .young_professionals_p h3 {
+        padding: 20px 0 0;
+    }
+
+    .young_professionals_photo {
+        text-align: center;
+        margin: 0 0 20px;
+        padding: 40px 0 0;
+    }
+
+    .young_professionals_photo img {
+        position: relative;
+        width: 80%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .young_professionals_ready {
+        padding: 0 40px 20px 60px;
+    }
+
+    .young_professionals-btn {
+        text-align: center;
+        padding: 40px 0
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:1023px) {
+    .therapy_for_young_professionals {
+        margin: 0 11% 0;
+    }
+
+    .young_professionals_row {
+        margin: 0;
+    }
+
+    .young_professionals_row .young_professionals_p {
+        margin: 0 0 10px;
+        padding: 0 15px 15px;
+    }
+
+    .young_professionals_header {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .young_professionals_p {
+        padding: 0 0 20px
+    }
+
+    .young_professionals_p p {
+        padding: 10px 0 0;
+    }
+
+    .young_professionals_p h3 {
+        padding: 20px 0 0;
+    }
+
+    .young_professionals_photo {
+        text-align: center;
+        margin: 0 0 20px;
+        padding: 20px 0 0;
+    }
+
+    .young_professionals_photo img {
+        position: relative;
+        width: 80%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .young_professionals_ready {
+        padding: 0 40px 20px 60px;
+    }
+
+    .young_professionals-btn {
+        text-align: center;
+        padding: 40px 0
+    }
+}
+
+@media screen and (max-width:500px) {
+    .therapy_for_young_professionals {
+        margin: 0 11% 0;
+    }
+
+    .young_professionals_row {
+        margin: 0;
+    }
+
+    .young_professionals_row .young_professionals_p {
+        margin: 0 0 10px;
+        padding: 0 15px 15px;
+    }
+
+    .young_professionals_header {
+        padding: 30px 0 10px;
+        text-align: center;
+    }
+
+    .young_professionals_p p {
+        padding: 10px 0 0;
+    }
+
+    .young_professionals_p h3 {
+        padding: 20px 0 0;
+    }
+
+    .young_professionals_photo {
+        text-align: center;
+        margin: 0 0 20px;
+        padding: 20px 0 0;
+    }
+
+    .young_professionals_photo img {
+        position: relative;
+        width: 90%;
+        border-radius: 25px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .young_professionals_ready {
+        padding: 0 0 20px;
+    }
+
+    .young_professionals-btn {
+        text-align: center;
+        padding: 40px 0
+    }
+}
+
+/* Therapy for Young Professionals Page */
+
+@media screen and (min-width:1024px) {
+    .therapy_for_college_and_grad {
+        margin: 0 11% 0;
+    }
+
+    .college_and_grad_row {
+        margin: 0;
+    }
+
+    .college_and_grad_row .college_and_grad_p {
+        margin: 0 0 10px;
+        padding: 0 15px 15px;
+    }
+
+    .college_and_grad_header {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .college_and_grad_p {
+        padding: 0 0 20px
+    }
+
+    .college_and_grad_p p {
+        padding: 10px 0 0;
+    }
+
+    .college_and_grad_p h3 {
+        padding: 20px 0 0;
+    }
+
+    .college_and_grad_photo {
+        text-align: center;
+        margin: 0 0 20px;
+        padding: 100px 0 0;
+    }
+
+    .college_and_grad_photo img {
+        position: relative;
+        width: 80%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .college_and_grad_ready {
+        padding: 0 40px 20px 60px;
+    }
+
+    .college_and_grad-btn {
+        text-align: center;
+        padding: 40px 0
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:1023px) {
+    .therapy_for_college_and_grad {
+        margin: 0 11% 0;
+    }
+
+    .college_and_grad_row {
+        margin: 0;
+    }
+
+    .college_and_grad_row .college_and_grad_p {
+        margin: 0 0 10px;
+        padding: 0 15px 15px;
+    }
+
+    .college_and_grad_header {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .college_and_grad_p {
+        padding: 0 0 20px
+    }
+
+    .college_and_grad_p p {
+        padding: 10px 0 0;
+    }
+
+    .college_and_grad_p h3 {
+        padding: 20px 0 0;
+    }
+
+    .college_and_grad_photo {
+        text-align: center;
+        margin: 0 0 20px;
+        padding: 30px 0 0;
+    }
+
+    .college_and_grad_photo img {
+        position: relative;
+        width: 80%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .college_and_grad_ready {
+        padding: 0 40px 20px 60px;
+    }
+
+    .college_and_grad-btn {
+        text-align: center;
+        padding: 40px 0
+    }
+}
+
+@media screen and (max-width:500px) {
+    .therapy_for_college_and_grad {
+        margin: 0 11% 0;
+    }
+
+    .college_and_grad_row {
+        margin: 0;
+    }
+
+    .college_and_grad_row .college_and_grad_p {
+        margin: 0 0 10px;
+        padding: 0 15px 15px;
+    }
+
+    .college_and_grad_header {
+        padding: 30px 0 10px;
+        text-align: center;
+    }
+
+    .college_and_grad_p {
+        padding: 0 0 20px
+    }
+
+    .college_and_grad_p p {
+        padding: 10px 0 0;
+    }
+
+    .college_and_grad_p h3 {
+        padding: 20px 0 0;
+    }
+
+    .college_and_grad_photo {
+        text-align: center;
+        margin: 0 0 20px;
+        padding: 30px 0 0;
+    }
+
+    .college_and_grad_photo img {
+        position: relative;
+        width: 90%;
+        border-radius: 25px;
+        border: #E9e3dc solid 3px;
+    }
+
+    .college_and_grad_ready {
+        padding: 0 0 20px;
+    }
+
+    .college_and_grad-btn {
+        text-align: center;
+        padding: 40px 0
+    }
 }
