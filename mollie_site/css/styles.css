@@ -2485,7 +2485,7 @@ hr {
     }
 
     .individual {
-        margin: 0 11%
+        margin: 0 11%;
     }
 
     .individual_header {
@@ -4975,4 +4975,330 @@ hr {
         text-align: center;
         padding: 40px 0
     }
+}
+
+/* Online Therapy Page */
+
+@media screen and (min-width:1024px) {
+
+   .online {
+        margin: 0 11%;
+   } 
+
+   .online_header {
+       text-align: center;
+       padding: 40px 0 0;
+       margin: 0
+   }
+
+   .online_row {
+       margin: 0;
+       padding: 0;
+   }
+
+   .online_writing {
+       margin: 0;
+       padding: 30px 0 0;
+   }
+
+   .online_list {
+       padding: 40px 0 0;
+   }
+
+   .online_list ul {
+        margin: 0;
+        padding: 10px 0 0 225px;
+   }
+
+   .online_list li {
+        padding: 5px 0;
+   }
+
+
+   .online_list h3 {
+       text-align: center;
+   }
+
+   .online_btn {
+       text-align: center;
+       padding: 40px 0;
+   }
+
+    .online_photo {
+        text-align: center;
+        padding: 0 0 20px;
+    }
+
+    .online_photo img {
+        position: relative;
+        top: 7%;
+        width: 80%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px
+    }
+
+    .online_row h4 {
+        margin: 0;
+        padding: 20px 0 10px;
+    }
+
+    .online_bed {
+        text-align: center
+    }
+
+    .online_bed img {
+        position: relative;
+        top: 10%;
+        width: 60%;
+        border-radius: 50px;
+        border: #f7f5ee solid 3px
+    }
+
+    .online_typing {
+        text-align: center;
+        padding: 0 0 40px;
+    }
+
+    .online_typing img {
+        position: relative;
+        width: 50%;
+        border-radius: 50px;
+        border: #E9e3dc solid 3px
+    }
+
+    .your_mental_health {
+        padding: 40px 0;
+        margin: 0;
+    }
+
+    .your_mental_health h3 {
+        padding: 0 0 10px 42px;
+    }
+
+    .your_mental_health p {
+        text-align: justify;
+        padding: 0 30px;
+    }
+
+    .your_mental_health_column {
+        border-right: #1a2f4f solid 1px;
+    }
+
+    .online_p{
+        padding: 30px 0 0;
+    }
+
+
+}
+
+@media screen and (min-width:501px) and (max-width:1023px) {
+    .online {
+            margin: 0 11%;
+        }
+    
+        .online_header {
+            text-align: center;
+            padding: 40px 0 0;
+            margin: 0
+        }
+    
+        .online_row {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .online_writing {
+            margin: 0;
+            padding: 30px 0 0;
+        }
+    
+        .online_list {
+            padding: 40px 0 0;
+        }
+    
+        .online_list ul {
+            margin: 0;
+            padding: 10px 0 0 225px;
+        }
+    
+        .online_list li {
+            padding: 5px 0;
+        }
+    
+    
+        .online_list h3 {
+            text-align: center;
+        }
+    
+        .online_btn {
+            text-align: center;
+            padding: 40px 0;
+        }
+    
+        .online_photo {
+            text-align: center;
+            padding: 0 0 30px;
+        }
+    
+        .online_photo img {
+            position: relative;
+            width: 60%;
+            border-radius: 50px;
+            border: #E9e3dc solid 3px
+        }
+    
+        .online_row h4 {
+            margin: 0;
+            padding: 20px 0 10px;
+        }
+    
+        .online_bed {
+            text-align: center;
+            padding: 0 0 30px;
+        }
+    
+        .online_bed img {
+            position: relative;
+            width: 40%;
+            border-radius: 50px;
+            border: #f7f5ee solid 3px
+        }
+    
+        .online_typing {
+            text-align: center;
+            padding: 0 0 40px;
+        }
+    
+        .online_typing img {
+            position: relative;
+            width: 50%;
+            border-radius: 50px;
+            border: #E9e3dc solid 3px
+        }
+    
+        .your_mental_health {
+            padding: 40px 0;
+            margin: 0;
+        }
+    
+        .your_mental_health h3 {
+            padding: 0 0 10px 40px;
+        }
+    
+        .your_mental_health p {
+            text-align: justify;
+            padding: 0 30px;
+        }
+    
+        .your_mental_health_column {
+            border-right: #1a2f4f solid 1px;
+        }
+    
+        .online_p {
+            padding: 30px 0 0;
+        }
+}
+
+@media screen and (max-width:500px) {
+        .online {
+            margin: 0 11%;
+        }
+    
+        .online_header {
+            text-align: center;
+            padding: 40px 0 0;
+            margin: 0
+        }
+    
+        .online_row {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .online_writing {
+            margin: 0;
+            padding: 30px 0 0;
+        }
+    
+        .online_list {
+            padding: 40px 0 0;
+        }
+    
+        .online_list ul {
+            margin: 0;
+            padding: 10px 0 0 80px;
+        }
+    
+        .online_list li {
+            padding: 5px 0;
+        }
+    
+    
+        .online_list h3 {
+            text-align: center;
+        }
+    
+        .online_btn {
+            text-align: center;
+            padding: 40px 0;
+        }
+    
+        .online_photo {
+            text-align: center;
+            padding: 0 0 30px;
+        }
+    
+        .online_photo img {
+            position: relative;
+            width: 70%;
+            border-radius: 25px;
+            border: #E9e3dc solid 3px
+        }
+    
+        .online_row h4 {
+            margin: 0;
+            padding: 20px 0 10px;
+        }
+    
+        .online_bed {
+            text-align: center;
+            padding: 0 0 30px;
+        }
+    
+        .online_bed img {
+            position: relative;
+            width: 50%;
+            border-radius: 25px;
+            border: #f7f5ee solid 3px
+        }
+    
+        .online_typing {
+            text-align: center;
+            padding: 0 0 40px;
+        }
+    
+        .online_typing img {
+            position: relative;
+            width: 60%;
+            border-radius: 25px;
+            border: #E9e3dc solid 3px
+        }
+    
+        .your_mental_health {
+            padding: 40px 0;
+            margin: 0;
+        }
+    
+        .your_mental_health h3 {
+            padding: 0 0 10px 40px;
+        }
+    
+        .your_mental_health p {
+            text-align: justify;
+            padding: 0 30px 10px;
+        }
+    
+        .online_p {
+            padding: 30px 0 0;
+        }
 }
