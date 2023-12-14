@@ -906,84 +906,411 @@ hr {
     }
 }
 
-@media screen and (min-width:1146px) {
+@media screen and (min-width:1292px) {
     .quote-container {
         position: relative;
-        padding: 150px 0;
+        /* padding: 150px 0; */
         margin: 0 11%
     }
 
+    .quote_row {
+            margin: 0;
+        }
+
     .quote {
-        width: 100%;
         text-align: center;
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-size: 30px;
-        position: relative;
-        bottom: 110px
+        padding: 180px 0 40px;
     }
 
-    .quote-background {
+    .quote div {
+        padding: 0 0 20px;
+    }
+
+    .quote_col {
+        padding: 0;
+    }
+
+    .quote_col img {
+        position: relative;
+        width: 100%;
+        margin: 0 0 0 0px;
+    }
+
+    .quote h2 {
+        font-size: 38px;
+        font-family: "Playfair Display", serif;
+        font-weight: 300;
+    }
+    .quote h3 {
+        font-size: 28px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+    }
+
+    .quote-btn {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        font-family: "Poppins";
+        color: #1a2f4f;
+        font-size: 13.89px;
+        background: #e7e0da;
+        padding: 10px 20px 10px 20px;
+        border: solid #1a2f4f 1.5px;
+        text-decoration: none
+    }
+
+    .book-btn:hover {
+        background: #1a2f4f;
+        text-decoration: none;
+        color: #e7e0da;
+    }
+
+    /* .quote-background {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
         width: 100%
-    }
+    } */
 }
 
-@media screen and (min-width:500px) and (max-width:1145px) {
+@media screen and (min-width:1164px) and (max-width:1291px) {
     .quote-container {
         position: relative;
-        padding: 120px 0;
+        /* padding: 150px 0; */
         margin: 0 11%
     }
 
+    .quote_row {
+            margin: 0;
+        }
+
     .quote {
-        width: 100%;
         text-align: center;
-        font-family: "Poppins", sans-serif;
+        padding: 100px 0 40px;
+    }
+
+    .quote div {
+        padding: 0 0 20px;
+    }
+
+    .quote_col {
+        padding: 0;
+    }
+
+    .quote_col img {
+        position: relative;
+        width: 100%;
+        margin: 0 0 0 0px;
+    }
+
+    .quote h2 {
+        font-size: 32px;
+        font-family: "Playfair Display", serif;
         font-weight: 300;
+    }
+    .quote h3 {
         font-size: 25px;
-        position: relative;
-        bottom: 60px
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
     }
 
-    .quote-background {
+    .quote-btn {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        font-family: "Poppins";
+        color: #1a2f4f;
+        font-size: 13.89px;
+        background: #e7e0da;
+        padding: 10px 20px 10px 20px;
+        border: solid #1a2f4f 1.5px;
+        text-decoration: none
+    }
+
+    .book-btn:hover {
+        background: #1a2f4f;
+        text-decoration: none;
+        color: #e7e0da;
+    }
+
+    /* .quote-background {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
         width: 100%
-    }
+    } */
 }
 
-@media screen and (max-width:499px) {
+@media screen and (min-width:900px) and (max-width:1163px) {
+    .quote-container {
+            position: relative;
+            /* padding: 150px 0; */
+            margin: 0 11%
+        }
+
+        .quote_row {
+            margin: 0;
+        }
+    
+        .quote {
+            text-align: center;
+            padding: 60px 0 60px;
+        }
+    
+        .quote_col {
+            padding: 0;
+        }
+    
+        .quote_col img {
+            position: relative;
+            width: 100%;
+            margin: 0 0 0 0px;
+        }
+    
+        .quote h2 {
+            font-size: 26px;
+            font-family: "Playfair Display", serif;
+            font-weight: 300;
+        }
+    
+        .quote h3 {
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            padding: 0 0 20px;
+        }
+    
+        .quote-btn {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            font-family: "Poppins";
+            color: #1a2f4f;
+            font-size: 12px;
+            background: #e7e0da;
+            padding: 8px 16px;
+            border: solid #1a2f4f 1.5px;
+            text-decoration: none
+        }
+    
+        .book-btn:hover {
+            background: #1a2f4f;
+            text-decoration: none;
+            color: #e7e0da;
+        }
+    
+        /* .quote-background {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: auto;
+            width: 100%
+        } */
+}
+
+@media screen and (min-width:680px) and (max-width:899px) {
+    .quote-container {
+            position: relative;
+            /* padding: 150px 0; */
+            margin: 0 11%
+        }
+
+        .quote_row {
+            margin: 0;
+        }
+    
+        .quote {
+            text-align: center;
+            padding: 60px 0 60px;
+        }
+    
+        .quote_col {
+            padding: 0;
+        }
+    
+        .quote_col img {
+            position: relative;
+            width: 100%;
+            margin: 0 0 0 0px;
+        }
+    
+        .quote h2 {
+            font-size: 20px;
+            font-family: "Playfair Display", serif;
+            font-weight: 300;
+        }
+    
+        .quote h3 {
+            font-size: 17px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            padding: 0 0 20px;
+        }
+    
+        .quote-btn {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            font-family: "Poppins";
+            color: #1a2f4f;
+            font-size: 12px;
+            background: #e7e0da;
+            padding: 8px 16px;
+            border: solid #1a2f4f 1.5px;
+            text-decoration: none
+        }
+    
+        .book-btn:hover {
+            background: #1a2f4f;
+            text-decoration: none;
+            color: #e7e0da;
+        }
+    
+        /* .quote-background {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: auto;
+            width: 100%
+        } */
+}
+
+@media screen and (min-width:576px) and (max-width:679px) {
     .quote-container {
         position: relative;
-        padding: 30px 0 30px 10px;
+        /* padding: 150px 0; */
         margin: 0 11%
     }
 
-    .quote {
-        width: 100%;
-        text-align: center;
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-size: 10px;
-        position: relative;
+    .quote_row {
         margin: 0;
-        padding: 0 0 10px 0;
-        bottom: 15px
     }
 
-    .quote-background {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: auto;
-        width: 100%
+    .quote {
+        text-align: center;
+        padding: 60px 0 60px;
     }
+
+    .quote_col {
+        padding: 0;
+    }
+
+    .quote_col img {
+        position: relative;
+        width: 100%;
+        margin: 0 0 0 0px;
+    }
+
+    .quote h2 {
+        font-size: 18px;
+        font-family: "Playfair Display", serif;
+        font-weight: 300;
+    }
+
+    .quote h3 {
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        padding: 0 0 20px;
+    }
+
+    .quote-btn {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        font-family: "Poppins";
+        color: #1a2f4f;
+        font-size: 12px;
+        background: #e7e0da;
+        padding: 8px 16px;
+        border: solid #1a2f4f 1.5px;
+        text-decoration: none
+    }
+
+    .book-btn:hover {
+        background: #1a2f4f;
+        text-decoration: none;
+        color: #e7e0da;
+    }
+
+    /* .quote-background {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: auto;
+            width: 100%
+        } */
+}
+
+@media screen and (max-width:575px) {
+    .quote-container {
+            position: relative;
+            /* padding: 150px 0; */
+            margin: 0 11%
+        }
+
+        .quote_row {
+            margin: 0;
+        }
+    
+        .quote {
+            text-align: center;
+            padding: 60px 0 60px;
+        }
+    
+        .quote_col {
+            padding: 0;
+        }
+    
+        .quote_col img {
+            position: relative;
+            width: 100%;
+            margin: 0 0 0 0px;
+        }
+    
+        .quote h2 {
+            font-size: 14px;
+            font-family: "Playfair Display", serif;
+            font-weight: 300;
+        }
+    
+        .quote h3 {
+            font-size: 13px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            padding: 0 0 20px;
+        }
+    
+        .quote-btn {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            font-family: "Poppins";
+            color: #1a2f4f;
+            font-size: 8px;
+            background: #e7e0da;
+            padding: 7px 14px;
+            border: solid #1a2f4f 1px;
+            text-decoration: none
+        }
+
+    
+        .book-btn:hover {
+            background: #1a2f4f;
+            text-decoration: none;
+            color: #e7e0da;
+        }
+    
+        /* .quote-background {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: auto;
+            width: 100%
+        } */
 }
 
 @media screen and (min-width:1024px) {
