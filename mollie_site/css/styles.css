@@ -5375,10 +5375,11 @@ hr {
 
     .online_bed img {
         position: relative;
-        top: 10%;
-        width: 60%;
+        /* top: 10%; */
+        width: 55%;
         border-radius: 50px;
-        border: #f7f5ee solid 3px
+        border: #f7f5ee solid 3px;
+        margin: 20px 0;
     }
 
     .online_typing {
