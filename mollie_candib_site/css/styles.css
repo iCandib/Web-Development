@@ -955,7 +955,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
-        background: #e7e0da;
+        background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1024,7 +1024,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
-        background: #e7e0da;
+        background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1091,7 +1091,7 @@ hr {
             font-family: "Poppins";
             color: #1a2f4f;
             font-size: 12px;
-            background: #e7e0da;
+            background: #f7f5ee;
             padding: 8px 16px;
             border: solid #1a2f4f 1.5px;
             text-decoration: none
@@ -1158,7 +1158,7 @@ hr {
             font-family: "Poppins";
             color: #1a2f4f;
             font-size: 12px;
-            background: #e7e0da;
+            background: #f7f5ee;
             padding: 8px 16px;
             border: solid #1a2f4f 1.5px;
             text-decoration: none
@@ -1225,7 +1225,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
-        background: #e7e0da;
+        background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1292,7 +1292,7 @@ hr {
             font-family: "Poppins";
             color: #1a2f4f;
             font-size: 8px;
-            background: #e7e0da;
+            background: #f7f5ee;
             padding: 7px 14px;
             border: solid #1a2f4f 1px;
             text-decoration: none
@@ -1363,7 +1363,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
-        background: #f7f5ee;
+        background: #e9e3dc;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1440,7 +1440,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
-        background: #f7f5ee;
+        background: #e9e3dc;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1518,7 +1518,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
-        background: #f7f5ee;
+        background: #e9e3dc;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
         text-decoration: none
@@ -1612,7 +1612,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
-        background: #E9e3dc;
+        background: #f7f5ee;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1691,7 +1691,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
-        background: #E9e3dc;
+        background: #f7f5ee;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1770,7 +1770,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
-        background: #E9e3dc;
+        background: #f7f5ee;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
         text-decoration: none
@@ -1832,7 +1832,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 13.89px;
-        background: #f7f5ee;
+        background: #e9e3dc;
         padding: 10px 20px 10px 20px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1892,7 +1892,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 12px;
-        background: #f7f5ee;
+        background: #e9e3dc;
         padding: 8px 16px;
         border: solid #1a2f4f 1.5px;
         text-decoration: none
@@ -1952,7 +1952,7 @@ hr {
         font-family: "Poppins";
         color: #1a2f4f;
         font-size: 8px;
-        background: #f7f5ee;
+        background: #e9e3dc;
         padding: 7px 14px;
         border: solid #1a2f4f 1px;
         text-decoration: none
@@ -1961,7 +1961,7 @@ hr {
     .how-we-btn:hover {
         background: #1a2f4f;
         text-decoration: none;
-        color: #f7f5ee
+        color: #e9e3dc;
     }
 }
 
@@ -4681,11 +4681,19 @@ hr {
 
     .email {
         border-right: #1a2f4f solid 1px;
-        color: #1a2f4f
+        color: #1a2f4f;
+    }
+
+    .email a {
+        margin: 0 0 0 110px;
     }
 
     .phone {
-        border-left: #1a2f4f solid 1px
+        border-left: #1a2f4f solid 1px;
+    }
+
+    .phone p {
+        margin: 0 110px 0 0;
     }
 }
 
