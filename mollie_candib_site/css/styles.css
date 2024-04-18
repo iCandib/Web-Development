@@ -3937,6 +3937,13 @@ hr {
         margin: 0 0 0 20px
     }
 
+    .horizontal_blog_photo_left {
+        width: 50%;
+        border: #f7f5ee solid 3px;
+        float: left;
+        margin: 0 20px 0 0
+    }
+
     .therapy_blog_photo {
         width: 60%;
         border: #f7f5ee solid 3px;
@@ -4083,6 +4090,15 @@ hr {
         border: #f7f5ee solid 3px;
         float: right;
         margin: 15px 0 0 30px
+    }
+
+    .horizontal_blog_photo_left {
+        width: 40%;
+        border: #f7f5ee solid 3px;
+        float:left;
+        margin: 15px 30px 0 0;
+        text-align: center;
+        
     }
 
     .emo_blog_photo {
